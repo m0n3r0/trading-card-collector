@@ -26,9 +26,10 @@ monitors live listings and your sold-price comparables.
     - [Personal storage setup](#142-personal-storage-setup-practical-not-museum)
     - [Where to buy each item](#143-where-to-buy-each-item)
 15. [Selling a PSA 10 later](#15-selling-a-psa-10-later)
-16. [Checklists](#16-checklists)
-17. [Glossary](#17-glossary)
-18. [Resources](#18-resources)
+16. [Rookie mistakes](#16-rookie-mistakes-the-expensive-ten)
+17. [Checklists](#17-checklists)
+18. [Glossary](#18-glossary)
+19. [Resources](#19-resources)
 
 ---
 
@@ -72,6 +73,24 @@ Additional rules that matter for Pokemon specifically:
 - **Misprints and errors** are graded on the same scale but trade on a separate
   market with fewer comps. Do not apply standard-card pricing to error cards.
 
+**Pre-grading a raw card yourself.** You need a 10x loupe, a bright angled
+light, and a dark background:
+
+- **Centering.** Measure each border with calipers or a centering gauge app.
+  A 60/40 split means the wide side is at most 1.5x the narrow side. Check
+  front and back separately; weak back centering fails more submissions than
+  anything except surface.
+- **Surface.** Tilt the holo under a single bright source and rotate slowly.
+  Print lines, microscratches, and clouding appear only at specific angles.
+  Vintage holos almost always carry factory lines; modern textured cards hide
+  edge wear in the texture.
+- **Edges and corners.** Run a fingertip lightly along each edge (sleeved),
+  then loupe every corner on black. Silvering on dark-bordered vintage cards
+  shows as white specks and fails on sight.
+- **Compare against exemplars.** Keep reference photos of confirmed PSA 9s and
+  10s of similar cards. Judge your copy against the 9 pile, not the 10 pile:
+  if it is not clearly better than a 9, it is a 9.
+
 ## 3. The PSA label, cert number, and slab
 
 - Every graded card is sealed in a tamper-evident slab with a label showing the
@@ -108,6 +127,13 @@ have been graded at each grade.
 - **Set context.** Vintage print runs are fixed, so pop stabilizes. Modern sets
   are still being opened and graded, so pop climbs for years. Never pay vintage
   scarcity multiples for a modern card with growing pop.
+
+**Worked example.** A pop page reads: pop 10 = 340, total graded = 1,900, and
+last month pop 10 was 318. That is 18% gem rate, +22 tens in a month
+(+6.5%/month). At that pace the 10 population doubles in under a year: this
+is not scarce, and any price above recent comps is paying for demand, not
+rarity. Contrast pop 10 = 41, total 2,400 (1.7% gem rate), +1/month: genuinely
+hard to gem, and each new 10 barely moves supply. Same grade, opposite markets.
 
 ## 5. How PSA grading works end to end
 
@@ -150,6 +176,13 @@ expected_value = P(10) x price_10 + P(9) x price_9 + ... - grading_cost - shippi
   strong 9.
 - **Buy the 10 instead** when the market spread between raw-mint and PSA 10 is
   small, when you cannot pre-grade confidently, or when turnaround time matters.
+
+**Worked example.** Raw mint copy $120, price_10 $400, price_9 $150, all-in
+grading $50. If you estimate P(10) at 30% and P(9) at 60%:
+expected value = 0.30 x 400 + 0.60 x 150 + 0.10 x 80 - 50 = $168 against a
+$120 raw cost, a $48 edge before your time. Drop P(10) to 15% and expected
+value falls to $123, a $3 edge that your time erases. The entire decision is
+the honesty of P(10).
 
 ## 7. How PSA 10 prices behave
 
@@ -215,6 +248,35 @@ expected_value = P(10) x price_10 + P(9) x price_9 + ... - grading_cost - shippi
 - Fixed prices, solid buyer protection, verified-seller graded inventory. Thin
   on vintage. Good for modern PSA 10s at transparent prices.
 
+### Cardmarket (Europe)
+
+- The dominant European marketplace for TCG singles, including graded. Prices
+  are often lower than eBay for EU buyers once US shipping and import VAT are
+  factored out.
+- Commission is low single-digit percentage plus payment fees, far below US
+  platforms; confirm the current schedule before pricing. Sellers ship tracked
+  above thresholds, and the Trust system plus professional-seller tiers
+  substitute for feedback scores: filter to high-volume professional sellers
+  for $200+ slabs.
+- Stock is euro-denominated and set names follow local languages on some
+  listings; search by card number and verify the exact variant from photos.
+
+### What fees do to your price
+
+Every venue takes a cut, and the cut is baked into the ask. Approximate
+seller-side costs (verify current schedules; they change):
+
+| Venue | Seller cost | What it means for you |
+|---|---|---|
+| eBay | ~13% fees | Asks run highest; Best Offer exists precisely because of this margin |
+| TCGplayer | ~13% fees | Similar to eBay; fixed prices, less haggle room |
+| Cardmarket | Low single-digit commission + payment fees | Lowest embedded margin; EU buyers should comp here first |
+| PWCC / Goldin / Heritage | 15-22% buyer premium (you pay it) | Add the premium to every bid before comparing with eBay |
+| Facebook / Discord private | ~3% (PayPal G&S) | Cheapest all-in, zero protection beyond PayPal |
+
+Rule: compare all-in landed cost (hammer plus premium plus shipping plus VAT
+or customs), never headline prices.
+
 ### Facebook groups and Discord (cheapest, riskiest)
 
 - Private sellers avoid ~13% platform fees, so prices run about 10% under eBay.
@@ -276,6 +338,14 @@ Verify before paying, in this order:
 6. **Post-purchase.** For $1,000+ from unfamiliar sellers, submit for PSA
    reholder or review: it confirms authenticity and refreshes the case.
 
+**Photos to demand before paying.** Front of slab straight-on, back of slab,
+label macro (read every line), barcode close-up, both long-edge weld seams,
+and one angled shot catching the holo. Refusal on any single one ends the
+deal. For in-person purchases, add two physical checks: slab dimensions
+against a known-good PSA slab (counterfeits often run millimeters off) and
+weight on a pocket scale (a genuine slabbed card has a consistent weight;
+hollow or wrong-material fakes do not).
+
 ## 12. Condition traps inside the grade
 
 - **Weak 10s.** Bottom-of-band centering (60/40), minor print lines at the edge
@@ -297,6 +367,10 @@ Verify before paying, in this order:
 - **Payment hierarchy:** platform checkout with credit card (chargeback rights)
   first, PayPal Goods & Services second. Anything else is a donation with extra
   steps.
+- **Foreign currency.** Pay in the seller's currency with a no-foreign-fee
+  card and let your bank convert; PayPal's conversion spread (typically 3-4%)
+  is a silent surcharge on every cross-border deal. On Cardmarket and Japanese
+  sellers this routinely saves more than haggling does.
 - **Shipping standards:** tracked and insured above $100. Slab in a sleeve/team
   bag, taped between cardboard or in a slab mailer, inside a padded mailer or
   small box. Require signature above $750. **Video every unboxing** before
@@ -470,7 +544,34 @@ boxes and real slab-fit photos show true sizing better than renders.
 - **Taxes:** keep the purchase log from section 13. Cost basis includes
   purchase price, grading, shipping, and fees.
 
-## 16. Checklists
+## 16. Rookie mistakes (the expensive ten)
+
+1. **Buying the variant you did not comp.** 1st Edition, Shadowless, and
+   Unlimited share a card number and wildly different prices. Confirm edition
+   from the stamp and print traits, never from the title alone.
+2. **Paying ask on a Buy It Now.** The ask is an opening bid in most categories.
+   Every un-negotiated BIN purchase should embarrass you slightly.
+3. **Trusting listed prices.** Only sold prices are data. Active listings are
+   aspirations, some of them years old.
+4. **Grading $30 cards.** If price_10 minus all-in cost is under $20, you
+   bought yourself a hobby, not an investment. That is fine if it was the goal.
+5. **Cracking a 9 on hope.** A second 9 costs you the 9 premium plus two
+   grading fees. Hope is not a pre-grade.
+6. **Displaying the grail.** Sunlight and room light fade ink on a timescale of
+   months to years. Display rotation exists so the expensive cards stay boxed.
+7. **Skipping the cert check in person.** Excitement at a show table is the
+   leading cause of buying fakes. The check takes 60 seconds; do it while the
+   dealer watches.
+8. **Trash-bin shipping standards.** One $400 card in a plain envelope wipes out
+   the savings of fifty careful purchases. Insure by the rules in section 13
+   every time.
+9. **No records.** No purchase log means no cost basis, no insurance claim, and
+   no resale story. Log the buy the day it arrives.
+10. **Chasing the last 5%.** Waiting months to save $20 on a card you want,
+    then overpaying $200 on the next one out of impatience. Set the walk-away
+    price, execute inside it, move on.
+
+## 17. Checklists
 
 ### Before paying (every purchase)
 
@@ -499,7 +600,7 @@ boxes and real slab-fit photos show true sizing better than renders.
 - [ ] Card inside matches grade at a glance
 - [ ] Photos and records filed; issue window calendared (report problems fast)
 
-## 17. Glossary
+## 18. Glossary
 
 - **Slab:** the sealed graded-card case.
 - **Cert (number):** PSA's unique identifier for a graded card.
@@ -511,10 +612,17 @@ boxes and real slab-fit photos show true sizing better than renders.
 - **Buyer's premium:** auction-house surcharge on the hammer price.
 - **Hammer price:** the winning bid before premiums and fees.
 - **Eye appeal:** subjective visual quality within a grade.
+- **Pop report:** PSA's published population data per card and grade.
+- **Walk-away price:** your pre-set maximum, derived from comps, never exceeded.
+- **Slab premium:** the price difference between a graded copy and the raw card.
+- **Shill bidding:** fake bids to inflate an auction; suspect it when bid
+  history shows retractions or single-purpose bidder accounts.
+- **Cardmarket:** the dominant European TCG marketplace.
 
-## 18. Resources
+## 19. Resources
 
 - PSA cert verification and population report: psacard.com
 - Sold-price history: eBay sold listings, PSA Auction Prices Realized,
-  PriceCharting
+  PriceCharting, Cardmarket price guide (EU)
+- Modern fixed-price graded inventory: TCGplayer
 - Live tracking: the `tracker/` tool in this repository
