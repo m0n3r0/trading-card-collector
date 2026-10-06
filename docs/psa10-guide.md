@@ -440,20 +440,22 @@ where returns are easy. Your local game store usually matches online prices on
 small items and saves shipping: check there first for sleeves, toploaders,
 and boxes.
 
-| Item | Example products | Where to buy |
+| Item | Example products (linked to photo galleries) | Where to buy |
 |---|---|---|
-| Penny sleeves, toploaders, team bags | BCW Standard sleeves (~$1/100-pack), Ultra Pro equivalents | bcwsupplies.com, ultrapro.com, Amazon, TCGplayer, eBay in bulk, local game store |
-| Graded slab sleeves | BCW Resealable Graded Card Sleeves, 100-pack (~$4.50) | bcwsupplies.com, Amazon, eBay |
-| Graded storage boxes | BCW Graded Trading Card Box, holds 30 slabs (~$4.50); BCW Super Vault, holds 75 | bcwsupplies.com, Amazon, eBay, Blowout Cards, local game store |
+| Penny sleeves, toploaders, team bags | [BCW Standard sleeves](https://www.bcwsupplies.com/card-sleeves) (~$1/100-pack), Ultra Pro equivalents | bcwsupplies.com, ultrapro.com, Amazon, TCGplayer, eBay in bulk, local game store |
+| Graded slab sleeves | [BCW Resealable Graded Card Sleeves](https://www.bcwsupplies.com/resealable-graded-card-sleeves), 100-pack (~$4.50) | bcwsupplies.com, Amazon, eBay |
+| Graded storage boxes | [BCW Graded Trading Card Box](https://www.bcwsupplies.com/graded-trading-card-box), holds 30 slabs (~$4.50); [BCW Slotted Graded Card Box](https://www.bcwsupplies.com/slotted-graded-card-box) for visible storage; Super Vault holds 75 | bcwsupplies.com, Amazon, eBay, Blowout Cards, local game store |
 | Binder plus acid-free pages | Ultra Pro Premium Pro side-loading binder, Dex Protection or Vault X binders | Amazon, TCGplayer, local game store |
-| Single-slab display frame | Grail Frames (~$20-30), PowerGuard Vault from ~$35, PrismGuard Pro from ~$17 | brand sites (grailframes.com, powerguardhq.com, prismguardpro.com), Amazon, eBay |
+| Single-slab display frame | [Grail Frames](https://grailframes.com) (~$20-30), [PowerGuard Vault](https://powerguardhq.com) from ~$35, [PrismGuard Pro](https://prismguardpro.com) from ~$17 | brand sites, Amazon, eBay |
 | Multi-slab wall cabinet | 35-slab UV locking cabinet (~$65) | Home Depot, Amazon, eBay |
-| Hygrometer/thermometer | ThermoPro or Govee digital (~$10-15) | Amazon |
-| Humidity control | Boveda 49% packs; Eva-Dry E-333 rechargeable canister (~$15-25) | Amazon, cigar shops (Boveda), hardware stores |
+| Hygrometer/thermometer | [ThermoPro TP49](https://www.amazon.com/dp/B07WCR5Y4B) digital (~$10-15) | Amazon |
+| Humidity control | Boveda 49% packs; [Eva-Dry E-333](https://www.amazon.com/s?k=eva-dry+e-333) rechargeable canister (~$15-25) | Amazon, cigar shops (Boveda), hardware stores |
 | Small bolted safe | SentrySafe, Amazon Basics, Stack-On ($150-400) | Amazon, Home Depot, Lowe's, Costco (best return policy) |
 
 Prices are typical US online prices and move with sales; buy boxes and sleeves
-in multi-packs, since per-unit cost roughly halves at 10+ quantity.
+in multi-packs, since per-unit cost roughly halves at 10+ quantity. On every
+product page, check customer photo reviews alongside the studio shots: worn
+boxes and real slab-fit photos show true sizing better than renders.
 
 ## 15. Selling a PSA 10 later
 
