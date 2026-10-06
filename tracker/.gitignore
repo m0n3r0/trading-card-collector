@@ -1,0 +1,5 @@
+# personal data: never commit your own prices
+history.db
+*.log
+# generated charts (force-add any you want to keep)
+*.html

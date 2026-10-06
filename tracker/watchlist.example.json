@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Charizard #4 Base",
+    "set": "Base Set",
+    "grade": "10",
+    "grader": "PSA",
+    "target_usd": 9000,
+    "note": "Unlimited holo; walk-away price from sold comps"
+  },
+  {
+    "label": "Rayquaza ex #97 EX Deoxys",
+    "set": "EX Deoxys",
+    "grade": "10",
+    "grader": "PSA",
+    "target_usd": 1200,
+    "note": "example entry, adjust to your hunt"
+  }
+]
