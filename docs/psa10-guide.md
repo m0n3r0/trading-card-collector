@@ -24,6 +24,7 @@ monitors live listings and your sold-price comparables.
 14. [Storage and insurance after purchase](#14-storage-and-insurance-after-purchase)
     - [Long-term archival storage](#141-long-term-archival-storage-the-museum-method)
     - [Personal storage setup](#142-personal-storage-setup-practical-not-museum)
+    - [Where to buy each item](#143-where-to-buy-each-item)
 15. [Selling a PSA 10 later](#15-selling-a-psa-10-later)
 16. [Checklists](#16-checklists)
 17. [Glossary](#17-glossary)
@@ -431,6 +432,28 @@ fire, and theft, in roughly that order of likelihood.
 Above roughly $10,000 in value, redirect the next dollars to agreed-value
 collectibles insurance first (see section 14), then to a better safe, then to
 more cards.
+
+### 14.3 Where to buy each item
+
+Buy consumables where they are cheapest in bulk, and buy storage furniture
+where returns are easy. Your local game store usually matches online prices on
+small items and saves shipping: check there first for sleeves, toploaders,
+and boxes.
+
+| Item | Example products | Where to buy |
+|---|---|---|
+| Penny sleeves, toploaders, team bags | BCW Standard sleeves (~$1/100-pack), Ultra Pro equivalents | bcwsupplies.com, ultrapro.com, Amazon, TCGplayer, eBay in bulk, local game store |
+| Graded slab sleeves | BCW Resealable Graded Card Sleeves, 100-pack (~$4.50) | bcwsupplies.com, Amazon, eBay |
+| Graded storage boxes | BCW Graded Trading Card Box, holds 30 slabs (~$4.50); BCW Super Vault, holds 75 | bcwsupplies.com, Amazon, eBay, Blowout Cards, local game store |
+| Binder plus acid-free pages | Ultra Pro Premium Pro side-loading binder, Dex Protection or Vault X binders | Amazon, TCGplayer, local game store |
+| Single-slab display frame | Grail Frames (~$20-30), PowerGuard Vault from ~$35, PrismGuard Pro from ~$17 | brand sites (grailframes.com, powerguardhq.com, prismguardpro.com), Amazon, eBay |
+| Multi-slab wall cabinet | 35-slab UV locking cabinet (~$65) | Home Depot, Amazon, eBay |
+| Hygrometer/thermometer | ThermoPro or Govee digital (~$10-15) | Amazon |
+| Humidity control | Boveda 49% packs; Eva-Dry E-333 rechargeable canister (~$15-25) | Amazon, cigar shops (Boveda), hardware stores |
+| Small bolted safe | SentrySafe, Amazon Basics, Stack-On ($150-400) | Amazon, Home Depot, Lowe's, Costco (best return policy) |
+
+Prices are typical US online prices and move with sales; buy boxes and sleeves
+in multi-packs, since per-unit cost roughly halves at 10+ quantity.
 
 ## 15. Selling a PSA 10 later
 
