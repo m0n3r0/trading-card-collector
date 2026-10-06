@@ -22,6 +22,7 @@ monitors live listings and your sold-price comparables.
 12. [Condition traps inside the grade](#12-condition-traps-inside-the-grade)
 13. [Paying, shipping, insurance, customs, taxes](#13-paying-shipping-insurance-customs-taxes)
 14. [Storage and insurance after purchase](#14-storage-and-insurance-after-purchase)
+    - [Long-term archival storage](#141-long-term-archival-storage-the-museum-method)
 15. [Selling a PSA 10 later](#15-selling-a-psa-10-later)
 16. [Checklists](#16-checklists)
 17. [Glossary](#17-glossary)
@@ -324,6 +325,47 @@ Verify before paying, in this order:
   collectibles insurance with agreed-value coverage.
 - For grails, consider auction-house vaulting: professional storage,
   instant-sell capability, and no shipping risk on resale.
+
+### 14.1 Long-term archival storage (the museum method)
+
+Paper is destroyed by heat, humidity, light, acid in the paper itself, and
+oxygen. Oxygen is only one of the five, so removing air helps only as part of
+a full setup.
+
+**Vacuum sealing vs oxygen-free storage:**
+
+| Method | Verdict | Why |
+|---|---|---|
+| Household vacuum sealer | Avoid | Suction bends, warps, or dents cards; standard sealer bags slowly let air back in; any moisture already inside gets trapped against the card |
+| Oxygen-free storage at normal pressure | Best | Cards sit uncrushed in a sealed high-barrier bag with oxygen absorber packets, slowing yellowing and ink fading |
+
+**A setup built to last centuries:**
+
+- **Inner layer.** Polypropylene or polyester (Mylar) penny sleeve, then a
+  semi-rigid holder or the graded slab. Never PVC sleeves: they off-gas
+  chemicals that damage cards over time.
+- **Humidity.** Hold steady at about 30-40% with a humidity-control pack sized
+  to the bag. Too damp brings mold and acid damage; too dry makes paper
+  brittle.
+- **Oxygen-free bag.** Heat-seal everything in an aluminized high-barrier film
+  (Escal or similar Mylar foil bag) with oxygen absorbers inside (Ageless or
+  RP System).
+- **Cold.** Temperature matters most: paper ages roughly twice as slowly for
+  every 5 degrees C cooler. A steady cool room is good; freezer storage, as
+  libraries use for long-term preservation, is better, but only in an airtight
+  bag. Let the sealed bag warm fully to room temperature before opening so
+  moisture does not condense on the cards.
+- **Dark.** Store the sealed bag inside an acid-free archival box. UV fades
+  inks fast.
+- **Steady.** Stable conditions beat perfect ones. Keep clear of attics,
+  basements, and outside walls.
+
+**Caveats.** The card stock sets the limit: most trading card paper is acidic
+and breaks down from the inside regardless of storage. Deacidification would
+help but would likely reduce collector value. Cold, dry, dark, oxygen-free
+storage can realistically deliver several centuries; beyond that nobody knows.
+Medieval paper survived largely because rag paper (cotton, linen) is not
+modern wood pulp.
 
 ## 15. Selling a PSA 10 later
 
