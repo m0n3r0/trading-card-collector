@@ -23,6 +23,7 @@ monitors live listings and your sold-price comparables.
 13. [Paying, shipping, insurance, customs, taxes](#13-paying-shipping-insurance-customs-taxes)
 14. [Storage and insurance after purchase](#14-storage-and-insurance-after-purchase)
     - [Long-term archival storage](#141-long-term-archival-storage-the-museum-method)
+    - [Personal storage setup](#142-personal-storage-setup-practical-not-museum)
 15. [Selling a PSA 10 later](#15-selling-a-psa-10-later)
 16. [Checklists](#16-checklists)
 17. [Glossary](#17-glossary)
@@ -366,6 +367,70 @@ help but would likely reduce collector value. Cold, dry, dark, oxygen-free
 storage can realistically deliver several centuries; beyond that nobody knows.
 Medieval paper survived largely because rag paper (cotton, linen) is not
 modern wood pulp.
+
+### 14.2 Personal storage setup (practical, not museum)
+
+The museum method maximizes lifespan per card. A personal setup optimizes for
+something else: everyday protection you will actually maintain, at sane cost,
+for cards you handle, display, and sell. Design for the risks that actually
+strike personal collections: drops, slab scratches, sunlight, humidity swings,
+fire, and theft, in roughly that order of likelihood.
+
+**The stack, cheapest layer first:**
+
+- **Slab sleeves.** Every graded slab gets a fitted sleeve or team bag the day
+  it arrives. Slab scratches photograph as card defects and cost real money at
+  resale. This is the highest return per dollar in all of storage.
+- **Graded card boxes.** Store sleeved slabs upright in purpose-made graded
+  boxes (BCW graded boxes, PSA storage boxes, or similar) with dividers. Never
+  stack slabs flat under weight, never rubber-band them.
+- **Raw cards.** Penny sleeve, then toploader, then team bag for anything worth
+  grading or selling. Sets live in side-loading acid-free binder pages;
+  bulk lives in toploader boxes. No PVC anywhere: sleeves, pages, and boxes
+  must be polypropylene or polyester.
+- **Display rotation.** Keep one small UV-filtering display case (98%+ UV
+  blocking) for the cards you enjoy looking at, and rotate them quarterly.
+  Everything else stays boxed in the dark. Display is consumption: accept slow
+  fading on displayed copies or display duplicates, never the grail.
+- **Climate.** An interior closet beats any gadget: no outside walls, no
+  windows, stable temperature. Add a $10 digital hygrometer/thermometer and
+  check it weekly for the first month. Target 35-55% humidity and steady room
+  temperature. Damp climate: rechargeable mini-dehumidifier or silica
+  canisters. Dry climate: Boveda 49% packs in each box. If humidity regularly
+  escapes that band, fix the room before buying more cards.
+- **Fire and theft.** A bolted-down safe for the top tier of the collection.
+  Know the tradeoff: standard fire safes protect paper by releasing steam,
+  which is itself moisture damage, so keep silica inside and prefer a
+  data/media-rated safe if buying new. Photograph every slab and keep purchase
+  records plus cert numbers in the cloud; that file is your insurance claim
+  and your police report.
+
+**Organization that survives growth:**
+
+- One box per tier (display rotation, for-sale, long holds, raw-to-grade).
+  Label every box with contents and date.
+- One inventory file: label, set, cert number, purchase date, price, seller.
+  The tracker's watchlist format works: keep entries for owned cards with
+  their cost basis in the note field.
+- Quarterly routine, 30 minutes: check hygrometer history, inspect top-10
+  slabs for new scratches or label lift, rotate the display case, confirm the
+  inventory file is backed up.
+
+**Budget sketch for a collection up to about $10,000:**
+
+| Item | Typical cost |
+|---|---|
+| Slab sleeves, 100-pack | $10-15 |
+| 2-3 graded storage boxes with dividers | $15-30 |
+| Penny sleeves, toploaders, team bags | $20-40 |
+| Side-loading binder plus acid-free pages | $25-40 |
+| UV display case, small | $40-100 |
+| Hygrometer, silica or Boveda packs | $15-30 |
+| Small bolted safe | $150-400 |
+
+Above roughly $10,000 in value, redirect the next dollars to agreed-value
+collectibles insurance first (see section 14), then to a better safe, then to
+more cards.
 
 ## 15. Selling a PSA 10 later
 
