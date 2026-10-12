@@ -53,7 +53,7 @@ To run `alerts` on a schedule, add a cron line (macOS/Linux) that appends to a
 log file you review:
 
 ```cron
-0 19 * * 0 cd /path/to/pokemon-card/tracker && python3 tracker.py alerts >> alerts.log 2>&1
+0 19 * * 0 cd /path/to/trading-card-collector/tracker && python3 tracker.py alerts >> alerts.log 2>&1
 ```
 
 ## Files

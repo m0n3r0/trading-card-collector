@@ -1,4 +1,4 @@
-# pokemon-card
+# trading-card-collector
 
 **One story: how a piece of cardboard becomes a tradeable asset — and how to buy a
 PSA 10 Pokemon card without getting burned.**
