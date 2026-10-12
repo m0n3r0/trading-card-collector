@@ -1,6 +1,6 @@
 # 1. Market Overview
 
-> **Act I — The hobby · chapter 1 of 15.** The world. How the hobby got here and how the industry is built. The
+> **Act I — The hobby · chapter 1 of 16.** The world. How the hobby got here and how the industry is built. The
 > first thing to understand before any price, grade, or purchase.
 
 ## 1.1 A short history
@@ -144,7 +144,7 @@ the boom-bust data, the boom-era literature — see `what-research-says.md` §3 
 this act.)
 
 (For the historical test of that cycle — *is it tulip mania?* — see
-`is-this-tulip-mania.md`, chapter 7 in this act: same behavioral kernel,
+`is-this-tulip-mania.md`, chapter 8 in this act: same behavioral kernel,
 different structural machine.)
 
 ## 1.5 Market size (orders of magnitude only)

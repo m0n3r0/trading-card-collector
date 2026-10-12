@@ -1,6 +1,6 @@
 # 6. Fakes, Alterations and Scams
 
-> **Act III — The solution · chapter 13 of 15.** The shadows. Where the money actually goes wrong. The minimum defence
+> **Act III — The solution · chapter 14 of 16.** The shadows. Where the money actually goes wrong. The minimum defence
 > here is what the guide's authentication section runs on.
 
 ## 6.1 Counterfeit raw cards

@@ -1,6 +1,6 @@
 # What the research says — the hobby in the academic world
 
-> **Act I — The hobby · chapter 6 of 15.** Does the academic world study this
+> **Act I — The hobby · chapter 7 of 16.** Does the academic world study this
 > hobby? Yes — and it has since the 1990s, with a sharp acceleration after the
 > 2020–21 boom. Five research communities now touch it, and what they found
 > independently supports the backbone of this repo: grading exists to solve an
@@ -162,7 +162,7 @@ problem:
 | The 9-to-10 cliff and grading premium are real (Playbook §7; problem ch. 2.3) | Sharma (2026) measures grading premiums in the Pokémon market; Lee, Caudill & Mixon (2014) measure grader-brand premiums over 169,483 diamond offers |
 | Pop growth and scarcity drive price (Playbook §4, §7) | "PTCG as an Alternative Investment Asset Class" (2026) — Triadic Value Framework: scarcity, condition, popularity; HPG coins (2026) |
 | The 2020–21 boom was a bubble with behavioural drivers (Market overview §1.4) | Zhang (2026); Sharma (2026) boom-bust case study |
-| The tulip comparison: the mania ran on paper contracts, the macro damage was minor, and supply could not respond (ch. 7) | Goldgar (2007); Garber (1989); Thompson (2006); Kindleberger (1978); Adisurya (2026) — full source table in `is-this-tulip-mania.md` §6 |
+| The tulip comparison: the mania ran on paper contracts, the macro damage was minor, and supply could not respond (ch. 8) | Goldgar (2007); Garber (1989); Thompson (2006); Kindleberger (1978); Adisurya (2026) — full source table in `is-this-tulip-mania.md` §6 |
 | Collectors are driven by nostalgia and status (documentary notes) | Sotelo Duarte (2022); Veblen-goods literature; Gergaud & Verardi (2020) |
 | The grader's subjectivity is a real, measurable problem (Problem ch. 2.3) | Krause (2026): systematic differences across graders and categories |
 | Card shows are a two-sided market (Playbook ch. 10) | Jin & Rysman (2012) |

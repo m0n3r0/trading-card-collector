@@ -1,6 +1,6 @@
 # Notes: "The Hidden Monopoly Controlling Card Prices..." (FOLLOWTHEMONEY)
 
-> **Act II — The problem · chapter 9 of 15 (eyewitness evidence 2 of 2).** The PSA/Collectors conflict-of-interest
+> **Act II — The problem · chapter 10 of 16 (eyewitness evidence 2 of 2).** The PSA/Collectors conflict-of-interest
 > case: reholder risk, upcharges, and why your price checks must come from outside the
 > group. Read this before the deep dive — it is *why* several guide rules exist.
 

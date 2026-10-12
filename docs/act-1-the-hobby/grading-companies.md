@@ -1,6 +1,6 @@
 # 2. Grading Companies Compared
 
-> **Act I — The hobby · chapter 2 of 15.** The referees. Who grades the cards and who really owns them. Section 2.7
+> **Act I — The hobby · chapter 2 of 16.** The referees. Who grades the cards and who really owns them. Section 2.7
 > is where the neutral referee becomes a market participant — the turn of the whole story.
 
 A grade is one company's opinion of a card's authenticity and condition. The
@@ -178,3 +178,7 @@ What this means in practice:
   claims terms. See `../act-3-the-solution/psa10-playbook.md` sections 3 and 5.
 - Declared-value tiers can be upcharged: if the card grades well and its value
   goes over the tier cap, you pay the higher tier. Declare realistically.
+
+(For the deep audit of each of these companies — origins, scale, grading
+process, the transparency scorecard, and what is happening at each one right
+now — see `grading-company-audit.md`, chapter 3 in this act.)
