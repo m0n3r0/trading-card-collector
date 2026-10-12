@@ -1,6 +1,6 @@
 # Price Tracker
 
-> **Story VII — the tool.** Your own price log, independent of the grader's corporate
+> **Story VIII — the tool.** Your own price log, independent of the grader's corporate
 > group — the practical answer to the conflict of interest raised in the grader chapters.
 
 Own-data PSA 10 price tracker. No third-party APIs, no accounts, no tokens:

@@ -40,6 +40,19 @@ re-uses its rules for every PSA 10 purchase.
 trimming and recoloring, and the marketplace scams. The minimum defence process here is
 what the guide's authentication section runs on. Read it before you trust any slab.
 
+## The fix (special report)
+
+**[Fair grading: the problem, the evidence, and a proposal for collectors](fair-grading.md)** —
+the grading issue as a deep dive: five verified parts of the problem (consolidation under
+Collectors; the referee-in-the-market structure; the 9-to-10 cliff, with the same Pikachu
+Illustrator selling for $16.5M as a PSA 10 and $1,406,250 as a PSA 9 in early 2026; opaque
+gem-rate/pop supply; an accountability gap documented by BBB), and a four-layer **Fair
+Grading Framework** — structural separation, transparency standards, market mechanisms you
+can use today, and governance/advocacy. Every factual claim carries a source tag and a
+verification appendix; reported-but-unverified claims are labelled as such. This is the
+missing link between the grader chapters (II) and the deep dive (VI): the guide's rules
+become a standard, and the industry-side fix is specified.
+
 ## Reference chapters (open whenever, not in sequence)
 
 - [Glossary](glossary.md) — the hobby vocabulary across sports and TCGs. Terms already

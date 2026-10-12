@@ -37,6 +37,21 @@ Video sources (notes from auto captions; speakers' claims, not verified):
 | Hobby history, 2020-2022 boom | https://www.youtube.com/watch?v=mLAGQLdK4vg | `../the-hobby-documentary-notes.md` |
 | PSA/Collectors conflict of interest, reholder damage, upcharges | https://www.youtube.com/watch?v=auEzxrJyNBE | `../psa-monopoly-video-notes.md` |
 
+Web sources for the fair-grading special report (fetched 2026-10-12 via the Wikipedia
+API; verbatim evidence snippets and the verification log are in
+`fair-grading.md` §7–8):
+
+| Topic | Article |
+|-------|---------|
+| Collectors Universe acquisitions (Wata 2021, SGC 2023, Beckett 2025), GemRate share | https://en.wikipedia.org/wiki/Collectors_Universe |
+| PSA founding (1991, David Hall/PCGS), origin from show counterfeits | https://en.wikipedia.org/wiki/Professional_Sports_Authenticator |
+| CGC independence | https://en.wikipedia.org/wiki/Certified_Guaranty_Company |
+| Grading scale, subgrades, population example | https://en.wikipedia.org/wiki/Trading_card |
+| Beckett Media BBB complaints inquiry (closed 2025-02-14), Topps Vault exclusive | https://en.wikipedia.org/wiki/Beckett_Media |
+| Credit-rating conflict of interest, Credit Rating Agency Reform Act 2006 | https://en.wikipedia.org/wiki/Credit_rating_agency |
+| Pikachu Illustrator sales history ($5.275M 2021; $16.5M Feb 2026; 41 copies) | https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game |
+| PSA 9 Pikachu Illustrator, $1,406,250 (March 2026, Heritage) | https://en.wikipedia.org/wiki/Heritage_Auctions |
+
 Not verified against a source (general hobby knowledge, flagged in text where
 relevant): grader subgrade policies and founding dates beyond PSA, exact NBA/NFL
 licence switch dates, platform fee levels, dealer buy percentages, US

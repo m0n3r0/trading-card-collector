@@ -24,7 +24,7 @@ and then spends most of its energy on the one niche it exists for: **PSA 10
 Pokemon** — how to read the grade, the population report, the price, the fakes, and
 the transaction, and when it is actually worth grading your own card.
 
-## Reading path — the story in eight moves
+## Reading path — the story in nine moves
 
 Read top to bottom. Each move is one or two chapters; the connective sentence tells
 you why it matters to the story.
@@ -74,7 +74,17 @@ offline, authentication, condition traps inside the grade, paying/shipping/insur
 storage, selling later, the expensive rookie mistakes, and the checklists. Everything
 in moves I–V is applied here, Pokemon-specific.
 
-**VII. The tool** — keeping your own data independent of the grader's group.
+**VII. The fix** — the grading issue, a deep dive, and a proposal for fairer rules.
+`docs/trading-cards/fair-grading.md`
+The special report: five verified parts of the problem (consolidation, the
+referee-in-the-market structure, the 9-to-10 cliff — the same Pikachu Illustrator
+sold for $16.5M as a PSA 10 and $1,406,250 as a PSA 9, five weeks apart in early
+2026 — opaque supply, and an accountability gap), and a four-layer Fair Grading
+Framework from structural separation to what you can do today. Read after the deep
+dive; it turns the guide's rules into a standard and shows where the industry-side
+fix is missing.
+
+**VIII. The tool** — keeping your own data independent of the grader's group.
 `tracker/` (see `tracker/README.md`)
 Your own log of sold comps and listing sightings, with buy-signal alerts against your
 targets and standalone ASCII/SVG charts. No third-party APIs, no accounts. It is the
@@ -99,13 +109,20 @@ The whole repo is one argument with a spine:
    comps that are not all from the grader's corporate group, keep at least one
    outside source in every price check, document the cert before and after every
    transaction, insure fully, and log your own comps in a tool the group cannot
-   touch. (Moves IV–V and VII; `valuation-and-selling.md` 7.1; the guide's sections
-   3, 5, 8 and 11.)
+   touch. (Moves IV–V, VII and VIII; `valuation-and-selling.md` 7.1; the guide's
+   sections 3, 5, 8 and 11.)
+4. **The fix has a long side and a short side.** The short side is the collector
+   playbook you can run today (move VII, Layer 3). The long side is structural:
+   separation of grading from market and price-data roles, published gem rates and
+   subgrades, audited consistency, chain of custody, real liability — with the
+   credit-rating industry's 2006 reform as the template for how a rating industry
+   got reformed after its conflicts became obvious (move VII, Layers 1–2 and 4).
 
-The Pokemon guide (VI) is the destination, and the handbook chapters (I–V) are the
-world it lives in. The two video notes are the eyewitnesses, and the tracker is the
-instrument. If you only remember one sentence: **the grade is the product, but the
-number on the slab is not the whole truth — your independent data is.**
+The Pokemon guide (VI) is the destination, the handbook chapters (I–V) are the
+world it lives in, the fix report (VII) is the argument made explicit, the two
+video notes are the eyewitnesses, and the tracker is the instrument. If you only
+remember one sentence: **the grade is the product, but the number on the slab is
+not the whole truth — your independent data is.**
 
 ## Ground rules used across every file
 
