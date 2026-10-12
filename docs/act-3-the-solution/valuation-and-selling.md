@@ -1,6 +1,6 @@
 # 7. Valuation and Selling
 
-> **Act III — The solution · chapter 11 of 14.** The value. The method the deep dive runs on: fair value from *sold*
+> **Act III — The solution · chapter 12 of 15.** The value. The method the deep dive runs on: fair value from *sold*
 > comps, at least one source outside the grader's group, and a walk-away price. A
 > prerequisite to the PSA 10 guide.
 

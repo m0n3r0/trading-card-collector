@@ -1,6 +1,6 @@
 # 4. Collectible Card Games (TCGs)
 
-> **Act I — The hobby · chapter 4 of 14.** The cards you can buy (2 of 3). The card games. This is where Pokemon
+> **Act I — The hobby · chapter 4 of 15.** The cards you can buy (2 of 3). The card games. This is where Pokemon
 > lives; the deep dive assumes this vocabulary.
 
 TCG cards have two kinds of demand: players need the card to play, and

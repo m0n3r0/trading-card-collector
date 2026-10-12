@@ -1,6 +1,6 @@
 # Act III — The Solution: The Fair Grading Framework
 
-> **Act III — The solution · chapter 10 of 14 — the backbone of the repo.** Act II defined the
+> **Act III — The solution · chapter 11 of 15 — the backbone of the repo.** Act II defined the
 > problem: the referee who defines the product now also runs much of the market for
 > it. This chapter is the fix, in four layers ordered from slowest to fastest to
 > implement — structural separation (the long game), transparency standards (any grader

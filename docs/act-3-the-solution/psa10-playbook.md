@@ -1,6 +1,6 @@
 # PSA 10 Pokemon: The Complete Guide
 
-> **Act III — The solution · chapter 13 of 14.** The deep dive. Everything the handbook sets up (the world, the graders,
+> **Act III — The solution · chapter 14 of 15.** The deep dive. Everything the handbook sets up (the world, the graders,
 > the cards, the value method, the fakes) applied, Pokemon by Pokemon, to the card this
 > repo exists for. Enter from the top-level `README.md` for the full arc.
 
