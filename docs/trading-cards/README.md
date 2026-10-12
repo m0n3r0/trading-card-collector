@@ -8,7 +8,7 @@ so the same buying discipline carries over to any card.
 | # | Chapter | What it covers |
 |---|---------|----------------|
 | 1 | [market-overview.md](market-overview.md) | History from tobacco cards to the 2020s boom, how the industry is structured, who makes what, market cycles |
-| 2 | [grading-companies.md](grading-companies.md) | PSA, BGS, SGC, CGC, TAG compared: scales, subgrades, labels, crossovers, and which grader to use for which card |
+| 2 | [grading-companies.md](grading-companies.md) | PSA, BGS, SGC, CGC, TAG compared: scales, subgrades, labels, crossovers, which grader to use for which card, and who owns which grader |
 | 3 | [sports-cards.md](sports-cards.md) | Rookies, parallels, numbered cards, autos and relics, hobby vs. retail, case breaks, key vintage and modern cards |
 | 4 | [tcg-collecting.md](tcg-collecting.md) | Magic, Yu-Gi-Oh!, One Piece, Lorcana, Digimon, Weiss Schwarz, Japanese Pokemon: rarity systems, reprint risk, language premiums |
 | 5 | [sealed-product.md](sealed-product.md) | Booster boxes, ETBs, cases: holding sealed, reseal detection, storage |

@@ -21,6 +21,9 @@ here. Check each company's site on the day you submit.
 Not verified for this repo: exact founding dates and current subgrade policies
 for SGC, CGC and TAG. Confirm on each company's site.
 
+These are five brands but not five independent companies: PSA, BGS and SGC now
+share one owner. See 2.7.
+
 ## 2.2 What each grade means in practice
 
 | Grade | Typical visible condition |
@@ -77,3 +80,38 @@ modern cards the grading fee can exceed the whole premium.
   genuine slab from the same period. See `fakes-and-scams.md`.
 - Autograph authentication (PSA/DNA, JSA, Beckett Authentication) is a separate service
   from card grading. An "auto" grade on the label refers to the signature.
+
+## 2.7 Who owns the graders (consolidation)
+
+Ownership was checked against Wikipedia on 2026-10-12 (Collectors Universe
+article):
+
+| Brand | Owner | Since |
+|-------|-------|-------|
+| PSA | Collectors (Collectors Universe), taken private in 2021 by Steve Cohen, D1 Capital and Nat Turner | Founded 1991 |
+| SGC | Collectors. Wikipedia says its sports grading was merged into PSA | 2023 |
+| BGS (Beckett) | Collectors. Still runs as a separate brand | 2025 |
+| Wata Games (video games) | Collectors | 2021 |
+| CGC | Independent of Collectors | - |
+| TAG | Independent of Collectors | - |
+
+A commentary video claims Collectors also owns Card Ladder (price data) and
+that the group has about 80% of card grading. Neither claim is verified here.
+Wikipedia (citing GemRate data for 2024) ranks CGC second in market share,
+which an "80% PSA" figure leaves out. Notes and discussion are in
+`../psa-monopoly-video-notes.md`.
+
+What this means in practice:
+
+- A crossover between PSA, BGS and SGC no longer gives you a second opinion
+  from a separate company. CGC and TAG are the independent checks.
+- The same group can produce the grade, the population report, some of the
+  price data and the vault or instant-sale marketplace. Check prices outside
+  that group (eBay sold, 130point, PriceCharting, auction archives, your own
+  tracker log). See `valuation-and-selling.md` 7.1.
+- Submission risk is the same whatever the service. Reholders and reviews
+  still send the card through handling and shipping. Insure it at full value,
+  photograph it before sending, and read the grader's liability and
+  claims terms. See `../psa10-guide.md` sections 3 and 5.
+- Declared-value tiers can be upcharged: if the card grades well and its value
+  goes over the tier cap, you pay the higher tier. Declare realistically.

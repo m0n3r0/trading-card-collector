@@ -15,6 +15,9 @@ plus a general trading-card handbook (sports cards and other TCGs).
 - `docs/the-hobby-documentary-notes.md` — notes from the "The Hobby" trading-card
   documentary (YouTube), focused on its Pokemon content and what carries over
   to PSA 10 buying.
+- `docs/psa-monopoly-video-notes.md` — notes from a commentary video on PSA's
+  parent company owning PSA, BGS and SGC (ownership checked against Wikipedia),
+  reholder risk, upcharges and independent price checks.
 - `docs/trading-cards/` — trading-card handbook beyond Pokemon: market history
   and structure, grading companies compared, sports cards, MTG/Yu-Gi-Oh!/One
   Piece/Lorcana and other TCGs, sealed product, fakes and scams, valuation and

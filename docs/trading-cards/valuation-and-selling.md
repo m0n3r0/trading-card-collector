@@ -7,7 +7,11 @@
 2. Gather sold comps from the last 30-90 days:
    - eBay sold listings (filter "Sold items")
    - Auction house archives (Goldin, Heritage, PWCC/Fanatics Collect, REA)
-   - PSA Auction Prices Realized, 130point, Card Ladder, PriceCharting
+   - PSA Auction Prices Realized, 130point, Card Ladder, PriceCharting.
+     PSA APR is run by the grader, and Card Ladder is reported to belong to the
+     same group (Collectors). Always include at least one source outside it,
+     such as eBay sold, 130point, an auction archive or your tracker log
+     (`grading-companies.md` 2.7).
    - TCG-specific: TCGplayer market price (US), Cardmarket (EU), Japanese
      shops/marketplaces for Japanese prints
 3. Clean the data: remove best-offer ambiguity (look up accepted offer when

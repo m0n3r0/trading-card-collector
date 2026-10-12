@@ -17,6 +17,7 @@
 | 1996-1999 | Pokemon TCG launched in Japan (Oct 1996) and the US (Wizards of the Coast, 1998-2003). Yu-Gi-Oh! OCG launched in 1999 | The vintage TCG grails: 1st Edition Base Set Charizard, Pikachu Illustrator, Blue-Eyes and Dark Magician LOB 1st Ed |
 | 2009 | Panini takes the exclusive NBA licence | Panini dominates basketball and football through the 2010s |
 | 2020-2021 | COVID boom: stimulus money, nostalgia, lockdown free time, breakers and influencers. Grading backlogs of months. Target pulls cards from shelves after fights | Record prices across sports and Pokemon. Pikachu Illustrator (PSA 10) bought by Logan Paul for $5.275M in July 2021 |
+| 2021-2025 | Grader consolidation. PSA's parent Collectors is taken private (2021) and acquires Wata Games (2021), SGC (2023) and Beckett/BGS (2025) | Three of the five main card-grading brands now have one owner. CGC and TAG are the independent alternatives. See `grading-companies.md` 2.7 |
 | 2022 | Fanatics wins the MLB, NBA and NFL licences and acquires Topps | The licence landscape changes over 2022-2026 as old deals expire |
 | 2022-2023 | New TCGs: One Piece (Bandai, global Dec 2022) and Disney Lorcana (Ravensburger, Aug 2023) | New-game hype cycles. Early sets and top rarities spike, then often correct |
 | 2023-2026 | The market cools then recovers by segment. Pokemon sealed demand drives scalping, bots and sell-outs | In February 2026 the PSA 10 Pikachu Illustrator sold for $16.5M (per Wikipedia) |
@@ -35,7 +36,7 @@ IP / league / players' union  ->  licence
               -> Secondary market: eBay, TCGplayer, Cardmarket, auction houses
                  (Goldin, Heritage, PWCC/Fanatics Collect, REA), Whatnot,
                  card shows, vault platforms
-                 -> Graders: PSA, BGS, SGC, CGC, TAG
+                 -> Graders: PSA, BGS, SGC (all owned by Collectors), CGC, TAG
 ```
 
 Points to understand:
@@ -51,6 +52,11 @@ Points to understand:
 - Graders are a parallel market. A grader's brand premium (PSA usually
   highest, then BGS for modern sports and SGC for vintage) is part of the card's
   price.
+- Graders are also market participants. The group that owns PSA, BGS and SGC
+  also runs a vault and sales products, and is reported to own price-data tools.
+  Critics call this a conflict of interest
+  (`../psa-monopoly-video-notes.md`). Whatever you think of that argument,
+  take price checks from outside the group.
 
 ## 1.3 Segments and what drives each
 

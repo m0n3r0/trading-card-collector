@@ -107,6 +107,14 @@ light, and a dark background:
   cracked, scratched, or first-generation slab can be reholdered without
   affecting the grade. Factor $25-75 plus insured shipping each way when
   pricing ugly-slab copies.
+- **A reholder is not risk-free.** The card is still shipped, opened and
+  handled. One widely shared 2026 case (not verified here): a PSA 10 Japanese
+  lenticular Deoxys worth about $45,000, sent for a reholder only, reportedly
+  came back as a PSA 6 after handling damage. Before sending anything valuable,
+  insure it at full replacement value both ways. Take high-resolution
+  photos of the front, back and all four edges. Screenshot the cert page, and
+  read PSA's liability and claims terms. Details are in
+  `psa-monopoly-video-notes.md`.
 
 ## 4. Population reports: reading scarcity
 
@@ -153,6 +161,21 @@ Typical all-in cost per card: $20-150 depending on tier, plus shipping and
 insurance both ways. Turnarounds range from days (premium) to months (economy)
 and lengthen after grading specials.
 
+**Upcharges and declared value.** Each tier has a cap on the card's value. If
+your card grades higher than you expected and its value goes over your tier's
+cap, PSA moves it up a tier and bills the difference. Declare a realistic
+post-grade value (use the price of a 10 if you are hoping for a 10), and put
+the possible upcharge into the section 6 math. Fees change often (one 2026
+commentary counted four increases in about 14 months), so check the live price
+list on the day you submit.
+
+**Who you are dealing with.** PSA's parent company, Collectors, also owns BGS
+and SGC (bought 2025 and 2023), runs a vault and sales products, and is
+reported to own the Card Ladder price tool. That doesn't change how you submit.
+It does mean a crossover between those three is not an independent second
+opinion, and your price checks should include sources outside the group (see
+section 8 and `trading-cards/grading-companies.md` 2.7).
+
 ## 6. Should you grade it yourself
 
 Grade a raw card yourself only when the math works:
@@ -160,6 +183,9 @@ Grade a raw card yourself only when the math works:
 ```
 expected_value = P(10) x price_10 + P(9) x price_9 + ... - grading_cost - shipping - time
 ```
+
+`grading_cost` should include the upcharge you would pay if the card hits a 10
+(section 5) and the cost of insuring it at full value both ways.
 
 - **Pre-grade honestly.** Buy a 10x loupe, check centering with a centering
   tool, and compare against PSA 9/10 exemplars. Most self-assessed "pack fresh
@@ -209,6 +235,9 @@ the honesty of P(10).
 
 1. Pull the last 10-20 **sold** listings of the exact card, grade, and variant
    (eBay Sold Items filter; PSA Auction Prices Realized; PriceCharting).
+   PSA APR and Card Ladder come from the grader's own corporate group. Make
+   sure at least one source is outside it (eBay sold, 130point, PriceCharting,
+   auction archives, your tracker log).
 2. Discard outliers (shill-bid retractions, mislabeled variants, damaged slabs
    sold as-is) and compute the median, not the mean.
 3. Adjust: upward for premium eye appeal or old-cert vintage; downward for
@@ -295,6 +324,10 @@ or customs), never headline prices.
 
 - Authenticated escrow-style flow but thin Pokemon selection and high prices.
   Consider only when their all-in price beats eBay-plus-risk elsewhere.
+- **The grader's own vault and instant offers** (PSA Vault, PSA Offers) are
+  convenient, but the grader is then also your marketplace and you may not
+  know who the counterparty is. Compare any offer with open-market sold comps
+  before you accept.
 
 ## 10. Buying offline: shops, shows, and private deals
 
@@ -626,3 +659,6 @@ boxes and real slab-fit photos show true sizing better than renders.
   PriceCharting, Cardmarket price guide (EU)
 - Modern fixed-price graded inventory: TCGplayer
 - Live tracking: the `tracker/` tool in this repository
+- Video notes (from captions; claims not verified):
+  `the-hobby-documentary-notes.md` (hobby history and the boom) and
+  `psa-monopoly-video-notes.md` (grader ownership, reholder risk, upcharges)

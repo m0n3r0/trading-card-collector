@@ -25,6 +25,14 @@ against the primary source (publisher, grader, auction archive).
 | PSA founding | https://en.wikipedia.org/wiki/Professional_Sports_Authenticator |
 | CGC | https://en.wikipedia.org/wiki/Certified_Guaranty_Company |
 | Beckett | https://en.wikipedia.org/wiki/Beckett_Media |
+| Collectors Universe ownership: Wata 2021, SGC 2023, Beckett 2025, GemRate share ranking | https://en.wikipedia.org/wiki/Collectors_Universe |
+
+Video sources (notes from auto captions; speakers' claims, not verified):
+
+| Topic | Video | Notes |
+|-------|-------|-------|
+| Hobby history, 2020-2022 boom | https://www.youtube.com/watch?v=mLAGQLdK4vg | `../the-hobby-documentary-notes.md` |
+| PSA/Collectors conflict of interest, reholder damage, upcharges | https://www.youtube.com/watch?v=auEzxrJyNBE | `../psa-monopoly-video-notes.md` |
 
 Not verified against a source (general hobby knowledge, flagged in text where
 relevant): grader subgrade policies and founding dates beyond PSA, exact NBA/NFL
