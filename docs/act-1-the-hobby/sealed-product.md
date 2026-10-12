@@ -23,6 +23,34 @@
 
 ## 5.3 Why it often does not
 
+
+Why sealed can appreciate — and why it often doesn't.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  S["**Sealed product**"]:::key
+  S --> UP["**Why it can appreciate**"]:::verify
+  S --> DN["**Why it often doesn't**"]:::risk
+  UP --> U1["supply shrinks — every opened box removes one"]:::verify
+  UP --> U2["openers/breakers need it (demand independent of collectors)"]:::verify
+  UP --> U3["vintage sealed = the only 'pack fresh' 10 chance"]:::verify
+  DN --> D1["print waves: modern sets reprint until demand met"]:::risk
+  DN --> D2["reprints of the set or its key cards cap upside"]:::risk
+  DN --> D3["storage cost + damage risk, shrink tears"]:::risk
+  DN --> D4["capital tied up for years; poor vs fees/inflation"]:::risk
+```
+
 - Print waves: modern sets are reprinted until demand is met.
 - Reprints of a set or of its key cards in a new set cap upside.
 - Storage cost and damage risk, shrink tears, crushed corners.
@@ -30,6 +58,33 @@
   poor except for the few iconic sets.
 
 ## 5.4 Reseal and tamper detection
+
+
+The reseal-detection decision path.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  START["**Buying sealed**"]:::key --> A
+  A{"Case-fresh from an<br/>authorized source?"}:::flow
+  A -->|"yes"| A1["ask for case cards,<br/>invoices, distributor tape"]:::verify
+  A -->|"no"| A2["compare wrap vs known genuine:<br/>seam, fold, logo, tightness"]:::unv
+  A2 --> B
+  A1 --> B{"Check flaps, glue,<br/>foil crimps, pack art<br/>for the print run"}:::flow
+  B --> C{"Very expensive<br/>vintage sealed?"}:::key
+  C -->|"yes"| C1["use third-party<br/>authentication + encapsulation"]:::verify
+  C -->|"no"| DONE["**Accept / walk**"]:::endg
+```
 
 1. Buy case-fresh from authorized distributors or reputable shops where
    possible; ask for case cards, invoices, distributor tape.

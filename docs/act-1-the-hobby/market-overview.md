@@ -28,6 +28,32 @@
 
 ## 1.2 How the industry is structured
 
+
+The industry chain, end to end — and how the grader's standard flows back to price.
+
+```mermaid
+
+flowchart LR
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  IP["IP / league /<br/>players' union"]:::flow --> LIC["**Licence**"]:::key
+  LIC --> MFR["Manufacturer<br/>(Topps, Panini, Pokemon Co, WotC...)"]:::flow
+  MFR --> DST["Distributor"]:::flow
+  DST --> RET["Retail<br/>(LCS, big-box, official, online)"]:::flow
+  RET --> COL["Collectors / players /<br/>breakers / flippers"]:::flow
+  COL --> SEC["**Secondary market**<br/>(eBay, TCGplayer, Cardmarket,<br/>auction houses, Whatnot, vaults)"]:::money
+  SEC --> GRD["**Graders**<br/>PSA, BGS, SGC, CGC, TAG"]:::act2
+  GRD -. "sets the price standard " .-> COL
+```
+
 ```
 IP / league / players' union  ->  licence
   Manufacturer (Topps/Fanatics, Panini, Upper Deck, Leaf; The Pokemon Company,
@@ -73,6 +99,30 @@ Points to understand:
 | Non-sport (Marvel, Star Wars, Garbage Pail Kids, celebrity) | Pop culture moments, low print runs | Thin markets, wide bid/ask |
 
 ## 1.4 Cycles: how booms and busts work in cards
+
+
+The five stages of a boom-and-correction cycle.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  T1["**1. Trigger**<br/>nostalgia, cheap money,<br/>celebrity, breakout player"]:::act1 --> T2
+  T2["**2. Retail sells out**<br/>flippers arrive, sealed doubles"]:::act1 --> T3
+  T3["**3. Grading backlog**<br/>everyone submits, pop jumps"]:::act2 --> T4
+  T4["**4. Supply responds**<br/>more prints, reprints, new sets"]:::act1 --> T5
+  T5["**5. Correction**<br/>modern/mid-tier fall first & hardest;<br/>true grails and low-pop vintage hold"]:::risk
+  T5 -. "buy scarce high-grade with a<br/>reason to be wanted in 20 years " .-> T1
+```
 
 1. Trigger: nostalgia (a documentary, an anniversary), cheap money, celebrity
    buyers, a breakout player.

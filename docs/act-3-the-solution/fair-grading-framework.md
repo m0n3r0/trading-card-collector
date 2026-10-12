@@ -18,6 +18,34 @@ is fair to collectors, and how feasible it is.
 
 ## Layer 1 — Structural separation (the long game; industry/regulator level)
 
+
+The four layers of the fix, ordered slowest to fastest to implement.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  FIX["**The Fair Grading Framework**<br/>ordered slowest -> fastest"]:::key
+  FIX --> L1
+  L1["**Layer 1 — Structural separation**<br/>divest/firewall · independent<br/>standards body · regulatory trigger<br/>(industry / regulator level)"]:::act3
+  FIX --> L2
+  L2["**Layer 2 — Transparency standards**<br/>gem rates · subgrades · audits ·<br/>honest pops · custody · liability<br/>(any grader, this year)"]:::act3
+  FIX --> L3
+  L3["**Layer 3 — Market mechanisms**<br/>outside-source rule · dual-grade ·<br/>cert discipline · trend pricing<br/>(collectors, today)"]:::act3
+  FIX --> L4
+  L4["**Layer 4 — Governance & advocacy**<br/>open data · scorecard · escrow ·<br/>keep the records<br/>(collectors as a class)"]:::act3
+  L3 --> T["**tracker/** + playbook:<br/>Layer 3 already works"]:::verify
+```
+
 | # | Measure | Why it's fair to collectors | Feasibility |
 |---|---------|------------------------------|-------------|
 | 1.1 | **Divest or firewall**: the grading entity should not own the marketplace, the vault/instant-sell program, or a price-data tool used as a market benchmark. If ownership stays, a legal information barrier with **annual independent audit** of the barrier. | Removes the referee-in-the-market structure (Act II §2.2) entirely; the 2006 credit-rating reform shows registration + oversight is a workable template [S6]. | Low today (needs divestment or law), but this is the only layer that fixes the problem at the root |
@@ -36,6 +64,35 @@ is fair to collectors, and how feasible it is.
 | 2.6 | **Real liability**: full-replacement-value coverage for every card in process (not tiered by declared value), claims handled with an independent third party, terms in plain language, claims statistics published annually. | Turns the "read the liability terms" warning (playbook §3) into a market requirement; the BBB complaints pattern [S5] is what happens when recourse is opaque |
 
 ## Layer 3 — Market mechanisms (what collectors can do today; the playbook, codified)
+
+
+The outside-source rule as a decision path — the single most important habit.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  START["**About to buy a PSA 10**"]:::key
+  START --> COMPS{"10-20 **sold** comps<br/>of the exact card/grade/variant?"}:::flow
+  COMPS -->|"no"| GOTO["**Stop — gather comps<br/>(eBay sold, auction archives, TCGplayer)**"]:::risk
+  GOTO --> COMPS
+  COMPS -->|"yes"| OUT{"Is **at least one source outside**<br/>the grader's corporate group?"}:::flow
+  OUT -->|"no"| ADD["**Add an outside source**<br/>(eBay sold, 130point, PriceCharting, your tracker)"]:::risk
+  ADD --> OUT
+  OUT -->|"yes"| MED["**Discard outliers, take the median**"]:::flow
+  MED --> ADJ["Adjust for eye appeal, slab condition,<br/>pop trend, buyer's premium"]:::flow
+  ADJ --> WA["**Write down your walk-away price**"]:::verify
+  WA --> EXEC["**Execute inside it — never above**"]:::verify
+```
 
 These need no one's permission. They are the existing rules in
 `psa10-playbook.md` and `valuation-and-selling.md`, restated as a single standard:
@@ -94,6 +151,36 @@ These need no one's permission. They are the existing rules in
 | **This chapter** | The missing link: the industry-side fix, and the line between verified fact and proposal |
 
 ## The short side and the long side
+
+
+The short side (do it today) vs the long side (push for it).
+
+```mermaid
+
+flowchart LR
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  FIX["**The fix**"]:::key
+  FIX --> SHORT["**Short side — do it today**"]:::act3
+  FIX --> LONG["**Long side — push for it**"]:::act3
+  SHORT --> S1["independent data (tracker)"]:::verify
+  SHORT --> S2["outside-source price checks"]:::verify
+  SHORT --> S3["full documentation"]:::verify
+  SHORT --> S4["full insurance, both ways"]:::verify
+  LONG --> L1["published gem rates & subgrades"]:::act3
+  LONG --> L2["audited inter-grader consistency"]:::act3
+  LONG --> L3["chain of custody per cert"]:::act3
+  LONG --> L4["real, published liability"]:::act3
+  LONG --> L5["separate grading from the market"]:::act3
+```
 
 The repo's practical answer to the grading issue was always: *document more,
 diversify your price data, insure fully* [S9]. This chapter makes explicit that those

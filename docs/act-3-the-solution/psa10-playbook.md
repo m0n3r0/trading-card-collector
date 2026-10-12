@@ -149,6 +149,29 @@ hard to gem, and each new 10 barely moves supply. Same grade, opposite markets.
 
 ## 5. How PSA grading works end to end
 
+
+The grading pipeline, end to end.
+
+```mermaid
+
+flowchart LR
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  SUB["**1. Submission**<br/>pick a tier by declared value"]:::act3 --> INTAKE
+  INTAKE["**2. Intake & auth**<br/>genuineness confirmed,<br/>submission # issued"]:::act3 --> GRD
+  GRD["**3. Grading**<br/>multiple graders, 4 criteria,<br/>extra review on high value"]:::act3 --> ENCAP
+  ENCAP["**4. Encapsulation**<br/>sealed, labeled, cert published<br/>to the pop report"]:::act3 --> RET
+  RET["**5. Return shipping**<br/>insured both ways — budget it"]:::act3
+```
+
 1. **Submission.** You choose a service tier by declared value per card (higher
    value = higher fee, faster turnaround). Economy tiers are cheapest with the
    longest waits; event on-site grading is fastest and most expensive.
@@ -181,6 +204,34 @@ opinion, and your price checks should include sources outside the group (see
 section 8 and `../act-1-the-hobby/grading-companies.md` 2.7).
 
 ## 6. Should you grade it yourself
+
+
+The grade-or-buy decision, driven by an honest P(10).
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  START["**Should I grade this raw card?**"]:::key
+  START --> PRE["**Pre-grade honestly**<br/>10x loupe, centering tool,<br/>compare vs PSA 9/10 exemplars"]:::act3
+  PRE --> EST{"**Honest P(10)?**<br/>most 'pack fresh 10s' come back 9"}:::key
+  EST -->|"low"| NINE["**Price_9 barely covers cost?**"]:::flow
+  NINE -->|"yes"| DONT["**Don't grade — buy the 10**"]:::risk
+  NINE -->|"no, spread is big"| EV
+  EST -->|"high (copy is exceptional)"| EV
+  EV{"**EV = P(10)x10 + P(9)x9 + ...<br/>- fee - ship - insure - time**"}:::key
+  EV -->|"positive, strong margin"| GRAD["**Grade it** (batch or middleman)"]:::verify
+  EV -->|"thin margin"| DONT2["**Time erases it — buy the 10**"]:::risk
+```
 
 Grade a raw card yourself only when the math works:
 
@@ -353,6 +404,31 @@ or customs), never headline prices.
   common. Treat every slab as guilty until the cert verifies.
 
 ## 11. Authentication and fakes
+
+
+The six-step verification order, in sequence.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  V["**Verify before paying, in order**"]:::key
+  V --> A1["**1. Cert lookup**<br/>must return this exact card/set/grade"]:::verify
+  A1 --> A2["**2. Slab inspection**<br/>welds, label, barcode, rattle"]:::flow
+  A2 --> A3["**3. Cert cloning**<br/>real # on fake slab — era-match, est. sellers"]:::unv
+  A3 --> A4["**4. Label tampering**<br/>9->10 alters, qualifier removals"]:::unv
+  A4 --> A5["**5. Card swap**<br/>genuine slab, wrong/lower card inside"]:::unv
+  A5 --> A6["**6. Post-purchase** ($1,000+):<br/>reholder/review to confirm"]:::verify
+```
 
 Verify before paying, in this order:
 
@@ -609,6 +685,48 @@ boxes and real slab-fit photos show true sizing better than renders.
     price, execute inside it, move on.
 
 ## 17. Checklists
+
+
+The three checklists — before paying, in person, on arrival.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  subgraph BEFORE["**Before paying (every purchase)**"]
+    direction TB
+    B1["exact variant confirmed"]:::flow
+    B2["pop 10 + trend checked"]:::flow
+    B3["10-20 comps, walk-away written"]:::flow
+    B4["cert verified, matches card"]:::flow
+    B5["photos front/back, seller history"]:::flow
+    B6["protected payment, tracked+insured"]:::flow
+  end
+  subgraph PERSON["**In person (shops/shows)**"]
+    direction TB
+    I1["phone charged, loupe, comp sheet"]:::flow
+    I2["cash in mixed bills + card backup"]:::flow
+    I3["every cert verified on the spot"]:::flow
+    I4["slab integrity in hand; receipt w/ certs"]:::flow
+  end
+  subgraph ARRIVE["**On arrival**"]
+    direction TB
+    R1["video the unboxing, uncut"]:::flow
+    R2["cert matches purchase record"]:::flow
+    R3["slab intact, card matches grade"]:::flow
+    R4["photos+records filed; issue window calendared"]:::verify
+  end
+  BEFORE --> PERSON --> ARRIVE
+```
 
 ### Before paying (every purchase)
 

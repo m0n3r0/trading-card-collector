@@ -1,5 +1,31 @@
 # trading-card-collector
 
+
+The whole repo at a glance — three acts, twelve chapters, one instrument.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  A["**ACT I — THE HOBBY**<br/>Grading turns cardboard into a<br/>liquid, comparable asset"]:::act1 --> B
+  B["**ACT II — THE PROBLEM**<br/>The referee who defines the product<br/>now runs much of the market"]:::act2 --> C
+  C["**ACT III — THE SOLUTION**<br/>Four-layer Fair Grading Framework<br/>+ the collector playbook"]:::act3
+
+  A --> A1["Ch 1-5: market, graders,<br/>sports, TCGs, sealed"]:::act1
+  B --> B1["Ch 6-8: the conflict +<br/>two eyewitness evidence files"]:::act2
+  C --> C1["Ch 9-12: framework, value,<br/>fakes, PSA 10 playbook"]:::act3
+  C --> T["**tracker/** — independent data,<br/>the practical core of the fix"]:::act3
+```
+
 **One story, three acts: the hobby introduced → the problem defined → the solution
 proposed.**
 

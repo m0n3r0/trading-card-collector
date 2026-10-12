@@ -43,6 +43,38 @@ modern cards the grading fee can exceed the whole premium.
 
 ## 2.3 Choosing a grader
 
+
+Choosing a grader, and the EV test that must come back positive.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  Q{"Which card<br/>are you grading?"}:::key
+  Q -->|"Pokemon / most sports"| PSA["**PSA**<br/>(default, most liquid)"]:::act2
+  Q -->|"modern chrome sports,<br/>chance at perfect subgrades"| BGS["**BGS**<br/>9.5 tier, Black Label"]:::act2
+  Q -->|"pre-1980 sports"| VINT["**PSA or SGC**"]:::act2
+  Q -->|"MTG / Yu-Gi-Oh / One Piece / Lorcana"| TCG["**PSA or CGC**<br/>(check the game's sold history)"]:::verify
+  Q -->|"Japanese cards"| JPN["**PSA or CGC**<br/>(strong JP markets)"]:::verify
+  PSA --> EV
+  BGS --> EV
+  VINT --> EV
+  TCG --> EV
+  JPN --> EV
+  EV{"**EV positive?**<br/>P(10)x10 + P(9)x9 - fee - ship<br/>- insure - time > 0 ?"}:::key
+  EV -->|"yes, honest P(10)"| GO["**Grade it**"]:::verify
+  EV -->|"no"| NO["**Buy the 10 instead**"]:::flow
+```
+
 1. Look up sold prices for the same card in PSA 10, BGS 9.5 and 10, SGC 10 and CGC 10.
    Choose the grader whose slab sells for the most after fees.
 2. Rules of thumb (check against current comps):
@@ -85,6 +117,34 @@ modern cards the grading fee can exceed the whole premium.
   from card grading. An "auto" grade on the label refers to the signature.
 
 ## 2.7 Who owns the graders (consolidation)
+
+
+Who owns which grader — the three Collectors brands vs the independent CGC and TAG.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  COLLECTORS["**Collectors (Collectors Universe)**<br/>taken private 2021 (Cohen, D1, Nat Turner)"]:::act2
+  COLLECTORS --> PSA["**PSA**<br/>1991 · founded by PCGS founder"]:::act2
+  COLLECTORS --> BGS["**BGS (Beckett)**<br/>acquired 2025 · keeps brand"]:::act2
+  COLLECTORS --> SGC["**SGC**<br/>acquired 2023 · sports merged into PSA"]:::act2
+  COLLECTORS --> WATA["**Wata Games**<br/>video games · 2021"]:::act2
+  COLLECTORS --> VAULT["**vault + sales +<br/>(reported) price data**"]:::risk
+
+  INDEP["**Independent**"]:::verify
+  INDEP --> CGC["**CGC**<br/>Certified Collectibles Group · 2nd in share"]:::verify
+  INDEP --> TAG["**TAG**<br/>automated imaging · thin liquidity"]:::verify
+```
 
 Ownership was checked against Wikipedia on 2026-10-12 (Collectors Universe
 article):

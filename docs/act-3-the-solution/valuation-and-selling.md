@@ -6,6 +6,30 @@
 
 ## 7.1 Building a fair value for any card
 
+
+Building a fair value, step by step.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  S1["**1. Identify the exact item**<br/>game, set, number, variant,<br/>grader, grade"]:::act3 --> S2
+  S2["**2. Gather 30-90d sold comps**<br/>eBay sold, auction archives,<br/>APR, 130point, Cardmarket, tracker"]:::act3 --> S3
+  S3["**3. Clean the data**<br/>drop best-offer ambiguity, damaged,<br/>shill outliers"]:::act3 --> S4
+  S4["**4. Weight by recency & similarity**<br/>same grader/grade/eye-appeal;<br/>median beats last sale"]:::act3 --> S5
+  S5["**5. Adjust for trend**<br/>30d vs 90d median; watch pop"]:::act3 --> S6
+  S6["**6. Set walk-away = tracker target**"]:::verify
+```
+
 1. Identify the exact item: game/sport, set, number, variant (1st Ed,
    parallel, serial number, language), grader, grade.
 2. Gather sold comps from the last 30-90 days:

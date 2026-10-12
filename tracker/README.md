@@ -16,6 +16,31 @@ statistics, draws its own charts, and flags buy signals against your targets.
 
 ## Quick start
 
+
+The tracker's loop: log -> store -> report/alert/chart -> act.
+
+```mermaid
+
+flowchart LR
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  LOG["**Log what you see**<br/>record (sold) + sight (live)<br/>price, date, source, URL"]:::act3 --> DB
+  DB[("history.db<br/>local SQLite,<br/>never committed")]:::verify
+  DB --> REP["**report**<br/>watchlist vs targets,<br/>last 90 days"]:::act3
+  DB --> ALT["**alerts**<br/>only BUY signals"]:::act3
+  DB --> CHART["**chart**<br/>ASCII or standalone SVG/HTML"]:::act3
+  REP --> BUY{"**BUY / NEAR / WATCH**"}:::key
+  BUY -->|"BUY"| VERIFY["**re-verify cert + slab<br/>photos per the playbook,<br/>then pay**"]:::verify
+```
+
 ```bash
 cd tracker
 python3 tracker.py selftest        # offline checks, always passes without network

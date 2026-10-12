@@ -45,6 +45,30 @@
 
 ## 2. Ownership, checked
 
+
+The consolidation timeline, checked against Wikipedia (2026-10-12).
+
+```mermaid
+
+flowchart LR
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  T21["**2021**<br/>taken private<br/>$700M (Cohen, D1, Nat Turner)"]:::act2
+  T21W["**2021**<br/>acquires Wata Games<br/>(video games)"]:::act2
+  T23["**2023**<br/>acquires SGC<br/>sports merged into PSA"]:::act2
+  T25["**2025**<br/>acquires Beckett (BGS)<br/>keeps the brand"]:::act2
+  T21 --> T21W --> T23 --> T25
+  T25 --> R["**Result: 3 of the top 5<br/>grading brands under one owner**"]:::risk
+```
+
 From the Wikipedia article on Collectors Universe, fetched 2026-10-12:
 
 - **2021:** Collectors Universe (PSA's parent) is taken private by Steve Cohen,

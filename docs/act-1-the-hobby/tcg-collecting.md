@@ -9,6 +9,33 @@ bans and reprints. A pure collector card depends only on collector interest.
 
 ## 4.1 Comparison at a glance
 
+
+Two kinds of TCG demand, and the rules that apply to every game.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  C["**A TCG card**"]:::key
+  C --> PLAY["**Playable**"]:::act1
+  C --> COLLECT["**Pure collector**"]:::act1
+  PLAY --> FLOOR["has a **demand floor**<br/>(people need it to play)"]:::verify
+  PLAY --> RISK1["exposed to **bans & reprints**"]:::risk
+  COLLECT --> NOFLOOR["no demand floor —<br/>depends only on collector interest"]:::risk
+  PLAY --> RULES
+  COLLECT --> RULES
+  RULES["**Rules that apply to every TCG**<br/>reprint risk · ban risk · variants ·<br/>grade the right cards · set lifecycle"]:::act3
+```
+
 | Game | Publisher | Launched | Collector focus | Main risks |
 |------|-----------|----------|-----------------|------------|
 | Pokemon TCG | The Pokemon Company (Wizards of the Coast in the US 1998-2003) | Japan Oct 1996, US 1998-99 | WOTC vintage (Base, Jungle, Fossil, Neo, e-Card), 1st Edition, shadowless, Japanese promos, modern alt arts and SIRs | Fakes, reseals, modern print waves, scalping-driven sealed spikes |
@@ -69,6 +96,30 @@ Dates and publishers checked against Wikipedia (October 2026). See `../reference
   comps with TCG prints.
 
 ## 4.5 Rules that apply to every TCG
+
+
+The set lifecycle — and the reprint fork that decides the outcome.
+
+```mermaid
+
+flowchart LR
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  REL["**Release**<br/>hype peak, weeks 1-4"]:::key
+  REL --> DECAY["**Decay**<br/>3-6 months while it prints"]:::risk
+  DECAY --> OUT["**Out of print**<br/>winners start to appreciate"]:::verify
+  OUT --> REPRINT{"**Reprinted?**"}:::key
+  REPRINT -->|"yes"| DOWN["supply returns,<br/>price drops"]:::risk
+  REPRINT -->|"no"| UP["scarcity holds,<br/>price rises"]:::verify
+```
 
 1. Reprint risk: check the publisher's reprint policy. The Reserved List is the
    only formal no-reprint guarantee. Everything else can come back.

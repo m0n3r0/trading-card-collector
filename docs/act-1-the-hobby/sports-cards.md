@@ -5,6 +5,30 @@
 
 ## 3.1 Vocabulary that drives price
 
+
+The price ladder: from base card up to relic / RPA.
+
+```mermaid
+
+flowchart BT
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  BASE["**Base**<br/>cheapest, liquidity = player"]:::flow
+  PAR["**Parallel**<br/>rises with scarcity"]:::act1
+  SERIAL["**Numbered /99 /25 /10, 1/1**<br/>lower number = higher price"]:::act1
+  AUTO["**Auto (on-card > sticker)**"]:::act1
+  RELIC["**Relic / patch / RPA**<br/>multi-color & logos = big premium"]:::money
+  BASE --> PAR --> SERIAL --> AUTO --> RELIC
+```
+
 | Term | Meaning | Price impact |
 |------|---------|--------------|
 | RC (rookie card) | A player's first licensed card in a major set, marked with an RC logo in modern products | The single biggest premium for a player |
@@ -53,6 +77,30 @@ licensed cards can rise or fall. New brands need years to build collector loyalt
 rookies from transition years are hard to value.
 
 ## 3.4 Valuing a modern sports card
+
+
+The five inputs that drive a modern sports card's price.
+
+```mermaid
+
+flowchart LR
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  P["**Player**<br/>performance, age, HOF<br/>trajectory, injury"]:::act1 --> C
+  C["**Card**<br/>rookie year, flagship brand,<br/>parallel scarcity, auto"]:::act1 --> G
+  G["**Condition & grade**<br/>chrome centering/surface<br/>chips out of pack"]:::act1 --> POP
+  POP["**Population**<br/>base rookies can have<br/>10,000s of PSA 10s"]:::act2 --> SEAS
+  SEAS["**Season timing**<br/>peaks in-season/playoffs,<br/>softer in off-season"]:::act1 --> PRICE
+  PRICE["**Landed price**"]:::money
+```
 
 1. Player: on-field performance, age, position and market (big-market teams
    and quarterbacks sell best), injury history, Hall of Fame trajectory.

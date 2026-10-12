@@ -18,6 +18,37 @@ it is labelled as such — that labelling is the point of this chapter.
 
 ## 1. The turn of the story
 
+
+The conflict of interest in one picture: the grader owns the standard and much of the market.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  GRADE["**The Grader**<br/>assigns the number on the slab"]:::key
+  GRADE --> OWN1["**Grading**<br/>PSA + BGS + SGC (3 of top 5)"]:::act2
+  GRADE --> OWN2["**Population reports**<br/>the supply data buyers rely on"]:::act2
+  GRADE --> OWN3["**Price data**<br/>(reported: Card Ladder)"]:::unv
+  GRADE --> OWN4["**Vault + marketplace**<br/>stores cards, facilitates sales"]:::act2
+  GRADE --> OWN5["**Instant-sell offers**<br/>you may not know the counterparty"]:::unv
+
+  COLLECTOR["**The Collector**<br/>buys/sells on that standard"]:::act3
+  COLLECTOR -->|"trusts the number"| GRADE
+  OWN4 -. "the referee<br/>can also trade " .-> COLLECTOR
+
+  note["**The conflict:** the standard that prices every card is set by<br/>a party that can store it, sell it, and (reportedly) index it"]:::risk
+  GRADE --> note
+```
+
 `../act-1-the-hobby/grading-companies.md` 2.7 established the structural fact: PSA,
 BGS and SGC now share one owner (Collectors), and the group also runs vault and sales
 products and is reported to own price-data tools. `monopoly-video-notes.md` (in this
@@ -26,6 +57,30 @@ neutral?* This chapter answers it with evidence; `../act-3-the-solution/` is whe
 answer becomes action.
 
 ## 2. The problem, in five parts
+
+
+The five parts of the problem.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  P["**The grading problem, in 5 parts**"]:::key
+  P --> P1["**1. Consolidation**<br/>one owner judges 3 of top 5 grades"]:::act2
+  P --> P2["**2. Referee = market participant**<br/>grades, stores, sells, (indexes)"]:::act2
+  P --> P3["**3. Subjective grade, non-subjective price**<br/>1 point = $1.4M vs $16.5M"]:::risk
+  P --> P4["**4. Manufactured, opaque scarcity**<br/>gem rate & pop pipeline are private"]:::act2
+  P --> P5["**5. Accountability gap**<br/>BBB F rating, private liability"]:::risk
+```
 
 ### 2.1 One company now judges three of the top five grades
 
@@ -59,6 +114,32 @@ Consequences a buyer should internalize:
 
 ### 2.2 The referee is also a market participant
 
+
+The credit-rating precedent the 2006 reform followed.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  CRA["**Credit ratings (the precedent)**"]:::act2
+  CRA --> COI["issuer pays the rater =<br/>**conflict of interest**"]:::risk
+  COI --> C08["**2008 crisis**<br/>Big Three = 97-98% of US ratings"]:::risk
+  C08 --> REFORM["**2006 Reform Act**<br/>registration, min criteria, SEC oversight"]:::verify
+  REFORM -. "the template for " .-> CARDS
+  CARDS["**Card grading (today)**<br/>the grader also runs the market"]:::key
+  CARDS --> Q{"Has grading<br/>had its 2008 yet?"}:::key
+  Q -->|"not — yet"| FUTURE["**Layer 1 of the fix**<br/>is how to avoid it"]:::act3
+```
+
 What is **verified**: the group is a grading, publishing, vaulting and sales
 conglomerate (75 million certified items by 2019 [S1]); its brands hold exclusives
 that tie grading to specific product lines (BGS holds the exclusive right to grade
@@ -82,6 +163,31 @@ structural, not an accusation: grading has not been through the equivalent of 20
 Yet.
 
 ### 2.3 The grade is subjective, and the price is not
+
+
+The 9-to-10 cliff, made concrete: the same card, one point apart, five weeks apart.
+
+```mermaid
+
+flowchart LR
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  C["**One card: Pikachu Illustrator**<br/>(41 copies printed)"]:::key
+  C --> P10["**PSA 10**<br/>Logan Paul, Jul 2021: $5.275M"]:::verify
+  C --> P9["**PSA 9**<br/>Heritage, Mar 2026: $1,406,250"]:::risk
+  P10 --> S16["**sold Feb 2026:<br/>$16.5 million**"]:::money
+  P9 --> GAP
+  S16 --> GAP
+  GAP["**1 point of grade**<br/>= ~11.7x in price,<br/>five weeks apart"]:::risk
+```
 
 Grading is a 1–10 scale built from four sub-criteria — centering, corners, edges,
 surface — combined into one number [S4]. A single number, assigned by humans under
@@ -145,6 +251,38 @@ largest brand failed a basic consumer-complaints standard in 2025, and there is 
 public, standing mechanism to check the others.
 
 ## 3. Why this is specifically unfair to collectors
+
+
+Information asymmetry: what the grader knows vs what the collector knows.
+
+```mermaid
+
+flowchart LR
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  subgraph GRADER["**The grader knows**"]
+    direction TB
+    G1["the rubric & tolerances"]:::act2
+    G2["the gem rate (share of 10s)"]:::act2
+    G3["backlog, specials, pop waves"]:::act2
+    G4["the resubmission flow"]:::act2
+    G5["the pipeline, in real time"]:::act2
+  end
+  subgraph YOU["**The collector knows**"]
+    direction TB
+    Y1["a number on a label"]:::act3
+    Y2["a pop snapshot"]:::act3
+  end
+  GRADER ==>|"information asymmetry<br/>runs one way"| YOU
+```
 
 1. **Information asymmetry runs one way.** The grader knows the rubric, the gem rate,
    the backlog, the specials, the resubmission flow. The collector knows a number on a

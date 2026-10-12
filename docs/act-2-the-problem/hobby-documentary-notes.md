@@ -36,6 +36,30 @@
 
 ## 2. Market lessons that transfer to PSA 10 Pokemon
 
+
+What the documentary's speakers claim (unverified) and how it transfers.
+
+```mermaid
+
+flowchart TD
+classDef act1 fill:#dbeafe,stroke:#1e40af,stroke-width:2px,color:#1e3a8a;
+classDef act2 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d;
+classDef act3 fill:#dcfce7,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef key fill:#fde68a,stroke:#b45309,stroke-width:2.5px,color:#78350f;
+classDef risk fill:#fecaca,stroke:#991b1b,stroke-width:2px,color:#7f1d1d;
+classDef verify fill:#bbf7d0,stroke:#15803d,stroke-width:2px,color:#14532d;
+classDef unv fill:#fef3c7,stroke:#b45309,stroke-width:2px,stroke-dasharray:6 4,color:#78350f;
+classDef money fill:#fef9c3,stroke:#a16207,stroke-width:2px,color:#713f12;
+classDef flow fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#334155;
+classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
+  DOC["**'The Hobby' documentary**<br/>(speakers' claims, not verified)"]:::unv
+  DOC --> L1["**Grading = the value engine**<br/>pop reports made scarcity measurable"]:::act2
+  DOC --> L2["**Grading is subjective**<br/>same card, 1 grade apart = 5-10x"]:::risk
+  DOC --> L3["**Boom & flipping**<br/>'don't go straight up forever'"]:::unv
+  DOC --> L4["**Supply transparency**<br/>pop + sold comps fixed junk-wax opacity"]:::verify
+  DOC --> L5["**Collector vs investor**<br/>buy what you'd be happy to keep"]:::act3
+```
+
 1. Grading is the value engine. Pop reports plus 30 years of graded data are what
    made scarcity measurable ("only nine Mantle cards in mint or gem mint"), and
    that drove demand for the rare ones (1:00). Same logic as guide section 4.
