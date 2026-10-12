@@ -121,6 +121,16 @@ def cmd_list(con, _a):
 
 def cmd_remove(con, a):
     card = get_card(con, a.label)
+    n = con.execute("SELECT COUNT(*) FROM observations WHERE card_id = ?",
+                    (card["id"],)).fetchone()[0]
+    if not a.yes:
+        if not sys.stdin.isatty():
+            raise SystemExit("refusing to remove %r (%d observations) without --yes"
+                             % (a.label, n))
+        ans = input("remove %r and its %d observations? [y/N] " % (a.label, n))
+        if ans.strip().lower() not in ("y", "yes"):
+            print("cancelled")
+            return
     con.execute("DELETE FROM observations WHERE card_id = ?", (card["id"],))
     con.execute("DELETE FROM cards WHERE id = ?", (card["id"],))
     con.commit()
@@ -132,7 +142,10 @@ def cmd_log(con, a, kind):
     if a.price <= 0:
         raise SystemExit("price must be positive")
     ts = a.date or today_iso()
-    datetime.date.fromisoformat(ts)  # validates YYYY-MM-DD
+    try:
+        datetime.date.fromisoformat(ts)
+    except ValueError:
+        raise SystemExit("invalid --date %r: use YYYY-MM-DD" % ts)
     con.execute(
         "INSERT INTO observations (card_id, kind, price_usd, ts, source, url, note)"
         " VALUES (?, ?, ?, ?, ?, ?, ?)",
@@ -170,19 +183,24 @@ def stats(prices):
 
 def cmd_history(con, a):
     card = get_card(con, a.label)
-    obs = observations(con, card["id"], kind=a.kind)
+    kind = None if a.kind in (None, "all") else a.kind
+    obs = observations(con, card["id"], kind=kind)
     if not obs:
-        print("no observations for %r" % a.label)
+        print("no %sobservations for %r" % (kind + " " if kind else "", a.label))
         return
     print("%-6s %12s %-12s %-20s %s" % ("KIND", "PRICE", "DATE", "SOURCE", "NOTE"))
     for o in obs:
         print("%-6s %12s %-12s %-20s %s" % (
             o["kind"], fmt_usd(o["price"]), o["ts"],
             (o["source"] or "")[:20], (o["note"] or "")))
-    s = stats([o["price"] for o in obs])
-    print("n=%d median=%s mean=%s min=%s max=%s" % (
-        s["n"], fmt_usd(s["median"]), fmt_usd(s["mean"]),
-        fmt_usd(s["min"]), fmt_usd(s["max"])))
+    for k in KINDS:
+        prices = [o["price"] for o in obs if o["kind"] == k]
+        if not prices:
+            continue
+        s = stats(prices)
+        print("%s: n=%d median=%s mean=%s min=%s max=%s" % (
+            k, s["n"], fmt_usd(s["median"]), fmt_usd(s["mean"]),
+            fmt_usd(s["min"]), fmt_usd(s["max"])))
 
 
 # --------------------------------------------------------------------------
@@ -193,6 +211,10 @@ def ascii_chart(points, width=64, height=14):
     """points: [(ts, price)]. Returns a text chart string."""
     if not points:
         return "(no data)"
+    if len({t for t, _ in points}) == 1:
+        avg = statistics.fmean(p for _, p in points)
+        return "%s: %s (n=%d, single date; log more observations to chart a trend)" % (
+            points[0][0], fmt_usd(avg), len(points))
     prices = [p for _, p in points]
     lo, hi = min(prices), max(prices)
     span = (hi - lo) or 1.0
@@ -395,7 +417,11 @@ def cmd_import(con, a):
     with open(a.json, encoding="utf-8") as f:
         entries = json.load(f)
     added, skipped = 0, 0
-    for e in entries:
+    for i, e in enumerate(entries):
+        if not isinstance(e, dict) or not e.get("label"):
+            print("skip entry %d: missing label" % i)
+            skipped += 1
+            continue
         try:
             con.execute(
                 "INSERT INTO cards (label, set_name, grade, grader, target_usd,"
@@ -405,7 +431,8 @@ def cmd_import(con, a):
                  e.get("note", ""), today_iso()),
             )
             added += 1
-        except (sqlite3.IntegrityError, KeyError):
+        except sqlite3.IntegrityError:
+            print("skip %r: already tracked" % e["label"])
             skipped += 1
     con.commit()
     print("imported %d cards, skipped %d" % (added, skipped))
@@ -448,7 +475,43 @@ def cmd_selftest(_con, _a):
                     [(o["ts"], o["price"]) for o in sold], 9000)
     assert "<svg" in page and "http" not in page.replace("http://www.w3.org", "")
     assert "javascript" not in page.lower()
-    print("SELFTEST OK (sqlite, stats, signals, ascii chart, standalone svg)")
+    one = ascii_chart([("2026-01-01", 100.0)])
+    assert "single date" in one and "\n" not in one
+    # CLI paths on a throwaway db: history (all kinds), bad date, import, remove
+    import contextlib
+    import io
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        db = os.path.join(tmp, "t.db")
+        wl = os.path.join(tmp, "wl.json")
+        with open(wl, "w", encoding="utf-8") as f:
+            json.dump([{"label": "A"}, {"set": "no label"}, {"label": "A"}], f)
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            main(["--db", db, "import", "--json", wl])
+            main(["--db", db, "record", "A", "10", "--date", "2026-01-01"])
+            main(["--db", db, "sight", "A", "12", "--date", "2026-01-02"])
+            main(["--db", db, "history", "A"])
+        out = buf.getvalue()
+        assert "imported 1 cards, skipped 2" in out, out
+        assert "missing label" in out and "already tracked" in out, out
+        assert out.count("KIND") == 1 and "sold: n=1" in out \
+            and "listing: n=1" in out, out
+        for argv, needle in (
+                (["record", "A", "5", "--date", "2026-13-01"], "invalid --date"),
+                (["remove", "A"], "without --yes")):
+            old_stdin, sys.stdin = sys.stdin, io.StringIO("")  # non-tty
+            try:
+                main(["--db", db] + argv)
+                raise AssertionError("expected SystemExit for %r" % argv)
+            except SystemExit as e:
+                assert needle in str(e), e
+            finally:
+                sys.stdin = old_stdin
+        with contextlib.redirect_stdout(io.StringIO()):
+            main(["--db", db, "remove", "A", "--yes"])
+    print("SELFTEST OK (sqlite, stats, signals, ascii/svg charts, history, "
+          "date validation, import, remove)")
 
 
 # --------------------------------------------------------------------------
@@ -472,6 +535,7 @@ def build_parser():
     sub.add_parser("list", help="show watchlist")
     r = sub.add_parser("remove", help="untrack a card and its data")
     r.add_argument("label")
+    r.add_argument("--yes", action="store_true", help="skip confirmation")
 
     for name, kind in (("record", "sold"), ("sight", "listing")):
         c = sub.add_parser(name, help="log a %s observation" % kind)
@@ -520,12 +584,7 @@ def main(argv=None):
         elif args.cmd in ("record", "sight"):
             cmd_log(con, args, "sold" if args.cmd == "record" else "listing")
         elif args.cmd == "history":
-            if args.kind != "all":
-                cmd_history(con, args)
-            else:
-                for k in KINDS:
-                    args.kind = k
-                    cmd_history(con, args)
+            cmd_history(con, args)
         elif args.cmd == "chart":
             cmd_chart(con, args)
         elif args.cmd == "report":

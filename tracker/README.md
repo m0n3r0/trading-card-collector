@@ -25,6 +25,7 @@ python3 tracker.py alerts          # only buy signals
 python3 tracker.py chart "Charizard #4 Base" --kind sold
 python3 tracker.py chart "Charizard #4 Base" --html zard.html
 python3 tracker.py export --csv comps.csv
+python3 tracker.py remove "Charizard #4 Base" --yes   # asks first without --yes
 ```
 
 ## Signals
