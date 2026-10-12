@@ -1,6 +1,6 @@
 # 9. Sources
 
-> **Reference chapter** — where the facts in this repo come from and when they were
+> **Reference.** Where the facts in this repo come from and when they were
 > checked, plus the two video sources behind the evidence layer.
 
 Facts with numbers or dates in this handbook were checked on 2026-10-12
@@ -34,12 +34,12 @@ Video sources (notes from auto captions; speakers' claims, not verified):
 
 | Topic | Video | Notes |
 |-------|-------|-------|
-| Hobby history, 2020-2022 boom | https://www.youtube.com/watch?v=mLAGQLdK4vg | `../the-hobby-documentary-notes.md` |
-| PSA/Collectors conflict of interest, reholder damage, upcharges | https://www.youtube.com/watch?v=auEzxrJyNBE | `../psa-monopoly-video-notes.md` |
+| Hobby history, 2020-2022 boom | https://www.youtube.com/watch?v=mLAGQLdK4vg | `../act-2-the-problem/hobby-documentary-notes.md` |
+| PSA/Collectors conflict of interest, reholder damage, upcharges | https://www.youtube.com/watch?v=auEzxrJyNBE | `../act-2-the-problem/monopoly-video-notes.md` |
 
 Web sources for the fair-grading special report (fetched 2026-10-12 via the Wikipedia
 API; verbatim evidence snippets and the verification log are in
-`fair-grading.md` §7–8):
+`../act-2-the-problem/grading-conflict.md` §4–5 (and the framework in `../act-3-the-solution/fair-grading-framework.md`)):
 
 | Topic | Article |
 |-------|---------|

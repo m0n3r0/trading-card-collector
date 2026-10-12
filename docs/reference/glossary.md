@@ -1,9 +1,9 @@
 # 8. Glossary
 
-> **Reference chapter** — the hobby vocabulary, all in one place. Open whenever you need
+> **Reference.** The hobby vocabulary, all in one place. Open whenever you need
 > it; it does not need to be read in sequence with the rest of the story.
 
-Terms already defined in `../psa10-guide.md` section 18 (slab, cert, pop, comp,
+Terms already defined in `../act-3-the-solution/psa10-playbook.md` section 18 (slab, cert, pop, comp,
 reholder, crack, qualifier, buyer's premium, hammer price, eye appeal,
 walk-away price, slab premium, shill bidding) are not repeated.
 

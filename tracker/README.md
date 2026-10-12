@@ -1,6 +1,6 @@
 # Price Tracker
 
-> **Story VIII — the tool.** Your own price log, independent of the grader's corporate
+> **The instrument.** Your own price log, independent of the grader's corporate
 > group — the practical answer to the conflict of interest raised in the grader chapters.
 
 Own-data PSA 10 price tracker. No third-party APIs, no accounts, no tokens:
@@ -45,7 +45,7 @@ python3 tracker.py remove "Charizard #4 Base" --yes   # asks first without --yes
 1. After checking eBay solds / auctions / shops, log what you saw with
    `record` and `sight` (price, date, source, URL when available).
 2. Run `report`. When a card flips to BUY, re-verify the cert and slab photos
-   per `docs/psa10-guide.md` before paying.
+   per `docs/act-3-the-solution/psa10-playbook.md` before paying.
 3. Monthly: `chart --html` for cards you are close on, and re-check population
    trends.
 

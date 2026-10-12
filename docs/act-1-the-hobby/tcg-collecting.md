@@ -1,6 +1,6 @@
 # 4. Collectible Card Games (TCGs)
 
-> **Story III — the cards you can buy (2 of 3).** The card games. This is where Pokemon
+> **Act I — The hobby · chapter 4 of 12.** The cards you can buy (2 of 3). The card games. This is where Pokemon
 > lives; the deep dive assumes this vocabulary.
 
 TCG cards have two kinds of demand: players need the card to play, and
@@ -19,7 +19,7 @@ bans and reprints. A pure collector card depends only on collector interest.
 | Digimon Card Game | Bandai | 2020 (current version) | Alt arts, special rares, Japanese promos | Smaller market. Lower liquidity |
 | Weiss Schwarz | Bushiroad | 2007-2008 | Signed SP cards, anime crossover sets, Japanese-only prints | Mostly a Japanese market. Thin overseas liquidity |
 
-Dates and publishers checked against Wikipedia (October 2026). See `sources.md`.
+Dates and publishers checked against Wikipedia (October 2026). See `../reference/sources.md`.
 
 ## 4.2 Pokemon outside PSA 10 English vintage
 
@@ -53,7 +53,7 @@ Dates and publishers checked against Wikipedia (October 2026). See `sources.md`.
   in large numbers, so check the print run first.
 - Grading: PSA, BGS and CGC are all active. For Alpha and Beta, always buy graded
   or authenticated. Check corner shape, the rosette print pattern under a loupe,
-  and the light test (see `fakes-and-scams.md`).
+  and the light test (see `../act-3-the-solution/fakes-and-scams.md`).
 
 ## 4.4 Yu-Gi-Oh! specifics
 

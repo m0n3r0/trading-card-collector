@@ -1,11 +1,11 @@
 # PSA 10 Pokemon: The Complete Guide
 
-> **Story VI — the deep dive.** Everything the handbook sets up (the world, the graders,
+> **Act III — The solution · chapter 12 of 12.** The deep dive. Everything the handbook sets up (the world, the graders,
 > the cards, the value method, the fakes) applied, Pokemon by Pokemon, to the card this
 > repo exists for. Enter from the top-level `README.md` for the full arc.
 
 How PSA 10 grading works for Pokemon cards, how prices behave, and how to buy
-safely online and in person. Companion tooling lives in `../tracker/`, which
+safely online and in person. Companion tooling lives in `../../tracker/`, which
 monitors live listings and your sold-price comparables.
 
 ---
@@ -118,7 +118,7 @@ light, and a dark background:
   insure it at full replacement value both ways. Take high-resolution
   photos of the front, back and all four edges. Screenshot the cert page, and
   read PSA's liability and claims terms. Details are in
-  `psa-monopoly-video-notes.md`.
+  `../act-2-the-problem/monopoly-video-notes.md`.
 
 ## 4. Population reports: reading scarcity
 
@@ -178,7 +178,7 @@ and SGC (bought 2025 and 2023), runs a vault and sales products, and is
 reported to own the Card Ladder price tool. That doesn't change how you submit.
 It does mean a crossover between those three is not an independent second
 opinion, and your price checks should include sources outside the group (see
-section 8 and `trading-cards/grading-companies.md` 2.7).
+section 8 and `../act-1-the-hobby/grading-companies.md` 2.7).
 
 ## 6. Should you grade it yourself
 
@@ -664,5 +664,5 @@ boxes and real slab-fit photos show true sizing better than renders.
 - Modern fixed-price graded inventory: TCGplayer
 - Live tracking: the `tracker/` tool in this repository
 - Video notes (from captions; claims not verified):
-  `the-hobby-documentary-notes.md` (hobby history and the boom) and
-  `psa-monopoly-video-notes.md` (grader ownership, reholder risk, upcharges)
+  `../act-2-the-problem/hobby-documentary-notes.md` (hobby history and the boom) and
+  `../act-2-the-problem/monopoly-video-notes.md` (grader ownership, reholder risk, upcharges)

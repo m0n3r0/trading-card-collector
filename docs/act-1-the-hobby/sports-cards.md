@@ -1,6 +1,6 @@
 # 3. Sports Cards
 
-> **Story III — the cards you can buy (1 of 3).** The vocabulary and value logic of
+> **Act I — The hobby · chapter 3 of 12.** The cards you can buy (1 of 3). The vocabulary and value logic of
 > sports cards; the segment thinking the deep dive re-uses for Pokemon.
 
 ## 3.1 Vocabulary that drives price
@@ -80,4 +80,4 @@ rookies from transition years are hard to value.
 - 1952 Topps Mickey Mantle, PSA 9: $2.88M (2018).
 - T206 Honus Wagner (the "Gretzky" copy): $451K (1991), $500K (1995), $1.27M (2000), $2.35M (2007).
 
-Source: Wikipedia, checked October 2026. See `sources.md`.
+Source: Wikipedia, checked October 2026. See `../reference/sources.md`.

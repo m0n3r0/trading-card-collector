@@ -1,31 +1,29 @@
-# Special Report: Fair Grading — the problem, the evidence, and a proposal for collectors
+# Act II — The Problem: The Grading Conflict of Interest
 
-> **Story VII — the fix.** Everything before this chapter established that grading
-> creates the value of a card, and that the people who assign the grade increasingly
-> operate the market around it. This chapter is the deep dive into the grading issue:
-> what is verified, what is only reported, why the structure is unfair to collectors,
-> and a concrete four-layer proposal to make it fairer.
+> **Act II — The problem · chapter 6 of 12 — the backbone of the repo.** Everything in Act I
+> established that grading is what makes a card valuable. This chapter is the turn: the
+> people who assign the grade now increasingly operate the market around it. Here is
+> the problem, precisely, with evidence — what is verified, what is only reported, and
+> why it is unfair to collectors specifically. Act III is the answer.
 
-Method note: this report was researched 2026-10-12 with a parallel web-search swarm
+Method note: this chapter was researched 2026-10-12 with a parallel web-search swarm
 (five concurrent search agents). Primary sources are English Wikipedia articles
-fetched that day via the Wikipedia API; the two video-note files in this repo are the
-secondary, explicitly-unverified layer. Every factual claim below carries a source tag
-`[S#]`; the full list and verbatim evidence snippets are in the sources table and the
-verification appendix at the end. **Proposals are mine; facts are sourced.** If a
-claim is only reported and not checked, it is labelled as such — that labelling is
-the point of this report.
+fetched that day via the Wikipedia API; the two video-note files in this directory are
+the secondary, explicitly-unverified layer. Every factual claim below carries a source
+tag `[S#]`; the full list and verbatim evidence snippets are in the sources table
+(§4) and the verification appendix (§5). If a claim is only reported and not checked,
+it is labelled as such — that labelling is the point of this chapter.
 
 ---
 
-## 1. Why this chapter exists
+## 1. The turn of the story
 
-`grading-companies.md` 2.7 established the structural fact: PSA, BGS and SGC now share
-one owner (Collectors), and the group also runs vault and sales products and is
-reported to own price-data tools. `psa-monopoly-video-notes.md` asked the obvious
-question: *how do you know the standard is still neutral?* This chapter answers it in
-three parts — (a) the problem, precisely and with evidence; (b) why it is unfair to
-collectors specifically; (c) a solution, layer by layer, from what the industry should
-do to what you can do today with the tools in this repo.
+`../act-1-the-hobby/grading-companies.md` 2.7 established the structural fact: PSA,
+BGS and SGC now share one owner (Collectors), and the group also runs vault and sales
+products and is reported to own price-data tools. `monopoly-video-notes.md` (in this
+directory) asked the obvious question: *how do you know the standard is still
+neutral?* This chapter answers it with evidence; `../act-3-the-solution/` is where the
+answer becomes action.
 
 ## 2. The problem, in five parts
 
@@ -78,9 +76,10 @@ entities that also make money off the market they rate — "the paying customers
 have primarily not been buyers of securities but their issuers, raising the issue of
 conflict of interest" [S6] — the market spent two decades and a financial crisis
 learning the cost. The reform that followed (the Credit Rating Agency Reform Act of
-2006: registration, minimum criteria, SEC oversight [S6]) is the template for Layer 1
-below. The analogy is structural, not an accusation: grading has not been through the
-equivalent of 2008. Yet.
+2006: registration, minimum criteria, SEC oversight [S6]) is the template for the
+solution's Layer 1 (`../act-3-the-solution/fair-grading-framework.md`). The analogy is
+structural, not an accusation: grading has not been through the equivalent of 2008.
+Yet.
 
 ### 2.3 The grade is subjective, and the price is not
 
@@ -97,12 +96,12 @@ ever sold [S7]):
 | Pikachu Illustrator (the PSA 10 bought by Logan Paul for $5,275,000 in July 2021 [S7]) | PSA 10 | **$16.5 million** | sold February 2026 | [S7] |
 | Another 1998 CoroCoro promo copy of the same card, sold at Heritage Auctions | PSA 9 | **$1,406,250** | March 2026 | [S8][S7] |
 
-One point of grade, **roughly 11.7x in price**, for the same physical card from the
-same grader, five weeks apart. Lower copies sold for $208k–$772k in 2020–2022 [S7],
-which is how the market repriced as grades moved. The "Hobby" documentary's collectors
-say the same thing at smaller scale: a one-point miss on a chase card "can be a five-
-or six-figure swing," and a collector who got a 9 on what he saw as a 10 said "I feel
-like I was robbed" [S10].
+One point of grade, **roughly 11.7x in price** (arithmetic on C21 and C23, not a
+sourced figure), for the same physical card from the same grader, five weeks apart.
+Lower copies sold for $208k–$772k in 2020–2022 [S7], which is how the market repriced
+as grades moved. "The Hobby" documentary's collectors say the same thing at smaller
+scale: a one-point miss on a chase card "can be a five- or six-figure swing," and a
+collector who got a 9 on what he saw as a 10 said "I feel like I was robbed" [S10].
 
 Subjectivity is not fraud; it is the product. The fairness question is whether the
 mechanism of that subjectivity — the rubric, the tolerances, the rate of 10s — is
@@ -119,8 +118,8 @@ population are inside the grader's walls:
   predictor of future supply, yet no major grader publishes it as an official,
   per-category figure. It is reconstructed by third parties — GemRate for market
   share [S1][S11], community trackers for per-card gem rates.
-- **Grading specials** create pop waves months later (documented pattern in this
-  repo's guide, §4).
+- **Grading specials** create pop waves months later (documented pattern in the
+  playbook, `../act-3-the-solution/psa10-playbook.md` §4).
 - **Resubmissions** (cracking a 9 to chase a 10) rewrite population history: the same
   physical card appears in the 9 pop and later the 10 pop, and cert history is the
   only way to tell.
@@ -164,108 +163,12 @@ public, standing mechanism to check the others.
    "complaints" look like when the only public arbiter is a rating letter — and that
    even that mechanism closed the file.
 
-## 4. The proposal: the Fair Grading Framework
+**This is the problem in one sentence: the referee who defines the product now also
+runs much of the market for it — and the rules of the game are his to change.** The
+solution, in four layers, is in Act III, starting with
+`../act-3-the-solution/fair-grading-framework.md`.
 
-Four layers, ordered from slowest to fastest to implement. Each item: what it is, why
-it is fair to collectors, who can do it, and feasibility.
-
-### Layer 1 — Structural separation (the long game; industry/regulator level)
-
-| # | Measure | Why it's fair to collectors | Feasibility |
-|---|---------|------------------------------|-------------|
-| 1.1 | **Divest or firewall**: the grading entity should not own the marketplace, the vault/instant-sell program, or a price-data tool used as a market benchmark. If ownership stays, a legal information barrier with **annual independent audit** of the barrier. | Removes the referee-from-the-market structure entirely; the 2006 credit-rating reform shows registration + oversight is a workable template [S6]. | Low today (needs divestment or law), but this is the only layer that fixes the problem at the root |
-| 1.2 | **Independent standards body**: a consortium (graders, marketplaces, collectors, insurers) that owns the *grading standard* — rubric, tolerance bands, subgrade schema — and accredits grading labs against it, the way testing labs are accredited to ISO standards. The standard is public; the brands compete under it. | No single owner can quietly move the goalposts (tolerances, gem rate, label meanings) without the change being visible and contestable. | Medium: needs industry buy-in; CGC's independence [S3] shows a neutral standard is credible |
-| 1.3 | **Regulatory trigger**: if one owner holds three of five major brands *and* marketplaces, document and bring the structure to consumer-protection and antitrust authorities (US: FTC/DOJ; EU: digital-market rules where applicable). This is a recommendation to *use existing channels*, not a prediction. | Collectors individually have no market power against a consolidated owner; organized documentation does. | Medium: depends on evidence accumulation (this repo's tracker is useful here) |
-
-### Layer 2 — Transparency standards (any grader can adopt this year; the core of the fix)
-
-| # | Measure | Why it's fair to collectors |
-|---|---------|------------------------------|
-| 2.1 | **Publish monthly gem rates** (share of submissions grading 10) per major category, with 12-month trend. | The buyer can finally see the supply forecast the grader already has; "rising gem rate = future pop wave" becomes priced in, not sprung on you |
-| 2.2 | **Publish the rubric with tolerance bands** and put **subgrades on every label** (BGS already does; PSA publishes a final number without the components [S4]). | A 10 becomes inspectable: you can see *which* criterion was borderline, which is exactly what eye-appeal pricing depends on (guide §12) |
-| 2.3 | **Inter-grader agreement audit**: an annual, independently run double-grading sample with the agreement rate (e.g. kappa) published — the "lab calibration" that scientific testing already requires. | Subjectivity is fine; *audited* subjectivity is a standard, *unaudited* subjectivity is a black box. The 11.7x one-point gap (2.3) is what an audited tolerance band constrains |
-| 2.4 | **Honest populations**: machine-readable population reports (open API), cert history that flags regrades/reholders/repairs, and a "currently sealed" count that excludes destroyed labels. | Fixes the resubmission distortion in 2.4; your supply estimates stop needing reverse-engineering |
-| 2.5 | **Chain of custody**: timestamped intake photos/video per submission, a per-cert custody event log (received, graded, reholder, repair, shipped), visible on the cert page. | The Deoxys-type loss [S9] becomes preventable: every handoff is provable, and the buyer can verify "what happened to my slab while I didn't have it" |
-| 2.6 | **Real liability**: full-replacement-value coverage for every card in process (not tiered by declared value), claims handled with an independent third party, terms in plain language, claims statistics published annually. | Turns the "read the liability terms" warning (guide §3) into a market requirement; the BBB complaints pattern [S5] is what happens when recourse is opaque |
-
-### Layer 3 — Market mechanisms (what collectors can do today; this repo's playbook, codified)
-
-These need no one's permission. They are the existing rules in `psa10-guide.md` and
-`valuation-and-selling.md`, restated as a single standard:
-
-1. **Outside-source rule.** No walk-away price without 10–20 sold comps, and **at
-   least one source outside the grader's corporate group** (eBay sold, 130point,
-   PriceCharting, auction archives, TCGplayer/Cardmarket, your own tracker log)
-   (guide §8; `valuation-and-selling.md` 7.1).
-2. **Dual-grade the grails.** For cards where a point is worth five figures (2.3),
-   submit to a structurally independent grader (CGC [S3] or TAG), and treat any
-   PSA↔BGSSGC crossover as not independent (2.1).
-3. **Cert-history discipline.** Screenshot the cert page at purchase; re-check before
-   selling; any change under the same cert number (regrade, reholder, repair) means
-   *ask why before you list* [S9].
-4. **Price the trend, not the snapshot.** Monthly gem-rate/pop check on every chase
-   card (the tracker's routine already encodes this); a rising gem rate is a pop wave
-   in waiting (guide §4, §7).
-5. **Grader-run offers are convenience, not benchmarks.** Compare vault/instant-offer
-   prices against open-market sold comps before accepting; you may not know the
-   counterparty [S9].
-6. **Full documentation, full insurance, every time.** Insure at replacement value
-   both ways for grading and reholders; timestamped photos before shipping; video
-   every unboxing; protected payment only (guide §3, §5, §13).
-7. **Vote with your wallet.** Prefer graders that publish gem rates and subgrades;
-   make transparency a purchase criterion. Layer 2 items are adoptable; adoption
-   follows visible demand.
-
-### Layer 4 — Governance and advocacy (collectors as a class)
-
-1. **Open data format for populations and sold comps.** A community standard (JSON,
-   the tracker's schema in this repo is a usable seed) so any tool can aggregate
-   cross-grader supply without scraping. Independence of data becomes the default
-   state of the market.
-2. **A collector association with an annual transparency scorecard** per grader:
-   did they publish gem rates (2.1), subgrades (2.2), an agreement audit (2.3),
-   custody logs (2.5), claims statistics (2.6)? A published scorecard turns Layer 2
-   from aspiration into market pressure — and gives Layer 1.3 evidence if it is ever
-   needed.
-3. **Independent escrow + transit insurance as a product.** For high-value grading
-   flows, escrow and full-value coverage provided by parties with no stake in the
-   grade outcome. This is a market solution to the single-point-of-failure problem
-   (3.3) that requires no regulation.
-4. **Keep the records.** Every purchase, sale, grading fee, and cert event in one
-   log (the tracker's export is the format). If the sector ever needs to show a
-   regulator what consolidation did to prices and gem rates, organized collectors
-   with data win; anecdote does not.
-
-## 5. What this repo already does (and what is missing)
-
-| Piece | Role in the framework |
-|---|---|
-| `tracker/` | Working prototype of Layer 3 items 1 and 4 and Layer 4 item 1: independent comp data, trend checks, an open schema |
-| `psa10-guide.md` | The full collector-side playbook (Layer 3 in detail, per purchase) |
-| `psa-monopoly-video-notes.md`, `the-hobby-documentary-notes.md` | The evidence layer for 2.2 and 2.5 (reported claims, explicitly unverified) |
-| `grading-companies.md` 2.7 | The ownership facts (Layer 1's premise), checked against Wikipedia |
-| **This chapter** | The missing link: the industry-side fix, and the line between verified fact and proposal |
-
-The repo's practical answer to the grading issue was always: *document more, diversify
-your price data, insure fully* [S9]. This report makes explicit that those three
-collector behaviors are the only complete defense available **today** — and that
-Layers 1–2 are the industry-side changes that would make the defense unnecessary.
-
-## 6. What I deliberately did not claim
-
-- I did **not** claim Collectors owns Card Ladder — it is a video claim I could not
-  verify from a primary source (the site was bot-blocked) [S9][S11].
-- I did **not** claim the Deoxys reholder-damage incident is verified — it is a
-  community-reported case [S9].
-- I did **not** quote current PSA gem-rate figures — no source I could verify
-  publishes them per-card, which is precisely problem 2.4.
-- I did **not** make a legal claim that any specific arrangement is anticompetitive —
-  Layer 1.3 is a recommendation to use existing regulatory channels with evidence,
-  not a conclusion of law.
-- The credit-rating analogy is a **structural** analogy [S6], not a claim that card
-  grading is a securities market or that Collectors is a rating agency.
-
-## 7. Sources (all fetched 2026-10-12 unless noted)
+## 4. Sources (all fetched 2026-10-12 unless noted)
 
 | Tag | Source | URL / location | Used for |
 |-----|--------|----------------|----------|
@@ -277,11 +180,11 @@ Layers 1–2 are the industry-side changes that would make the defense unnecessa
 | S6 | Credit rating agency — Wikipedia | https://en.wikipedia.org/wiki/Credit_rating_agency | conflict-of-interest precedent, 2006 reform, Big Three share |
 | S7 | Pokémon Trading Card Game — Wikipedia | https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game | Pikachu Illustrator: 41 copies, $5.275M (2021), $16.5M (Feb 2026), earlier sales |
 | S8 | Heritage Auctions — Wikipedia | https://en.wikipedia.org/wiki/Heritage_Auctions | PSA 9 Pikachu Illustrator, $1,406,250 (March 2026) |
-| S9 | `docs/psa-monopoly-video-notes.md` (repo) | local | Reported, unverified: Card Ladder, PSA Offers, Deoxys incident, cert changes |
-| S10 | `docs/the-hobby-documentary-notes.md` (repo) | local | Reported, unverified: 9→10 gap anecdotes, "I feel robbed", vault lending |
+| S9 | `monopoly-video-notes.md` (this directory) | local | Reported, unverified: Card Ladder, PSA Offers, Deoxys incident, cert changes |
+| S10 | `hobby-documentary-notes.md` (this directory) | local | Reported, unverified: 9→10 gap anecdotes, "I feel robbed", vault lending |
 | S11 | GemRate (cited via S1) | https://www.gemrate.com/ | Market-share data (2024): PSA 1st, CGC 2nd, Beckett 3rd. Site was bot-blocked on direct fetch; used only as cited in S1 |
 
-## 8. Appendix: verification log (independent review, 2026-10-12)
+## 5. Appendix: verification log (independent review, 2026-10-12)
 
 Method, in full:
 
@@ -293,9 +196,8 @@ Method, in full:
 2. **Claim registry.** 26 factual claims (C01–C26) were registered *before* this
    appendix was written, each mapped to a source tag.
 3. **Mechanical check.** Each registered key phrase was located verbatim in the saved
-   fetch files (JSON-unescaped). All 26 located — see `PASS` counts below; the raw
-   fetch files remain in the research scratch directory with this session's
-   timestamp.
+   fetch files (JSON-unescaped). All 26 located; the raw fetch files remain in the
+   research scratch directory with this session's timestamp.
 4. **Cross-fetch stability.** The three sources carrying the load-bearing facts
    (Collectors Universe, Beckett Media, PSA) were fetched **twice, independently, at
    different times**; the key phrases are identical in both fetches, so no fact
@@ -338,6 +240,4 @@ Method, in full:
 
 Result: **26/26 factual claims verified verbatim against fetched sources; 3
 reported-claims explicitly labelled as unverified in the text; zero unsourced factual
-assertions.** The 11.7x figure in §2.3 is arithmetic on C21 and C23
-($16,500,000 ÷ $1,406,250), not a sourced claim, and is labelled as such in the
-table's context.
+assertions.**

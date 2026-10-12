@@ -1,6 +1,6 @@
 # 1. Market Overview
 
-> **Story I — the world.** How the hobby got here and how the industry is built. The
+> **Act I — The hobby · chapter 1 of 12.** The world. How the hobby got here and how the industry is built. The
 > first thing to understand before any price, grade, or purchase.
 
 ## 1.1 A short history
@@ -58,7 +58,7 @@ Points to understand:
 - Graders are also market participants. The group that owns PSA, BGS and SGC
   also runs a vault and sales products, and is reported to own price-data tools.
   Critics call this a conflict of interest
-  (`../psa-monopoly-video-notes.md`). Whatever you think of that argument,
+  (`../act-2-the-problem/monopoly-video-notes.md`). Whatever you think of that argument,
   take price checks from outside the group.
 
 ## 1.3 Segments and what drives each

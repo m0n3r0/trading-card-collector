@@ -1,134 +1,108 @@
 # trading-card-collector
 
-**One story: how a piece of cardboard becomes a tradeable asset — and how to buy a
-PSA 10 Pokemon card without getting burned.**
+**One story, three acts: the hobby introduced → the problem defined → the solution
+proposed.**
 
-This repository is a single story told across a few files. You do not need to read
-them all at once, but read them in the order below and the whole hobby — and the
-specific craft of buying a PSA 10 Pokemon card — comes together as one argument:
-*the grade is what makes the card valuable, the people who assign the grade have
-increasingly become the people who store, price and sell the card, and the only
-defence is to understand the whole system and keep your own numbers independent.*
+The backbone of this repository is a single argument:
+
+> **Act I — The hobby.** Grading is what turns a piece of cardboard into a tradeable,
+> liquid asset: a neutral, published, comparable grade is what lets a stranger trust a
+> card's condition without re-inspecting it, and that trust is what creates the price
+> premium and the resale liquidity.
+>
+> **Act II — The problem.** The referee who defines the product is no longer neutral.
+> PSA's parent, Collectors, now also owns the other two major graders (BGS, SGC),
+> runs vault and sales products, and is reported to own price-data tools. The people
+> who assign the grade increasingly operate the market around it — and the rules of
+> the game are theirs to change.
+>
+> **Act III — The solution.** A four-layer Fair Grading Framework: structural
+> separation of grading from the market (the long game), transparency standards any
+> grader can adopt this year, market mechanisms collectors can use **today**, and
+> governance of collectors as a class — plus the complete, practical playbook for
+> buying and selling in this market while the long game plays out.
+
+Read the acts in order. Act I is the world you need to understand; Act II is the
+turn; Act III is the answer, from what the industry should do to what you can do
+this week. Supporting reference chapters (glossary, sources) live in `docs/reference/`
+and are open whenever you need them.
 
 ## The story in one breath
 
-The trading-card hobby turns cheap cardboard into liquid, comparable assets by
-**grading** it. A "10" on a slab is what lets a stranger trust a card's condition
-without re-inspecting it, and that trust is what creates the price premium and the
-resale liquidity. But that trust rests on a neutral referee — and the referee has
-gotten a lot less neutral. PSA's parent, Collectors, now also owns the other two
-major graders (BGS, SGC), runs a vault and instant-sale marketplace, and is reported
-to own a price-data tool. When the grader is also the market, the number on the slab
-is not as innocent as it looks. This repo walks you through that system end to end,
-and then spends most of its energy on the one niche it exists for: **PSA 10
-Pokemon** — how to read the grade, the population report, the price, the fakes, and
-the transaction, and when it is actually worth grading your own card.
+Trading cards became a market because grading made them comparable. But the industry
+consolidated around a single owner — Collectors now holds PSA, BGS and SGC (verified;
+`docs/act-2-the-problem/grading-conflict.md`) — the same group that stores cards,
+facilitates sales, and is reported to publish price data. The stakes are not
+theoretical: in early 2026 the same Pikachu Illustrator card sold for **$16.5 million
+as a PSA 10** and **$1,406,250 as a PSA 9**, five weeks apart. The solution has a
+short side — independent data, outside-source price checks, full documentation, full
+insurance (the playbook and the tracker in this repo) — and a long side — published
+gem rates and subgrades, audited consistency, chain of custody, real liability, and
+structural separation of grading from the market it prices.
 
-## Reading path — the story in nine moves
+## Reading path
 
-Read top to bottom. Each move is one or two chapters; the connective sentence tells
-you why it matters to the story.
+### Act I — The hobby (`docs/act-1-the-hobby/`)
 
-**I. The world** — how the hobby got here, and how the industry is built.
-`docs/trading-cards/market-overview.md`
-The history (tobacco cards → junk wax → the 2020 boom), the chain from IP licence to
-grader, the three segments, and why markets boom and then correct. You cannot reason
-about price without knowing what "price" is made of.
+| # | Chapter | What it covers |
+|---|---------|----------------|
+| 1 | [market-overview.md](docs/act-1-the-hobby/market-overview.md) | History from tobacco cards to the 2020s boom, how the industry is structured (IP licence → manufacturer → distributor → retail → secondary market → grader), segments, and how booms and busts work |
+| 2 | [grading-companies.md](docs/act-1-the-hobby/grading-companies.md) | PSA, BGS, SGC, CGC, TAG compared: scales, subgrades, labels, crossovers — and §2.7, who owns which grader (the last section before the story turns) |
+| 3 | [sports-cards.md](docs/act-1-the-hobby/sports-cards.md) | Rookies, parallels, numbered cards, autos and relics, hobby vs. retail, case breaks, key cards |
+| 4 | [tcg-collecting.md](docs/act-1-the-hobby/tcg-collecting.md) | Pokemon, Magic, Yu-Gi-Oh!, One Piece, Lorcana and friends: rarity systems, reprint risk, language premiums — where Pokemon lives |
+| 5 | [sealed-product.md](docs/act-1-the-hobby/sealed-product.md) | Booster boxes, ETBs, cases: holding sealed, reseal detection, storage |
 
-**II. The referees** — who grades the cards, and who really owns them.
-`docs/trading-cards/grading-companies.md`
-The five graders and what each grade means in practice — and the consolidation that
-put PSA, BGS and SGC under one roof (Collectors). This is the turn of the story: the
-neutral referee becomes a market participant.
+### Act II — The problem (`docs/act-2-the-problem/`)
 
-**II.5. The eyewitnesses** — the evidence that motivates the playbook.
-`docs/the-hobby-documentary-notes.md` ("The Hobby" film: the boom, grading as the
-value engine, and how violently prices swing) and
-`docs/psa-monopoly-video-notes.md` (the PSA/Collectors conflict-of-interest case:
-reholder risk, upcharges, and why your price checks must come from outside the
-group). Read these before the deep dive; they are *why* the guide's rules exist.
+| # | Chapter | What it covers |
+|---|---------|----------------|
+| 6 | [grading-conflict.md](docs/act-2-the-problem/grading-conflict.md) | **The backbone chapter.** The problem in five verified parts (consolidation; the referee as market participant; the subjective grade with a non-subjective price — the $16.5M/$1.4M Pikachu cliff; manufactured, opaque scarcity; the accountability gap), why it is specifically unfair to collectors, sources, and a 26-claim verification log |
+| 7 | [monopoly-video-notes.md](docs/act-2-the-problem/monopoly-video-notes.md) | Eyewitness evidence (1 of 2): the FOLLOWTHEMONEY commentary on PSA/Collectors — reholder risk, upcharges, cert changes. Each claim labelled checked / claim / opinion |
+| 8 | [hobby-documentary-notes.md](docs/act-2-the-problem/hobby-documentary-notes.md) | Eyewitness evidence (2 of 2): "The Hobby" documentary — the boom, grading as the value engine, the one-point swings collectors describe. Speakers' claims, not verified facts |
 
-**III. The cards** — the three things you can actually buy.
-`docs/trading-cards/sports-cards.md` (rookies, parallels, records),
-`docs/trading-cards/tcg-collecting.md` (the card games — this is where Pokemon lives),
-`docs/trading-cards/sealed-product.md` (sealed boxes, a different animal). You need
-the vocabulary and the segment logic before you can value a specific card.
+### Act III — The solution (`docs/act-3-the-solution/`)
 
-**IV. The value** — turning an opinion into a number you can act on.
-`docs/trading-cards/valuation-and-selling.md`
-Building a fair value from sold comps, the selling channels and their fees, and the
-tax/record-keeping discipline. This is the method the Pokemon guide will keep
-re-using, so the handbook's valuation chapter is a prerequisite to the deep dive.
+| # | Chapter | What it covers |
+|---|---------|----------------|
+| 9 | [fair-grading-framework.md](docs/act-3-the-solution/fair-grading-framework.md) | **The backbone chapter.** The four-layer fix: (1) structural separation — divest/firewall, independent standards body, regulatory trigger; (2) transparency standards — gem rates, subgrades, agreement audits, honest populations, chain of custody, real liability; (3) market mechanisms you can use today — outside-source rule, dual-grade, cert-history discipline, trend pricing; (4) governance — open data, transparency scorecard, independent escrow, keep the records |
+| 10 | [valuation-and-selling.md](docs/act-3-the-solution/valuation-and-selling.md) | The pricing method the framework's Layer 3 runs on: fair value from *sold* comps, at least one source outside the grader's group, walk-away prices; selling channels and fees; taxes and records |
+| 11 | [fakes-and-scams.md](docs/act-3-the-solution/fakes-and-scams.md) | Where the money goes wrong: counterfeit raw cards and slabs, trimming and alterations, marketplace scams, and the minimum defence process |
+| 12 | [psa10-playbook.md](docs/act-3-the-solution/psa10-playbook.md) | The complete PSA 10 Pokemon playbook: what the grade means precisely, population reports, how PSA 10 prices behave, the grade-your-own-card math, buying online and offline, authentication, condition traps, paying/shipping/insurance, storage, selling later, rookie mistakes, and checklists — every framework rule applied, per purchase |
 
-**V. The shadows** — where the money actually goes wrong.
-`docs/trading-cards/fakes-and-scams.md`
-Counterfeit cards and slabs, trimming and alterations, and marketplace scams — plus
-the minimum defence. Every purchase in the deep dive runs on the assumption that the
-slab is real; this chapter is what makes that assumption safe.
+### The instrument
 
-**VI. The deep dive** — the niche this repo is about.
-`docs/psa10-guide.md`
-The complete PSA 10 Pokemon playbook: what the grade means precisely, population
-reports, how PSA 10 prices behave, the grade-your-own-card math, buying online and
-offline, authentication, condition traps inside the grade, paying/shipping/insurance,
-storage, selling later, the expensive rookie mistakes, and the checklists. Everything
-in moves I–V is applied here, Pokemon-specific.
+| Chapter | What it covers |
+|---|---|
+| [tracker/](tracker/README.md) | Your own price data, independent of the grader's corporate group: log sold comps and listing sightings, get buy-signal alerts against your targets, and chart trends. Standard library only, no APIs, no accounts. It is the one source in this repo that Collectors does not own — and the practical core of the solution's Layer 3 and Layer 4. |
 
-**VII. The fix** — the grading issue, a deep dive, and a proposal for fairer rules.
-`docs/trading-cards/fair-grading.md`
-The special report: five verified parts of the problem (consolidation, the
-referee-in-the-market structure, the 9-to-10 cliff — the same Pikachu Illustrator
-sold for $16.5M as a PSA 10 and $1,406,250 as a PSA 9, five weeks apart in early
-2026 — opaque supply, and an accountability gap), and a four-layer Fair Grading
-Framework from structural separation to what you can do today. Read after the deep
-dive; it turns the guide's rules into a standard and shows where the industry-side
-fix is missing.
+### Reference (`docs/reference/`)
 
-**VIII. The tool** — keeping your own data independent of the grader's group.
-`tracker/` (see `tracker/README.md`)
-Your own log of sold comps and listing sightings, with buy-signal alerts against your
-targets and standalone ASCII/SVG charts. No third-party APIs, no accounts. It is the
-one source in this repo that Collectors does not own — and the practical answer to
-the conflict of interest raised in move II.
-
-**Supporting chapters** (open whenever you need them, not in sequence):
-`docs/trading-cards/glossary.md` — the hobby vocabulary, all in one place.
-`docs/trading-cards/sources.md` — where the facts here come from and when they were
-checked; it also indexes the two video sources.
+| Chapter | What it covers |
+|---|---|
+| [glossary.md](docs/reference/glossary.md) | The hobby vocabulary across sports and TCGs, in one place |
+| [sources.md](docs/reference/sources.md) | Where the facts in every chapter come from, when they were checked, and the video sources behind the evidence layer |
 
 ## How the story hangs together
 
-The whole repo is one argument with a spine:
+1. **The hobby** — a market built on trust: the neutral grade makes cards liquid and
+   comparable. (Act I.)
+2. **The problem** — the referee stopped being neutral: one owner now controls three
+   of the five major grading brands, plus vaults and sales products, and (reportedly)
+   price data. The 9-to-10 cliff means the standard's owner sets prices that move in
+   five-figure steps. (Act II.)
+3. **The solution** — short side now (independent data, outside-source checks,
+   documentation, insurance: the playbook + the tracker), long side later (published
+   gem rates and subgrades, audited consistency, chain of custody, real liability,
+   structural separation — the framework). (Act III.)
 
-1. **Grading creates the value.** A neutral, published, comparable grade is what
-   turns cardboard into a liquid asset. (Move I–II; the documentary's "value engine.")
-2. **The referee stopped being neutral.** PSA's owner now controls two more major
-   graders, a vault, a marketplace, and (reportedly) a price tool. (Move II; the
-   monopoly video; `grading-companies.md` 2.7.)
-3. **So the buyer's job is to stay independent.** Build your fair value from sold
-   comps that are not all from the grader's corporate group, keep at least one
-   outside source in every price check, document the cert before and after every
-   transaction, insure fully, and log your own comps in a tool the group cannot
-   touch. (Moves IV–V, VII and VIII; `valuation-and-selling.md` 7.1; the guide's
-   sections 3, 5, 8 and 11.)
-4. **The fix has a long side and a short side.** The short side is the collector
-   playbook you can run today (move VII, Layer 3). The long side is structural:
-   separation of grading from market and price-data roles, published gem rates and
-   subgrades, audited consistency, chain of custody, real liability — with the
-   credit-rating industry's 2006 reform as the template for how a rating industry
-   got reformed after its conflicts became obvious (move VII, Layers 1–2 and 4).
-
-The Pokemon guide (VI) is the destination, the handbook chapters (I–V) are the
-world it lives in, the fix report (VII) is the argument made explicit, the two
-video notes are the eyewitnesses, and the tracker is the instrument. If you only
-remember one sentence: **the grade is the product, but the number on the slab is
-not the whole truth — your independent data is.**
+If you only remember one sentence: **the grade is the product, but the number on the
+slab is not the whole truth — your independent data is.**
 
 ## Ground rules used across every file
 
 1. Price claims carry a date and a source. Anything older than about a year is
    history, not a quote — pull today's number from `tracker/`.
 2. Facts that could not be checked against a source say so, in the text and in
-   `docs/trading-cards/sources.md`.
+   `docs/reference/sources.md`. Reported-but-unverified claims are labelled as such.
 3. No chapter is investment advice. Cards are illiquid, carry high fees, and are
    driven by fashion. Buy what you would be happy to keep.

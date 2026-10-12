@@ -1,6 +1,6 @@
 # Notes: "The Hidden Monopoly Controlling Card Prices..." (FOLLOWTHEMONEY)
 
-> **Story II.5 — the eyewitnesses (2 of 2).** The PSA/Collectors conflict-of-interest
+> **Act II — The problem · chapter 7 of 12 (eyewitness evidence 2 of 2).** The PSA/Collectors conflict-of-interest
 > case: reholder risk, upcharges, and why your price checks must come from outside the
 > group. Read this before the deep dive — it is *why* several guide rules exist.
 
@@ -13,7 +13,7 @@
   incidents that circulated in the community, and the narrator's interpretation.
   Each claim below is labelled as one of these:
   - **Checked:** confirmed against Wikipedia on 2026-10-12. See
-    `trading-cards/sources.md`.
+    `../reference/sources.md`.
   - **Claim:** stated in the video and not verified here.
   - **Opinion:** the narrator's argument.
 - Why it matters to this repo: nearly everything here assumes the number on a PSA
@@ -56,7 +56,7 @@ From the Wikipedia article on Collectors Universe, fetched 2026-10-12:
 - As of 2024, Wikipedia (citing GemRate) ranks Beckett third in grading market
   share, behind PSA and CGC.
 
-What follows: of the five graders in `trading-cards/grading-companies.md`,
+What follows: of the five graders in `../act-1-the-hobby/grading-companies.md`,
 three (PSA, BGS, SGC) now have the same owner. CGC and TAG are the independent
 alternatives.
 
@@ -92,14 +92,14 @@ grader.
 
 ## 4. Links into the rest of the repo
 
-- `psa10-guide.md`:
+- `../act-3-the-solution/psa10-playbook.md`:
   - section 3 (reholder risk)
   - section 5 (upcharges)
   - section 8 (independent price data)
   - section 9 (vault platforms)
-- `trading-cards/grading-companies.md` section 2.7: who owns which grader
-- `trading-cards/market-overview.md`:
+- `../act-1-the-hobby/grading-companies.md` section 2.7: who owns which grader
+- `../act-1-the-hobby/market-overview.md`:
   - the 2021-2025 row (consolidation)
   - section 1.2 (structure)
-- `trading-cards/valuation-and-selling.md` section 7.1: independence of comps
-- `trading-cards/sources.md`: Collectors Universe article and this video
+- `../act-3-the-solution/valuation-and-selling.md` section 7.1: independence of comps
+- `../reference/sources.md`: Collectors Universe article and this video

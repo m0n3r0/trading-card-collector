@@ -1,6 +1,6 @@
 # 2. Grading Companies Compared
 
-> **Story II — the referees.** Who grades the cards and who really owns them. Section 2.7
+> **Act I — The hobby · chapter 2 of 12.** The referees. Who grades the cards and who really owns them. Section 2.7
 > is where the neutral referee becomes a market participant — the turn of the whole story.
 
 A grade is one company's opinion of a card's authenticity and condition. The
@@ -80,7 +80,7 @@ modern cards the grading fee can exceed the whole premium.
   compare the image or description with the card in hand.
 - Fake slabs exist for every company. Check the hologram, label font, the
   ultrasonic weld at the case edge, and the case dimensions against a known
-  genuine slab from the same period. See `fakes-and-scams.md`.
+  genuine slab from the same period. See `../act-3-the-solution/fakes-and-scams.md`.
 - Autograph authentication (PSA/DNA, JSA, Beckett Authentication) is a separate service
   from card grading. An "auto" grade on the label refers to the signature.
 
@@ -102,7 +102,7 @@ A commentary video claims Collectors also owns Card Ladder (price data) and
 that the group has about 80% of card grading. Neither claim is verified here.
 Wikipedia (citing GemRate data for 2024) ranks CGC second in market share,
 which an "80% PSA" figure leaves out. Notes and discussion are in
-`../psa-monopoly-video-notes.md`.
+`../act-2-the-problem/monopoly-video-notes.md`.
 
 What this means in practice:
 
@@ -111,10 +111,10 @@ What this means in practice:
 - The same group can produce the grade, the population report, some of the
   price data and the vault or instant-sale marketplace. Check prices outside
   that group (eBay sold, 130point, PriceCharting, auction archives, your own
-  tracker log). See `valuation-and-selling.md` 7.1.
+  tracker log). See `../act-3-the-solution/valuation-and-selling.md` 7.1.
 - Submission risk is the same whatever the service. Reholders and reviews
   still send the card through handling and shipping. Insure it at full value,
   photograph it before sending, and read the grader's liability and
-  claims terms. See `../psa10-guide.md` sections 3 and 5.
+  claims terms. See `../act-3-the-solution/psa10-playbook.md` sections 3 and 5.
 - Declared-value tiers can be upcharged: if the card grades well and its value
   goes over the tier cap, you pay the higher tier. Declare realistically.
