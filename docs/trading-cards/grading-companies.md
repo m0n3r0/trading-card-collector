@@ -1,5 +1,8 @@
 # 2. Grading Companies Compared
 
+> **Story II — the referees.** Who grades the cards and who really owns them. Section 2.7
+> is where the neutral referee becomes a market participant — the turn of the whole story.
+
 A grade is one company's opinion of a card's authenticity and condition. The
 same card in different slabs sells at different prices because buyers trust
 some labels more than others. Choose the grader by where you plan to sell, not

@@ -1,5 +1,8 @@
 # 4. Collectible Card Games (TCGs)
 
+> **Story III — the cards you can buy (2 of 3).** The card games. This is where Pokemon
+> lives; the deep dive assumes this vocabulary.
+
 TCG cards have two kinds of demand: players need the card to play, and
 collectors want it. A card that sees play gets a demand floor but is exposed to
 bans and reprints. A pure collector card depends only on collector interest.

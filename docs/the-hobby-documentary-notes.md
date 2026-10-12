@@ -1,5 +1,9 @@
 # Notes: "Inside the Billion-Dollar Trading Card Boom and How it Happened | The Hobby"
 
+> **Story II.5 — the eyewitnesses (1 of 2).** What "The Hobby" documentary said, and the
+> Pokemon-relevant parts kept here. This is the evidence layer: speakers' claims from
+> auto-captions, not verified facts.
+
 - Source: https://www.youtube.com/watch?v=mLAGQLdK4vg (Documentary+, 1:28:43, uploaded 2026-07-22)
 - Method: notes taken from the video's auto-generated English captions, not from
   watching the footage. Names and numbers may be mis-transcribed, and are

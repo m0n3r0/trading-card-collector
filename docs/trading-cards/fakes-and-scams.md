@@ -1,5 +1,8 @@
 # 6. Fakes, Alterations and Scams
 
+> **Story V — the shadows.** Where the money actually goes wrong. The minimum defence
+> here is what the guide's authentication section runs on.
+
 ## 6.1 Counterfeit raw cards
 
 Checks (use several, never only one):

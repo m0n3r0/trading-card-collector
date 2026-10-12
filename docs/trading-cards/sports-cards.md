@@ -1,5 +1,8 @@
 # 3. Sports Cards
 
+> **Story III — the cards you can buy (1 of 3).** The vocabulary and value logic of
+> sports cards; the segment thinking the deep dive re-uses for Pokemon.
+
 ## 3.1 Vocabulary that drives price
 
 | Term | Meaning | Price impact |

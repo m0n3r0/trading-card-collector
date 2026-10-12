@@ -1,5 +1,9 @@
 # 7. Valuation and Selling
 
+> **Story IV — the value.** The method the deep dive runs on: fair value from *sold*
+> comps, at least one source outside the grader's group, and a walk-away price. A
+> prerequisite to the PSA 10 guide.
+
 ## 7.1 Building a fair value for any card
 
 1. Identify the exact item: game/sport, set, number, variant (1st Ed,

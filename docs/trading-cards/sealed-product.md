@@ -1,5 +1,8 @@
 # 5. Sealed Product
 
+> **Story III — the cards you can buy (3 of 3).** Sealed boxes: a different asset with
+> its own risks (reseals, storage, reprint waves).
+
 ## 5.1 Product types
 
 | Product | What it is | Notes |

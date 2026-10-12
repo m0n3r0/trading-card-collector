@@ -1,5 +1,9 @@
 # PSA 10 Pokemon: The Complete Guide
 
+> **Story VI — the deep dive.** Everything the handbook sets up (the world, the graders,
+> the cards, the value method, the fakes) applied, Pokemon by Pokemon, to the card this
+> repo exists for. Enter from the top-level `README.md` for the full arc.
+
 How PSA 10 grading works for Pokemon cards, how prices behave, and how to buy
 safely online and in person. Companion tooling lives in `../tracker/`, which
 monitors live listings and your sold-price comparables.

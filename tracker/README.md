@@ -1,5 +1,8 @@
 # Price Tracker
 
+> **Story VII — the tool.** Your own price log, independent of the grader's corporate
+> group — the practical answer to the conflict of interest raised in the grader chapters.
+
 Own-data PSA 10 price tracker. No third-party APIs, no accounts, no tokens:
 you log the prices you observe and `tracker.py` stores them, computes
 statistics, draws its own charts, and flags buy signals against your targets.

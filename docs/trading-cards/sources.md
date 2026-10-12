@@ -1,5 +1,8 @@
 # 9. Sources
 
+> **Reference chapter** — where the facts in this repo come from and when they were
+> checked, plus the two video sources behind the evidence layer.
+
 Facts with numbers or dates in this handbook were checked on 2026-10-12
 against the English Wikipedia articles below (fetched via the Wikipedia API).
 Wikipedia is a secondary source; for decisions involving real money, confirm
