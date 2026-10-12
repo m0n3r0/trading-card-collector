@@ -1,6 +1,6 @@
 # 1. Market Overview
 
-> **Act I — The hobby · chapter 1 of 12.** The world. How the hobby got here and how the industry is built. The
+> **Act I — The hobby · chapter 1 of 14.** The world. How the hobby got here and how the industry is built. The
 > first thing to understand before any price, grade, or purchase.
 
 ## 1.1 A short history
@@ -138,6 +138,10 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
 What to take from this: in a boom, buy below the top only what you
 would keep anyway. In a correction, the best buys are scarce, high-grade copies of
 cards that have a reason to be wanted in 20 years.
+
+(For the academic treatment of the 2020–21 cycle — the behavioral-finance frenzy,
+the boom-bust data, the boom-era literature — see `what-research-says.md` §3 in
+this act.)
 
 ## 1.5 Market size (orders of magnitude only)
 

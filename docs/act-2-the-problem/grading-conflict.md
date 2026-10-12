@@ -1,6 +1,6 @@
 # Act II — The Problem: The Grading Conflict of Interest
 
-> **Act II — The problem · chapter 6 of 12 — the backbone of the repo.** Everything in Act I
+> **Act II — The problem · chapter 7 of 14 — the backbone of the repo.** Everything in Act I
 > established that grading is what makes a card valuable. This chapter is the turn: the
 > people who assign the grade now increasingly operate the market around it. Here is
 > the problem, precisely, with evidence — what is verified, what is only reported, and

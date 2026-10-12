@@ -1,7 +1,7 @@
 # trading-card-collector
 
 
-The whole repo at a glance — three acts, twelve chapters, one instrument.
+The whole repo at a glance — three acts, fourteen chapters, one instrument.
 
 ```mermaid
 
@@ -20,9 +20,9 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
   B["**ACT II — THE PROBLEM**<br/>The referee who defines the product<br/>now runs much of the market"]:::act2 --> C
   C["**ACT III — THE SOLUTION**<br/>Four-layer Fair Grading Framework<br/>+ the collector playbook"]:::act3
 
-  A --> A1["Ch 1-5: market, graders,<br/>sports, TCGs, sealed"]:::act1
-  B --> B1["Ch 6-8: the conflict +<br/>two eyewitness evidence files"]:::act2
-  C --> C1["Ch 9-12: framework, value,<br/>fakes, PSA 10 playbook"]:::act3
+  A --> A1["Ch 1-6: market, graders, sports,<br/>TCGs, sealed, what the research says"]:::act1
+  B --> B1["Ch 7-9: the conflict +<br/>two eyewitness evidence files"]:::act2
+  C --> C1["Ch 10-14: framework, value, fakes,<br/>PSA 10 playbook, self-grading tested"]:::act3
   C --> T["**tracker/** — independent data,<br/>the practical core of the fix"]:::act3
 ```
 
@@ -77,23 +77,25 @@ structural separation of grading from the market it prices.
 | 3 | [sports-cards.md](docs/act-1-the-hobby/sports-cards.md) | Rookies, parallels, numbered cards, autos and relics, hobby vs. retail, case breaks, key cards |
 | 4 | [tcg-collecting.md](docs/act-1-the-hobby/tcg-collecting.md) | Pokemon, Magic, Yu-Gi-Oh!, One Piece, Lorcana and friends: rarity systems, reprint risk, language premiums — where Pokemon lives |
 | 5 | [sealed-product.md](docs/act-1-the-hobby/sealed-product.md) | Booster boxes, ETBs, cases: holding sealed, reseal detection, storage |
+| 6 | [what-research-says.md](docs/act-1-the-hobby/what-research-says.md) | The hobby in the academic world: information economics (lemons, signaling — why grading exists), auction theory, behavioral finance (the 2021 frenzy), consumer behaviour (nostalgia), and the AI-grading literature — with a crosswalk to this repo's claims |
 
 ### Act II — The problem (`docs/act-2-the-problem/`)
 
 | # | Chapter | What it covers |
 |---|---------|----------------|
-| 6 | [grading-conflict.md](docs/act-2-the-problem/grading-conflict.md) | **The backbone chapter.** The problem in five verified parts (consolidation; the referee as market participant; the subjective grade with a non-subjective price — the $16.5M/$1.4M Pikachu cliff; manufactured, opaque scarcity; the accountability gap), why it is specifically unfair to collectors, sources, and a 26-claim verification log |
-| 7 | [monopoly-video-notes.md](docs/act-2-the-problem/monopoly-video-notes.md) | Eyewitness evidence (1 of 2): the FOLLOWTHEMONEY commentary on PSA/Collectors — reholder risk, upcharges, cert changes. Each claim labelled checked / claim / opinion |
-| 8 | [hobby-documentary-notes.md](docs/act-2-the-problem/hobby-documentary-notes.md) | Eyewitness evidence (2 of 2): "The Hobby" documentary — the boom, grading as the value engine, the one-point swings collectors describe. Speakers' claims, not verified facts |
+| 7 | [grading-conflict.md](docs/act-2-the-problem/grading-conflict.md) | **The backbone chapter.** The problem in five verified parts (consolidation; the referee as market participant; the subjective grade with a non-subjective price — the $16.5M/$1.4M Pikachu cliff; manufactured, opaque scarcity; the accountability gap), why it is specifically unfair to collectors, sources, and a 26-claim verification log |
+| 8 | [monopoly-video-notes.md](docs/act-2-the-problem/monopoly-video-notes.md) | Eyewitness evidence (1 of 2): the FOLLOWTHEMONEY commentary on PSA/Collectors — reholder risk, upcharges, cert changes. Each claim labelled checked / claim / opinion |
+| 9 | [hobby-documentary-notes.md](docs/act-2-the-problem/hobby-documentary-notes.md) | Eyewitness evidence (2 of 2): "The Hobby" documentary — the boom, grading as the value engine, the one-point swings collectors describe. Speakers' claims, not verified facts |
 
 ### Act III — The solution (`docs/act-3-the-solution/`)
 
 | # | Chapter | What it covers |
 |---|---------|----------------|
-| 9 | [fair-grading-framework.md](docs/act-3-the-solution/fair-grading-framework.md) | **The backbone chapter.** The four-layer fix: (1) structural separation — divest/firewall, independent standards body, regulatory trigger; (2) transparency standards — gem rates, subgrades, agreement audits, honest populations, chain of custody, real liability; (3) market mechanisms you can use today — outside-source rule, dual-grade, cert-history discipline, trend pricing; (4) governance — open data, transparency scorecard, independent escrow, keep the records |
-| 10 | [valuation-and-selling.md](docs/act-3-the-solution/valuation-and-selling.md) | The pricing method the framework's Layer 3 runs on: fair value from *sold* comps, at least one source outside the grader's group, walk-away prices; selling channels and fees; taxes and records |
-| 11 | [fakes-and-scams.md](docs/act-3-the-solution/fakes-and-scams.md) | Where the money goes wrong: counterfeit raw cards and slabs, trimming and alterations, marketplace scams, and the minimum defence process |
-| 12 | [psa10-playbook.md](docs/act-3-the-solution/psa10-playbook.md) | The complete PSA 10 Pokemon playbook: what the grade means precisely, population reports, how PSA 10 prices behave, the grade-your-own-card math, buying online and offline, authentication, condition traps, paying/shipping/insurance, storage, selling later, rookie mistakes, and checklists — every framework rule applied, per purchase |
+| 10 | [fair-grading-framework.md](docs/act-3-the-solution/fair-grading-framework.md) | **The backbone chapter.** The four-layer fix: (1) structural separation — divest/firewall, independent standards body, regulatory trigger; (2) transparency standards — gem rates, subgrades, agreement audits, honest populations, chain of custody, real liability; (3) market mechanisms you can use today — outside-source rule, dual-grade, cert-history discipline, trend pricing; (4) governance — open data, transparency scorecard, independent escrow, keep the records |
+| 11 | [valuation-and-selling.md](docs/act-3-the-solution/valuation-and-selling.md) | The pricing method the framework's Layer 3 runs on: fair value from *sold* comps, at least one source outside the grader's group, walk-away prices; selling channels and fees; taxes and records |
+| 12 | [fakes-and-scams.md](docs/act-3-the-solution/fakes-and-scams.md) | Where the money goes wrong: counterfeit raw cards and slabs, trimming and alterations, marketplace scams, and the minimum defence process |
+| 13 | [psa10-playbook.md](docs/act-3-the-solution/psa10-playbook.md) | The complete PSA 10 Pokemon playbook: what the grade means precisely, population reports, how PSA 10 prices behave, the grade-your-own-card math, buying online and offline, authentication, condition traps, paying/shipping/insurance, storage, selling later, rookie mistakes, and checklists — every framework rule applied, per purchase |
+| 14 | [grade-yourself.md](docs/act-3-the-solution/grade-yourself.md) | "If the referee can't be trusted, grade it yourself" — tested: why self-grading fails as certification (zero-cost signal, recreates the pre-1991 market, forfeits the premium, breaks the fraud stack), which half of the idea is valid (pre-grading), and where the evidence points instead |
 
 ### The instrument
 

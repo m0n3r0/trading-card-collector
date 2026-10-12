@@ -1,13 +1,14 @@
 # Act III — The Solution: The Fair Grading Framework
 
-> **Act III — The solution · chapter 9 of 12 — the backbone of the repo.** Act II defined the
+> **Act III — The solution · chapter 10 of 14 — the backbone of the repo.** Act II defined the
 > problem: the referee who defines the product now also runs much of the market for
 > it. This chapter is the fix, in four layers ordered from slowest to fastest to
 > implement — structural separation (the long game), transparency standards (any grader
 > can adopt this year), market mechanisms you can use **today**, and governance of
 > collectors as a class. The remaining chapters of Act III are the practical chapters:
-> how to price and sell in this market, how to avoid the fakes, and the full PSA 10
-> playbook that puts every rule together per purchase.
+> how to price and sell in this market, how to avoid the fakes, the full PSA 10
+> playbook that puts every rule together per purchase, and — in `grade-yourself.md` —
+> the stress test of the tempting alternative: grading it yourself.
 
 Facts referenced here are sourced in `../act-2-the-problem/grading-conflict.md`
 (§4 sources, §5 verification log) and cited by the same `[S#]` tags. **Proposals in
