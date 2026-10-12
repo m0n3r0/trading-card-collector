@@ -49,8 +49,8 @@ oldest strand of the literature:
 - **Signaling theory (Spence 1973)** — signals are credible only when they are
   *differentially costly*: cheap for the high-quality type to send, expensive to
   fake. A sealed tamper-evident slab with a published cert number is exactly
-  such a signal; a seller's word is not (see the self-grading test in
-  `../act-3-the-solution/grade-yourself.md`).
+  such a signal; a seller's word is not (see `../act-3-the-solution/open-community-ai-grading.md`
+  for the design that passes the credibility tests the seller's claim fails).
 - **Quality signaling through certification** (2000/2003, 25–43 cites) and
   **Dranove & Jin (2010, NBER, "Quality Disclosure and Certification: Theory
   and Practice", 41 cites)** — the literature on why *third parties* certify:

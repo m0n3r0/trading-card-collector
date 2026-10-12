@@ -22,7 +22,7 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
 
   A --> A1["Ch 1-6: market, graders, sports,<br/>TCGs, sealed, what the research says"]:::act1
   B --> B1["Ch 7-9: the conflict +<br/>two eyewitness evidence files"]:::act2
-  C --> C1["Ch 10-14: framework, value, fakes,<br/>PSA 10 playbook, self-grading tested"]:::act3
+  C --> C1["Ch 10-14: framework, value, fakes,<br/>PSA 10 playbook, community AI grading"]:::act3
   C --> T["**tracker/** — independent data,<br/>the practical core of the fix"]:::act3
 ```
 
@@ -95,7 +95,7 @@ structural separation of grading from the market it prices.
 | 11 | [valuation-and-selling.md](docs/act-3-the-solution/valuation-and-selling.md) | The pricing method the framework's Layer 3 runs on: fair value from *sold* comps, at least one source outside the grader's group, walk-away prices; selling channels and fees; taxes and records |
 | 12 | [fakes-and-scams.md](docs/act-3-the-solution/fakes-and-scams.md) | Where the money goes wrong: counterfeit raw cards and slabs, trimming and alterations, marketplace scams, and the minimum defence process |
 | 13 | [psa10-playbook.md](docs/act-3-the-solution/psa10-playbook.md) | The complete PSA 10 Pokemon playbook: what the grade means precisely, population reports, how PSA 10 prices behave, the grade-your-own-card math, buying online and offline, authentication, condition traps, paying/shipping/insurance, storage, selling later, rookie mistakes, and checklists — every framework rule applied, per purchase |
-| 14 | [grade-yourself.md](docs/act-3-the-solution/grade-yourself.md) | "If the referee can't be trusted, grade it yourself" — tested: why self-grading fails as certification (zero-cost signal, recreates the pre-1991 market, forfeits the premium, breaks the fraud stack), which half of the idea is valid (pre-grading), and where the evidence points instead |
+| 14 | [open-community-ai-grading.md](docs/act-3-the-solution/open-community-ai-grading.md) | The missing middle between the two bad options: why the incumbent referee (staked) and the seller's own claim (zero-cost signal) both fail, and the five requirements a neutral standard must pass — then the design that passes them: a community-owned, open, versioned AI grading pipeline with a tamper-evident public certificate log, the hard problems stated honestly, and what a collector does about it today |
 
 ### The instrument
 

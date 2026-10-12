@@ -7,8 +7,8 @@
 > can adopt this year), market mechanisms you can use **today**, and governance of
 > collectors as a class. The remaining chapters of Act III are the practical chapters:
 > how to price and sell in this market, how to avoid the fakes, the full PSA 10
-> playbook that puts every rule together per purchase, and — in `grade-yourself.md` —
-> the stress test of the tempting alternative: grading it yourself.
+> playbook that puts every rule together per purchase, and — in `open-community-ai-grading.md` —
+> the missing middle: a community-owned, open-source AI grading system.
 
 Facts referenced here are sourced in `../act-2-the-problem/grading-conflict.md`
 (§4 sources, §5 verification log) and cited by the same `[S#]` tags. **Proposals in
