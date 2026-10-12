@@ -11,3 +11,6 @@ Notes, price tracking, and purchase checklists for graded Pokemon cards.
   Log sold comps and listing sightings, get ASCII and standalone-SVG charts,
   and buy-signal alerts against your targets. No third-party APIs. See
   `tracker/README.md`.
+- `docs/the-hobby-documentary-notes.md` — notes from the "The Hobby" trading-card
+  documentary (YouTube), focused on its Pokemon content and what carries over
+  to PSA 10 buying.
