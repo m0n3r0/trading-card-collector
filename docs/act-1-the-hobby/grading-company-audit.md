@@ -71,13 +71,15 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
 | SGC | Collectors (acquired 2023) | (integrated into PSA) | Long vintage record (the $12.6M Mantle was SGC 9.5) [A13] | Black "tuxedo" label; Pristine 10 gold label; **its own domain no longer resolves** [A14] |
 | CGC | Independent (Certified Collectibles Group) | Sarasota, FL | 7M+ comic books graded by 2021 [A2]; GemRate 2024: **second** in card share [A3] | The only major grader with a *published decision rule*; Signature Series chain of custody |
 | TAG | Independent | (US) | 4.9/5 from 885 on-site reviews [A7] | Imaging + scan technology, a 1000-point score and per-card DIG reports |
-| CCIC | (China) | China | Case-studied 2025 [A10] | Legitimacy-driven growth under local regulation |
-| SQC | (Thailand) | Thailand | Case-studied 2025 [A10] | NFT-linked, community co-creation experiments |
+| CCIC (China Certification & Inspection Group) | **State-owned** — the only central SOE in the inspection/certification industry, founded 1980 | China (33 countries) | Group: ~20,000 staff, 500+ labs [A16] | "CCIC Gold 10" perceived as comparable to a PSA 10; X-ray + dual grader + closed QR certificate system [A15] |
+| SQC (Special Quality Cards) | Independent startup | Thailand | Small scale, urban-centric demand [A15] | Jewelry-precision background; laser + AI inspection; NFT-twin pilot; flaw images published online [A15] |
 
 Market share context: GemRate data for 2024 ranks PSA first, CGC second,
 Beckett third [A3]. The "80% of grading" figure that circulates in hobby
-videos remains a **claim** — it is not verified in any source fetched for
-this repo, and it is contradicted in shape by CGC ranking second [A13].
+videos remains a **claim** — not verified against a primary source in this
+repo, and contradicted in shape by CGC ranking second [A13] — though the
+2025 case study now corroborates a **75–80%** range from GemRate-era
+trackers (§3.10) [A15].
 
 ## 3.3 PSA — the incumbent, audited
 
@@ -99,7 +101,7 @@ the incumbent's stated edge is scale plus automation, not generosity.
 **The public data stack.** PSA's site exposes the industry's most complete
 public research layer: Cert Verification, Population Report, Auction
 Prices, a Price Guide, Card Facts — and a link to **Card Ladder** under
-"Research" [A6]. (Card Ladder ownership: see §3.9 — the link is evidence
+"Research" [A6]. (Card Ladder ownership: see §3.11 — the link is evidence
 of affiliation, not of ownership.)
 
 **The economics of the label.** An NBA-card study (2001–2009, eBay + PSA
@@ -134,7 +136,7 @@ Media (2005) and Eli Global (2008) before the Collectors acquisition [A4].
 The grading lineage is the same story: Beckett's publications "pioneered
 an early card grading system" — six levels, mint to poor — before BGS
 became the service [A4]. **The house that grades cards started as the
-house that prices them** — a fact the audit returns to in §3.11.
+house that prices them** — a fact the audit returns to in §3.13.
 
 **The grading business.** BGS is the only major grader that prints all
 four subgrades (centering, corners, edges, surface) on every label; the
@@ -265,23 +267,141 @@ ch. 2 states: thin liquidity. Transparency without a market is a
 prototype — and that is exactly the cold-start problem the community AI
 grading chapter (ch. 17) designs around.
 
-## 3.8 International players — the market left the US
+## 3.8 CCIC — the state-owned referee
 
-The 2025 case study (Shen & Wei) grades the three companies it studies —
-**PSA (US), CCIC (China), SQC (Thailand)** — on 30 interviews and finds
-"divergent strategies shaped by both dynamic capabilities and institutional
-contexts": PSA on scale + AI; **CCIC "focuses on legitimacy and
-incremental improvements under regulatory constraints"**; SQC "pursues
-exploratory digital initiatives (e.g., NFT-linked trials) to co-create
-value with its community" [A10]. On the demand side, TAG's category list
-already includes **Weiß Schwarz (Japan)** and prices in JPY [A7].
+**The group.** The card-grading business sits inside the **China
+Certification & Inspection (Group) Co., Ltd.** (中检集团) — "the only
+centrally-administered state-owned enterprise whose core business is
+'inspection, testing, certification and standards'" — created by the State
+Council in **1980**, reconstituted as a group in 2003, and re-merged in
+2007 to carry the dual CCIC + CQC brands. The group operates in **33
+countries**, with roughly **20,000 employees, 400+ branches and 500+
+laboratories**, and cooperation agreements with 120 certification bodies
+(UL in the US, TÜV in Germany, JET/JQA in Japan, among others) [A16].
 
-*Audit finding:* "grading" is now a multinational standard-competition,
-and the standard-setter's home country is a variable — a dimension the
-fairness framework (Act III) must keep in view, because "independent"
-means something different in each institutional setting [A10].
+**The grading business.** The 2025 case study — ten in-depth interviews
+with CCIC staff, from production supervisor to blockchain-services
+coordinator to regulatory-affairs liaison — describes a state-backed
+entrant that built trust differently from PSA [A15]:
 
-## 3.9 The price-data layer: who owns the numbers
+- **Legitimacy, not history.** "As a government-backed entrant, CCIC could
+  not simply replicate PSA's model, emphasizing instead authenticity and
+  security backed by state authority," using legal protections to address
+  "trust issues caused by counterfeits" — in the Chinese hobby the
+  dominant risk is the fake card, not the grade [A15].
+- **Embedded in commerce.** Through "strategic partnerships with
+  e-commerce platforms, CCIC integrated grading into broader verification
+  services" — grading attached to the checkout flow rather than a
+  standalone service [A15].
+- **Digital certificates inside the regulatory perimeter.** China bans
+  NFT launches, so "we use a closed digital certificate system to keep it
+  safe and transparent": graded cards are linked to **secure digital
+  certificates via QR codes on a proprietary platform**, a mobile app lets
+  collectors "showcase and virtually trade graded cards within a closed
+  system," and a blockchain "digital license card" logs each grading step
+  for audit compliance [A15].
+- **Technology from inception.** "High-resolution scanners, X-ray
+  inspections for fraud detection, and systematic multi-grader
+  evaluations"; "ISO-like documentation for rigorous quality management";
+  real-time tracking in the dedicated app; "Every card here goes through
+  multiple checks with advanced scanners; we won't trade away accuracy for
+  speed" [A15].
+- **Co-creation for market acceptance.** Collector workshops shaped
+  **bilingual certificates, "special local authenticity markers," a
+  published detailed grading guide built from user discussions, and top
+  collectors cast as brand ambassadors in live-streamed educational
+  events** — "their input was baked into our model" [A15].
+- **The investment framing.** CCIC "framed the boom as investment-driven —
+  collectors treat graded cards like **fine art or jade**, valuing
+  official certification and national credibility," with a growing
+  "investment mindset" tied to domestic pride; cross-border partnerships
+  support travelling collectors between China and other regions [A15].
+  On the demand side, China's TCG market is still young and youth-driven
+  (a 2025 survey finds ¥5–10 packs and an inadequately regulated
+  blind-box economy [A17]), and a 2026 value study of 550 Asian-market
+  collectors ranks scarcity (β = 0.367) above speculative investment
+  (β = 0.303) as the price-appreciation driver [A18].
+
+*Audit finding:* CCIC is the only major grader owned by a **state** — and
+the repo's Act II argument transfers without modification: a referee with
+a stake in the outcome is a referee with a stake in the outcome, whatever
+the stakeholder's nationality. What changes is the *channel*: in the US it
+runs through the marketplace, vault and price data; in China it runs
+through the regulatory perimeter itself. The "CCIC Gold 10 ≈ PSA 10"
+equivalence is a **perception** claim in the case study ("many collectors
+now view" it so) [A15], not a measured equivalence — the gem-rate
+comparison between the two standards does not exist in any fetched source.
+
+## 3.9 SQC — the jewelry-precision startup
+
+**The company.** **Special Quality Cards (SQC)** is a Thai local startup
+that "has positioned itself as an advanced-technology grader,"
+"leverag[ing] its background in precision jewelry manufacturing" with
+"laser-assisted inspection and AI analysis to validate cards" [A15].
+
+**The model, from ten staff interviews** [A15]:
+
+- **Community-first, not volume-first.** "We built our business model
+  around accessibility and community needs": **pre-grading assessments,
+  customizable slab artwork (originating from collector suggestions), and
+  affordable pricing directly shaped by customer input** [A15].
+- **The most radical digital adoption of the three case firms.** "From
+  day one we embraced tech": blockchain-based grading and certification,
+  an **NFT-twin pilot for some graded cards** ("bridging the physical card
+  with a digital asset for tech-savvy collectors"), digital microscopes,
+  automated defect detection and online tracking — feasible because
+  "in Thailand NFTs are legal under SEC oversight," the middle-ground
+  regulatory position between China's ban and the US's open-but-ambiguous
+  regime [A15].
+- **Transparency as the wedge.** "We even post images of a card's flaws
+  online so customers see exactly why it's not a 10" — per-slab flaw
+  evidence, plus **live grading events** and personalized **valuation
+  reports**: the same direction as TAG's DIG reports (§3.7), reached from
+  the startup side of the world rather than the US side [A15].
+- **The known limits.** Market-education costs (the novelty of the
+  service), "credibility skepticism" aimed at its radical innovations,
+  resource constraints, demand that "remains urban-centric due to
+  Thailand's smaller market scale," and constant comparison against global
+  brands [A15].
+
+*Audit finding:* SQC and TAG are the same bet on two continents — small,
+community-embedded, imaging-forward graders attacking liquid incumbents on
+transparency — and both hit the same ceiling: liquidity. (The SQC profile
+rests on the case study; the "SQC, n.d." website it cites could not be
+fetched, and the archived sqc.co.th page is empty [A19].)
+
+## 3.10 Global scale — and the "80%" question, re-scored
+
+The case study (open access, fetched in full this round) carries the
+industry-volume data the US-centric view lacked [A15]:
+
+- The top grading companies "collectively processed **over 20 million
+  cards annually** as of 2024" (the Big Four — PSA, CGC, SGC, BGS —
+  accounted for that volume).
+- Monthly volumes, **November 2024** (Cllct data cited in the study):
+  **PSA 1.26M items; CGC 218,000; SGC 129,000; BGS ~34,000**.
+- "Industry trackers (like GemRate) confirm PSA usually has roughly
+  **75–80% of grading volume**."
+
+That range is the first corroboration of the "80% of grading" figure that
+had circulated in this repo as an unverified video claim (§3.2): it is
+still a secondary citation (a case study citing a tracker citing a trade
+outlet), not a number fetched from GemRate itself — but it is no longer
+uncorroborated, and it is consistent with the GemRate 2024 ranking
+(PSA 1st, CGC 2nd, Beckett 3rd) already verified in the claim log [A13].
+
+**What the international layer adds to the audit.** (1) The
+referee-ownership spectrum is complete: state-owned (CCIC), independent
+with a public decision rule (CGC), community startups (SQC, TAG), and a
+consolidated private incumbent (PSA) all exist simultaneously in the major
+markets — Layer 1's firewall logic must be tested against every one of
+them. (2) The transparency tools converge globally: QR/digital
+certificates (CCIC), flaw imaging (SQC, TAG), public pops (all) — the
+direction is not US-specific. (3) The art chapter's (ch. 9) thesis is
+literally spoken by a Chinese referee: graded cards as "fine art or jade"
+[A15].
+
+## 3.11 The price-data layer: who owns the numbers
 
 **Card Ladder** (fetched 2026-10-12): "the only price guide with every
 public sale in our database **going back to 2000**"; "**100M+ historical
@@ -298,7 +418,7 @@ ownership reported but not verified** in any fetched source. The tracker
 in this repo exists precisely because the answer to "who owns the numbers
 I price my cards against" should not depend on a video's claim.
 
-## 3.10 The transparency scorecard
+## 3.12 The transparency scorecard
 
 
 
@@ -353,7 +473,7 @@ row the framework's Layer 2 demands, at least one player now demonstrates
 is feasible — and the gap between "feasible" and "standard" is what Act
 III is for.
 
-## 3.11 What the audit shows
+## 3.13 What the audit shows
 
 1. **Consolidation is structural, not incidental.** The sequence — taken
    private (2021) → Wata Games (2021) → SGC (2023, now integrated, domain
@@ -384,8 +504,15 @@ III is for.
    homepage [A6] while its ownership remains unconfirmed. The
    independent-data instrument (this repo's `tracker/`) is now an
    evidenced position, not just a principle.
+7. **The referee-ownership spectrum is now global.** State-owned (CCIC),
+   independent (CGC), community startup (SQC, TAG) and consolidated
+   private incumbent (PSA) all exist simultaneously in the major markets,
+   and the transparency tools (QR certificates, flaw imaging, public pops)
+   are converging across all of them — the framework's Layer 1 firewall
+   logic must be tested against every ownership form, and Layer 2 is
+   already being demonstrated outside the US (§3.8–3.10).
 
-## 3.12 Sources (located and fetched 2026-10-12)
+## 3.14 Sources (located and fetched 2026-10-12)
 
 | Tag | Source | Status | Used for |
 |-----|--------|--------|----------|
@@ -398,20 +525,34 @@ III is for.
 | A7 | taggrading.com/pricing (and site nav) | fetched direct, verbatim | 1000-point grade, DIG reports, "TAG VS MANUAL GRADING", POP/RANK/CHRON + cert search, service tiers incl. on-site (HOF CA, Bitcoin 2026), TAG V, backlog tracker, 4.9/5 (885 reviews), customer testimonials re: PSA |
 | A8 | beckett.com/grading | fetched direct, verbatim | 2026 platform outage + statement; Base/Standard paused, Express-only temporary form; Plano TX HQ; "dynamic approach to service availability"; 60-day price-guide subscription extension |
 | A9 | cardladder.com + archived /about (2026-10-08) | fetched direct + via Wayback | 100M+ sales since 2000; eBay/Goldin/Heritage/Fanatics; PSA/BGS/SGC/CGC pop reports; founders' story; **no ownership statement** |
-| A10 | Shen & Wei (2025), "Business Model Innovation in the Trading Card Grading Industry", AJBSP (10.70122/ajbsp.v2i2.37) | located via OpenAlex; abstract fetched | PSA/CCIC/SQC case findings: scale + AI; legitimacy under regulation; NFT-linked co-creation |
+| A10 | Shen & Wei (2025), "Business Model Innovation in the Trading Card Grading Industry: Cross-National Insights from Pokémon TCG and NFTs", AJBSP 2(2): 217–234 (10.70122/ajbsp.v2i2.37) | located via OpenAlex; **full text fetched (open-access PDF, 18 pages)** | All CCIC and SQC profile material (§3.8, §3.9); industry volumes: 20M+ cards/yr 2024, Nov-2024 monthly by grader, the 75–80% PSA volume range (§3.10); PSA submission freeze; CCIC "fine art or jade" framing |
 | A11 | Langelett & Wang (2025), "Third-Party Grading as a Useful Measure of Demand: Evidence from NBA Cards", Atlantic Economic Journal (10.1007/s11293-025-09835-1) | located via OpenAlex; abstract fetched | PSA-10 dummy ≈ **+339%** over grade-8 baseline (2001–2009 data) |
 | A12 | Krause (2026), "Grading the Graders" (10.2139/ssrn.7202040) | located via OpenAlex; abstract fetched | PSA 9.0+ = 85.9% vs AI 81.0% (d = 0.0317); football gap 16.3 pp, TCG opposite; 339% premium context |
 | A13 | Repo-verified claims | `../act-2-the-problem/grading-conflict.md` §4–5 (26-claim log); ch. 2 | $16.5M/$1.4M cliff; BBB F + inquiry close (C15/C16); GemRate ranking; SGC 2023 / Beckett 2025; BGS subgrades & Black Label; "80% share" = claim; Card Ladder ownership = reported |
 | A14 | DNS resolution checks performed 2026-10-12 | performed in this audit | sgcsportscard.com → NXDOMAIN; cgctcg.com → NXDOMAIN; comicgrading.com → resolves |
+| A15 | Shen & Wei (2025), AJBSP 2(2) case study — full text (see A10) | fetched in full (PDF) | The CCIC interview findings (state legitimacy, X-ray + dual-grader + closed QR certificates, bilingual labels, e-commerce partnerships, investment framing) and the SQC interview findings (jewelry-precision background, NFT twins, flaw images, live grading, market-education limits) quoted in §3.8–3.9 |
+| A16 | zh.wikipedia, "中国检验认证集团" (China Certification & Inspection Group) — full article | fetched in full | CCIC group background: founded 1980 by the State Council; the only central SOE in inspection/certification; 33 countries; ~20,000 staff, 400+ branches, 500+ labs; 120 partner certification bodies |
+| A17 | Cai (2025), "Youth Consumption of Trading Card Games in China", Advances in Economics Management and Political Sciences (10.54254/2754-1169/2025.cau28474) | located via OpenAlex; abstract fetched | Chinese youth TCG consumption: ¥5–10 packs, 25% willing to pay ¥50, blind-box regulation gaps |
+| A18 | Leow, Chan, Leow & Chong (2026), "Economic Value Creation in the Pokémon Card Market", IMRJR (10.17148/imrjr.2026.030907) | located via OpenAlex; abstract fetched | n=550 Asian-market collectors: scarcity β=0.367 > speculation β=0.303 > trading β=0.289; R²=0.506 |
+| A19 | Wayback Machine checks on sqc.co.th (2019/2022 snapshots) + the "SQC, n.d." site cited in A10 | performed in this audit | Archived pages empty/parked; the SQC profile rests on A10/A15 alone — flagged, not papered over |
 
-**Verification note.** A1–A7 and A9 were fetched in full on 2026-10-12 and
-are stored verbatim in the research working files; every tag in this
-chapter traces to one of them. A10–A12 rest on fetched abstracts. **Not
-verified here and marked accordingly:** SGC's founding year; Card Ladder's
-ownership (reported claim, §3.9); the "80% of grading" figure; exact
-current fees and turnaround times at every company (structure described;
-numbers left to the day-of-submission check, per the house rule); and any
-gem-rate figure beyond the third-party measurement in A12.
+**Verification note.** A1–A7, A9, A16 and A10/A15 (full PDF) were fetched
+in full on 2026-10-12 and are stored verbatim in the research working
+files; every tag in this chapter traces to one of them. A11–A12 and A17–A18
+rest on fetched abstracts; A19 is this audit's own check. **Not verified
+here and marked accordingly:** SGC's founding year; Card Ladder's
+ownership (reported claim, §3.11, corroborated as an orbit-link only); the
+"80% of grading" figure (now corroborated as a 75–80% secondary range,
+§3.10 — not fetched from GemRate itself); the "CCIC Gold 10 ≈ PSA 10"
+equivalence (a perception claim in A15, not a measured one — no gem-rate
+comparison exists in any fetched source); the SQC profile (single source,
+A10/A15, its cited site unreachable, A19); and exact current fees and
+turnaround times at every company (structure described; numbers left to
+the day-of-submission check, per the house rule). The case study's own
+interview count is internally inconsistent (abstract: 30, ten per firm;
+limitations: 15 total) — flagged here; no claim in this chapter depends on
+which figure is right. A12 gem-rate figures stand as the only third-party
+measurements fetched.
 
 Cross-references: the comparison this audits
 (`grading-companies.md`, ch. 2), the problem it feeds

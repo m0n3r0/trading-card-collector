@@ -109,6 +109,12 @@ The shared properties:
    prices are *publicly* formed, and a whole research literature exists on
    how it works and how well it performs [U5]. Cards run the same clock
    slower: Goldin, Heritage, auction archives (ch. 14).
+8. **The framing travels.** In China, the state-owned grader CCIC's own
+   marketing managers describe collectors who "treat graded cards like
+   **fine art or jade**, valuing official certification and national
+   credibility" (ch. 3 §3.8, from the 2025 case study) — the sibling
+   market saying this chapter's thesis out loud, with jade standing in
+   for provenance.
 
 ## 2. The structural differences
 
