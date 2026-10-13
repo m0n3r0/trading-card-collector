@@ -1,6 +1,6 @@
 # Is this tulip mania? — the 400-year-old question, answered with data
 
-> **Act I — The hobby · chapter 8 of 16.** Every time the market surges, the
+> **Act I — The hobby · chapter 8 of 17.** Every time the market surges, the
 > oldest objection in finance gets raised: *this is tulip mania* — said of
 > cards in 2021, of Bitcoin in 2013, of NFTs in 2021. This chapter takes the
 > question seriously, and the sources seriously: it reconstructs what actually
@@ -366,6 +366,10 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
    holding — `market-overview.md` §1.4 stage 5). The playbook's
    "buy scarce, high-grade, with a reason to be wanted in 20 years" is the
    1637 lesson translated to cards.
+
+(The bubble comparison was against a fable; for the comparison against the
+mature sibling asset class — the art market — see
+`cards-and-the-art-market.md`, chapter 9 in this act.)
 
 ## 6. Sources (located and fetched 2026-10-12)
 

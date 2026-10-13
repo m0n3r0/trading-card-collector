@@ -1,6 +1,6 @@
 # 1. Market Overview
 
-> **Act I — The hobby · chapter 1 of 16.** The world. How the hobby got here and how the industry is built. The
+> **Act I — The hobby · chapter 1 of 17.** The world. How the hobby got here and how the industry is built. The
 > first thing to understand before any price, grade, or purchase.
 
 ## 1.1 A short history
@@ -145,7 +145,9 @@ this act.)
 
 (For the historical test of that cycle — *is it tulip mania?* — see
 `is-this-tulip-mania.md`, chapter 8 in this act: same behavioral kernel,
-different structural machine.)
+different structural machine. For the asset-class test — cards vs the
+mature art market, including the 2021 cross-collectibles displacement — see
+`cards-and-the-art-market.md`, chapter 9 in this act.)
 
 ## 1.5 Market size (orders of magnitude only)
 

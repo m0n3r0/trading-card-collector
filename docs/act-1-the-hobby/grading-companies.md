@@ -1,6 +1,6 @@
 # 2. Grading Companies Compared
 
-> **Act I — The hobby · chapter 2 of 16.** The referees. Who grades the cards and who really owns them. Section 2.7
+> **Act I — The hobby · chapter 2 of 17.** The referees. Who grades the cards and who really owns them. Section 2.7
 > is where the neutral referee becomes a market participant — the turn of the whole story.
 
 A grade is one company's opinion of a card's authenticity and condition. The

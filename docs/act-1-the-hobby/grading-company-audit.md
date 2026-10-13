@@ -1,6 +1,6 @@
 # 3. Grading Companies, Audited
 
-> **Act I — The hobby · chapter 3 of 16.** Chapter 2 tells you who the
+> **Act I — The hobby · chapter 3 of 17.** Chapter 2 tells you who the
 > referees are. This chapter audits them: what each company is, how big it
 > is, how it grades, what it publishes — and, from the companies' own sites
 > fetched on 2026-10-12, what is actually happening at each company *right
@@ -263,7 +263,7 @@ transparency (numeric sub-scores + imaging + public detail reports) is
 buildable and that customers will choose it. Its ceiling is the same one
 ch. 2 states: thin liquidity. Transparency without a market is a
 prototype — and that is exactly the cold-start problem the community AI
-grading chapter (ch. 16) designs around.
+grading chapter (ch. 17) designs around.
 
 ## 3.8 International players — the market left the US
 
@@ -415,8 +415,8 @@ gem-rate figure beyond the third-party measurement in A12.
 
 Cross-references: the comparison this audits
 (`grading-companies.md`, ch. 2), the problem it feeds
-(`../act-2-the-problem/grading-conflict.md`, ch. 9), the framework the
+(`../act-2-the-problem/grading-conflict.md`, ch. 10), the framework the
 scorecard belongs to (`../act-3-the-solution/fair-grading-framework.md`,
-ch. 12, Layer 2), the transparency prototype's ceiling
-(`../act-3-the-solution/open-community-ai-grading.md`, ch. 16), and the
+ch. 13, Layer 2), the transparency prototype's ceiling
+(`../act-3-the-solution/open-community-ai-grading.md`, ch. 17), and the
 independent instrument (`../../tracker/`).
