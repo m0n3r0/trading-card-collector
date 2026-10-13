@@ -1,6 +1,6 @@
 # Notes: "Inside the Billion-Dollar Trading Card Boom and How it Happened | The Hobby"
 
-> **Act II — The problem · chapter 12 of 17 (eyewitness evidence 1 of 2).** What "The Hobby" documentary said, and the
+> **Act II — The problem · chapter 11 of 16 (eyewitness evidence 1 of 2).** What "The Hobby" documentary said, and the
 > Pokemon-relevant parts kept here. This is the evidence layer: speakers' claims from
 > auto-captions, not verified facts.
 

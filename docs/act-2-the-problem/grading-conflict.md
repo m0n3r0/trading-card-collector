@@ -1,6 +1,6 @@
 # Act II — The Problem: The Grading Conflict of Interest
 
-> **Act II — The problem · chapter 10 of 17 — the backbone of the repo.** Everything in Act I
+> **Act II — The problem · chapter 9 of 16 — the backbone of the repo.** Everything in Act I
 > established that grading is what makes a card valuable. This chapter is the turn: the
 > people who assign the grade now increasingly operate the market around it. Here is
 > the problem, precisely, with evidence — what is verified, what is only reported, and
@@ -49,7 +49,7 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
   GRADE --> note
 ```
 
-`../act-1-the-hobby/grading-companies.md` 2.7 established the structural fact: PSA,
+`../act-1-the-hobby/grading-companies.md` 2.17 established the structural fact: PSA,
 BGS and SGC now share one owner (Collectors), and the group also runs vault and sales
 products and is reported to own price-data tools. `monopoly-video-notes.md` (in this
 directory) asked the obvious question: *how do you know the standard is still

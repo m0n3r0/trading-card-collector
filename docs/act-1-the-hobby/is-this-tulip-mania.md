@@ -1,6 +1,6 @@
 # Is this tulip mania? — the 400-year-old question, answered with data
 
-> **Act I — The hobby · chapter 8 of 17.** Every time the market surges, the
+> **Act I — The hobby · chapter 7 of 16.** Every time the market surges, the
 > oldest objection in finance gets raised: *this is tulip mania* — said of
 > cards in 2021, of Bitcoin in 2013, of NFTs in 2021. This chapter takes the
 > question seriously, and the sources seriously: it reconstructs what actually
@@ -193,12 +193,12 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
    stage is a new thing with a status halo. Tulips in 1620s–30s Holland: a
    40-year-old novelty at the height of the Golden Age, with VOC voyages
    yielding 400% profits and money to spend [T1, T8]. Cards in 2020: a TCG
-   culture riding a global shutdown with cheap money [ch. 7].
+   culture riding a global shutdown with cheap money [ch. 6].
 2. **Bandwagon dynamics.** Both markets ran on the "can't be wrong"
    mechanism — prices rising daily is the cheapest argument there is [T7].
 3. **New money at the peak.** 1634: speculators and foreign (French) demand
    arriving late [T1]. 2020–21: investors, influencers, first-time buyers
-   chasing a story they'd heard of, not a game they play [ch. 7].
+   chasing a story they'd heard of, not a game they play [ch. 6].
 4. **Paper in front of the asset — the strongest structural rhyme.**
    *Windhandel*: no bulbs changing hands, the same future bulb resold five
    times [T1]. 2021: sealed product at multiples, break futures, vault and
@@ -218,7 +218,7 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
    (`../act-2-the-problem/hobby-documentary-notes.md`).
 7. **The full sequence.** Displacement → boom → mania → panic: both markets
    show it, including the panic leg (Haarlem, 3–5 February 1637; the early
-   2022 correction) [T8, ch. 7].
+   2022 correction) [T8, ch. 6].
 
 ### 4.2 The case for "different" — the structural machine
 
@@ -248,7 +248,7 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
 3. **Depth of financialization — in opposite directions.** Tulips: a true
    forward market with five-fold resale, no margin, no clearinghouse, and
    *unenforceable* contracts [T1]. Cards: vaults and tokenised claims
-   (Krause 2026, ch. 7) and break futures are real, but most boom-era buying
+   (Krause 2026, ch. 6) and break futures are real, but most boom-era buying
    was cash spot. So: **deeper paper in 1637, broader cash participation in
    2021** — each era has the other's worst feature, but the tulip paper
    layer was deeper.
@@ -344,7 +344,7 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
 
 1. **The displacement is the leading indicator, not the price.** Watch the
    trigger, not the chart: 1634 (war lull + French demand) [T1]; 2020
-   (pandemic + cheap money + nostalgia) [ch. 7]. When the trigger set is
+   (pandemic + cheap money + nostalgia) [ch. 6]. When the trigger set is
    gone or reversing, the panic leg is near.
 2. **Paper in front of the asset is where the tulip damage actually was.**
    The victims were *contract* holders [T1, T3]; in 2021 the parallel
@@ -369,7 +369,7 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
 
 (The bubble comparison was against a fable; for the comparison against the
 mature sibling asset class — the art market — see
-`cards-and-the-art-market.md`, chapter 9 in this act.)
+`cards-and-the-art-market.md`, chapter 8 in this act.)
 
 ## 6. Sources (located and fetched 2026-10-12)
 

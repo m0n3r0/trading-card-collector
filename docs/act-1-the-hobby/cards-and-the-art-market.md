@@ -1,6 +1,6 @@
 # Cards and the art market — the mature sibling asset class
 
-> **Act I — The hobby · chapter 9 of 17.** The tulip chapter (ch. 8) compared
+> **Act I — The hobby · chapter 8 of 16.** The tulip chapter (ch. 8) compared
 > cards to a 400-year-old *bubble*. This chapter compares cards to a
 > 400-year-old *asset class*: the art market — the only mature,
 > institutionally embedded market for non-productive aesthetic objects. The
@@ -94,7 +94,7 @@ The shared properties:
    at the three big houses down from $1.75B to $803M in one year; Damien
    Hirst set a living-artist world record in 2008 and his annual auction
    sales **shrunk 93% the following year** [U1]. Cards: the 1990s, 2000s,
-   and 2020–21 cycles (`market-overview.md` §1.4; ch. 8). The 2021
+   and 2020–21 cycles (`market-overview.md` §1.4; ch. 7). The 2021
    displacement was *cross-collectibles*: the Polish rare-books market
    (85%-share auctions, 2018–2022) showed the same pandemic surge —
    "sharp increases (up to 50%) in sales revenues and a subsequent
@@ -104,15 +104,15 @@ The shared properties:
    standard reference, 400+ citations [U9]); manufactured collectibles are
    "items made specifically for people to collect," with set-completion an
    explicit marketing mechanism [U10]. Veblen's conspicuous consumption is
-   the economics of both (ch. 7, ch. 8 §4.1).
+   the economics of both (ch. 6, ch. 7 §4.1).
 7. **Auctions as the price clock.** The auction system is where art's
    prices are *publicly* formed, and a whole research literature exists on
    how it works and how well it performs [U5]. Cards run the same clock
-   slower: Goldin, Heritage, auction archives (ch. 14).
+   slower: Goldin, Heritage, auction archives (ch. 13).
 8. **The framing travels.** In China, the state-owned grader CCIC's own
    marketing managers describe collectors who "treat graded cards like
    **fine art or jade**, valuing official certification and national
-   credibility" (ch. 3 §3.8, from the 2025 case study) — the sibling
+   credibility" (ch. 2 §2.13, from the 2025 case study) — the sibling
    market saying this chapter's thesis out loud, with jade standing in
    for provenance.
 
@@ -125,15 +125,15 @@ art survived two things cards must manage).
 | Dimension | Art market | Card market | Why it matters |
 |-----------|-----------|-------------|----------------|
 | **Supply** | Unique originals; non-reproducible; supply locks permanently at the artist's death (dead artists' works auction for more — verified in a 37,605-painting hedonic study [U3]) | Serial goods: print runs known, reprints possible, a franchise can close or revive supply | Art's scarcity is *final*; a card's scarcity is *managed*. "A reason to be wanted in 20 years" (ch. 1) is a bet on which kind you hold |
-| **The dominant risk** | **Authenticity** — is it really a Rembrandt? Forgeries are 500 years old (Michelangelo's 1496 Cupid [U12]); Thomas Hoving estimated forged art at up to 40% of the market (disputed, cited as such [U12]) | **Condition** — the card is always "real" (it came off a press); the grade is the value | The two markets carry the *two halves* of the information problem. Cards still have authenticity risk at the edges (counterfeits, alterations — ch. 15) |
-| **Condition standard** | **None.** Authentication + provenance + the auction house's bespoke condition report; no universal scale [U1][U13] | **Universal since 1991** — PSA 1–10, four subgrades internally, pop reports, cert lookup (ch. 3 audit) | Cards solved in 1991 what art still prices case-by-case. This is the card market's single biggest institutional invention |
-| **Price transparency** | "The market is not transparent; private sales data are not systematically available, and **private sales represent about half of market transactions**" [U1]. A 2009 open debate on "the art market is less ethical than the stock market" was *decided in favour* by the audience [U1] | Sold comps public (eBay), pops public, price indices built by outsiders (Card Ladder's 100M-sale database, ch. 3) | Even the consolidated card market is structurally more transparent than a 200-year-old art market |
+| **The dominant risk** | **Authenticity** — is it really a Rembrandt? Forgeries are 500 years old (Michelangelo's 1496 Cupid [U12]); Thomas Hoving estimated forged art at up to 40% of the market (disputed, cited as such [U12]) | **Condition** — the card is always "real" (it came off a press); the grade is the value | The two markets carry the *two halves* of the information problem. Cards still have authenticity risk at the edges (counterfeits, alterations — ch. 14) |
+| **Condition standard** | **None.** Authentication + provenance + the auction house's bespoke condition report; no universal scale [U1][U13] | **Universal since 1991** — PSA 1–10, four subgrades internally, pop reports, cert lookup (ch. 2) | Cards solved in 1991 what art still prices case-by-case. This is the card market's single biggest institutional invention |
+| **Price transparency** | "The market is not transparent; private sales data are not systematically available, and **private sales represent about half of market transactions**" [U1]. A 2009 open debate on "the art market is less ethical than the stock market" was *decided in favour* by the audience [U1] | Sold comps public (eBay), pops public, price indices built by outsiders (Card Ladder's 100M-sale database, ch. 2) | Even the consolidated card market is structurally more transparent than a 200-year-old art market |
 | **Transaction costs** | Seller commission up to 20% + **buyer's premium ~15%** (both sides pay); "transaction costs, which are considerable in the art market" [U1][U4] | Listing fees + grading fee — a small fraction of price at most levels | Art is a low-turnover asset by construction; cards can be traded daily. That is why British Rail could hold its £40M art portfolio for 25 years and most card collectors cannot imagine it |
-| **The venue conflict** | Documented, named, and 200 years old: **chandelier bidding** (the house bidding on its own consignment), secret reserves, undisclosed third-party guarantees [U1][U13] | Documented, named, and new: the grader that runs the vault, the marketplace and (reported) the price data (ch. 10) | **The same conflict of interest, in two generations.** Art's version: the venue facilitates *and trades*. Cards' version: the referee certifies *and operates the market*. Art debated this publicly in 2009; the card market is doing its 2009 right now |
-| **How the price is set** | **By competing bidders at auction** — the venue sets the estimate, but the hammer price is market-determined [U5] | **Partly by the standard itself** — the grade (a number the institution assigns) is the largest price determinant (the +339% PSA-10 dummy, ch. 3; the $16.5M/$1.4M cliff, ch. 10) | The deepest difference. Art's pricing mechanism (auction) and its verification institutions (house expertise, provenance) are *separated*; in cards the verification institution *is* the pricing mechanism. Act III's Layer 1 asks for exactly art's separation |
+| **The venue conflict** | Documented, named, and 200 years old: **chandelier bidding** (the house bidding on its own consignment), secret reserves, undisclosed third-party guarantees [U1][U13] | Documented, named, and new: the grader that runs the vault, the marketplace and (reported) the price data (ch. 9) | **The same conflict of interest, in two generations.** Art's version: the venue facilitates *and trades*. Cards' version: the referee certifies *and operates the market*. Art debated this publicly in 2009; the card market is doing its 2009 right now |
+| **How the price is set** | **By competing bidders at auction** — the venue sets the estimate, but the hammer price is market-determined [U5] | **Partly by the standard itself** — the grade (a number the institution assigns) is the largest price determinant (the +339% PSA-10 dummy, ch. 2; the $16.5M/$1.4M cliff, ch. 9) | The deepest difference. Art's pricing mechanism (auction) and its verification institutions (house expertise, provenance) are *separated*; in cards the verification institution *is* the pricing mechanism. Act III's Layer 1 asks for exactly art's separation |
 | **Liquidity clock** | Seasonal — major auctions in spring/autumn; "seasonal rather than ongoing" [U1] | Continuous — daily comps, 24/7 marketplaces | Card corrections are faster and sharper (ch. 1 §1.4); art corrections unfold over seasons and years |
-| **Index construction** | Built by *researchers*, from auction data, because the market won't publish: hedonic indices (37,605 paintings, 1973–2003 [U3]); "researchers discovered biased price estimates in the auction houses" [U1] | Built by *vendors and outsiders* (Card Ladder, 130point) and, at collector scale, by your own tracker (ch. 16) | Both markets needed a hedonic reconstruction; cards had it earlier and cheaper |
-| **Institutional investors** | The 1974–1999 British Rail pension experiment: ~£40M (3% of fund), **11.3% annualized**, then liquidated because it "came to be seen as an illegitimate investment area" [U1] | Vaults and tokenisation are the early stage (Krause 2026, ch. 7) | Art is 30 years ahead on the institutional question — and its answer was a 25-year hold |
+| **Index construction** | Built by *researchers*, from auction data, because the market won't publish: hedonic indices (37,605 paintings, 1973–2003 [U3]); "researchers discovered biased price estimates in the auction houses" [U1] | Built by *vendors and outsiders* (Card Ladder, 130point) and, at collector scale, by your own tracker (ch. 15) | Both markets needed a hedonic reconstruction; cards had it earlier and cheaper |
+| **Institutional investors** | The 1974–1999 British Rail pension experiment: ~£40M (3% of fund), **11.3% annualized**, then liquidated because it "came to be seen as an illegitimate investment area" [U1] | Vaults and tokenisation are the early stage (Krause 2026, ch. 6) | Art is 30 years ahead on the institutional question — and its answer was a 25-year hold |
 
 ## 3. The debate: same or not?
 
@@ -226,7 +226,7 @@ institutions are what you're actually competing on.*
    faked — only graded. The consequence: the art market's value is in the
    *name* (artist, provenance), the card market's value is in the *number*
    (grade, pop). When a number becomes the value, **who owns the number
-   owns the market** — which is why the consolidation in ch. 3 matters
+   owns the market** — which is why the consolidation in ch. 2 matters
    more for cards than for art, where no single institution owns "what a
    painting is."
 3. **"Control of the biography" is the grader's pop report, by another
@@ -252,7 +252,7 @@ institutions are what you're actually competing on.*
    `tracker/`) exist for the same reason: the market's own price data is
    owned by someone with a stake in it. The art market's 40-year
    index-construction history is the argument for the tracker (`tracker/`)
-   and the valuation method (ch. 14), made by an older, worse-data
+   and the valuation method (ch. 13), made by an older, worse-data
    sibling.
 6. **The 35% round-trip cost is why art is a 25-year asset — and why cards
    are not automatically one.** British Rail held for 25 years because
@@ -268,10 +268,10 @@ institutions are what you're actually competing on.*
    character, the player — not "the market." Position sizing per name is
    the art market's oldest lesson: a market that is up can still contain a
    name that is −93% in a year.
-8. **The 2021 cross-collectibles displacement confirms ch. 8's leading
+8. **The 2021 cross-collectibles displacement confirms ch. 7's leading
    indicator.** Rare books (2022 study): pandemic surge, +50%, collapse
    [U6]; art: 2021 boom, generational inflow (2025: Gen Z average fine-art
-   spend $347K vs Gen X $79K [U1]); cards: 2020–21 boom (ch. 1, ch. 7).
+   spend $347K vs Gen X $79K [U1]); cards: 2020–21 boom (ch. 1, ch. 6).
    The trigger was shared (lockdown + cheap money + the collectible as
    hedge — "in a financial sense, collectables can be viewed as a hedge
    against inflation" [U10]); the correction came to all of them. Ch. 8's
@@ -285,17 +285,17 @@ institutions are what you're actually competing on.*
    tulips. Price yourself against its lessons, not against the fables.
 2. **The grail purchase is a blue-chip art purchase.** Concentrate where
    liquidity concentrates: the top names (dead artists ≈ closed print
-   runs), the best condition (the +339% top-grade premium, ch. 3), and the
-   longest, best-documented provenance (your cert history, ch. 16).
+   runs), the best condition (the +339% top-grade premium, ch. 2), and the
+   longest, best-documented provenance (your cert history, ch. 15).
 3. **Reserve the art market's skepticism for your venue.** Chandelier
    bidding, secret reserves, undisclosed guarantees — the art market's
    named conflicts [U1][U13]. When the card market's referee operates the
-   marketplace (ch. 10), that is the 200-year-old pattern, not a new
-   phenomenon. The outside-source rule (ch. 14) is the buyer's defense in
+   marketplace (ch. 9), that is the 200-year-old pattern, not a new
+   phenomenon. The outside-source rule (ch. 13) is the buyer's defense in
    both markets.
 4. **Price per name, not per market.** Hirst's −93% [U1] is the standing
    warning: hold franchises and characters as separate positions with
-   separate walk-away prices (ch. 14).
+   separate walk-away prices (ch. 13).
 5. **Your tracker is a hedonic index.** The art market's researchers took
    decades to build one from 37,605 sales [U3]; you can start today with
    your own sold comps — same method, smaller n, zero auction-house bias.
@@ -303,7 +303,7 @@ institutions are what you're actually competing on.*
    transparency and low cost; art has won price-mechanism independence and
    century-scale provenance. The card collector's job is to *keep* the
    first three while *building* the second two (independent data, verifiable
-   history) — which is precisely what Act III's short side (ch. 13–17)
+   history) — which is precisely what Act III's short side (ch. 12–16)
    does.
 
 ## 6. Sources (located and fetched 2026-10-12)
@@ -338,11 +338,11 @@ forgery figure is a single, disputed estimate and is labelled as such.
 No direct academic "art vs trading cards" comparison paper was located in
 this round — this chapter's comparison is therefore built from the two
 literatures (art-market economics; the card-collectibles literature in
-ch. 7), and that gap is itself a finding: the younger asset class has not
+ch. 6), and that gap is itself a finding: the younger asset class has not
 yet written its own comparison with the older one.
 
 Card-side facts are the repo's own: the 2020–21 cycle and boom physics
-(`market-overview.md` §1.4, ch. 8), the grading audit (ch. 3), the conflict
-(`../act-2-the-problem/grading-conflict.md`, ch. 10), valuation (ch. 14)
-and the instrument (`tracker/`), the fakes and alterations layer (ch. 15),
-and the community-AI answer (ch. 17).
+(`market-overview.md` §1.4, ch. 7), the grader audit (ch. 2), the conflict
+(`../act-2-the-problem/grading-conflict.md`, ch. 9), valuation (ch. 13)
+and the instrument (`tracker/`), the fakes and alterations layer (ch. 14),
+and the community-AI answer (ch. 16).

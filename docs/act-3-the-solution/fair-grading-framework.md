@@ -1,6 +1,6 @@
 # Act III — The Solution: The Fair Grading Framework
 
-> **Act III — The solution · chapter 13 of 17 — the backbone of the repo.** Act II defined the
+> **Act III — The solution · chapter 12 of 16 — the backbone of the repo.** Act II defined the
 > problem: the referee who defines the product now also runs much of the market for
 > it. This chapter is the fix, in four layers ordered from slowest to fastest to
 > implement — structural separation (the long game), transparency standards (any grader
@@ -148,7 +148,7 @@ These need no one's permission. They are the existing rules in
 | [`tracker/`](../../tracker/README.md) | Working prototype of Layer 3 items 1 and 4 and Layer 4 item 1: independent comp data, trend checks, an open schema |
 | `psa10-playbook.md` (this act) | The full collector-side playbook (Layer 3 in detail, per purchase) |
 | `../act-2-the-problem/monopoly-video-notes.md`, `../act-2-the-problem/hobby-documentary-notes.md` | The evidence layer for Act II §2.2 and §2.5 (reported claims, explicitly unverified) |
-| `../act-1-the-hobby/grading-companies.md` 2.7 | The ownership facts (Layer 1's premise), checked against Wikipedia |
+| `../act-1-the-hobby/grading-companies.md` 2.17 | The ownership facts (Layer 1's premise), checked against Wikipedia |
 | **This chapter** | The missing link: the industry-side fix, and the line between verified fact and proposal |
 
 ## The short side and the long side

@@ -1,6 +1,6 @@
 # 1. Market Overview
 
-> **Act I — The hobby · chapter 1 of 17.** The world. How the hobby got here and how the industry is built. The
+> **Act I — The hobby · chapter 1 of 16.** The world. How the hobby got here and how the industry is built. The
 > first thing to understand before any price, grade, or purchase.
 
 ## 1.1 A short history
@@ -20,7 +20,7 @@
 | 1996-1999 | Pokemon TCG launched in Japan (Oct 1996) and the US (Wizards of the Coast, 1998-2003). Yu-Gi-Oh! OCG launched in 1999 | The vintage TCG grails: 1st Edition Base Set Charizard, Pikachu Illustrator, Blue-Eyes and Dark Magician LOB 1st Ed |
 | 2009 | Panini takes the exclusive NBA licence | Panini dominates basketball and football through the 2010s |
 | 2020-2021 | COVID boom: stimulus money, nostalgia, lockdown free time, breakers and influencers. Grading backlogs of months. Target pulls cards from shelves after fights | Record prices across sports and Pokemon. Pikachu Illustrator (PSA 10) bought by Logan Paul for $5.275M in July 2021 |
-| 2021-2025 | Grader consolidation. PSA's parent Collectors is taken private (2021) and acquires Wata Games (2021), SGC (2023) and Beckett/BGS (2025) | Three of the five main card-grading brands now have one owner. CGC and TAG are the independent alternatives. See `grading-companies.md` 2.7 |
+| 2021-2025 | Grader consolidation. PSA's parent Collectors is taken private (2021) and acquires Wata Games (2021), SGC (2023) and Beckett/BGS (2025) | Three of the five main card-grading brands now have one owner. CGC and TAG are the independent alternatives. See `grading-companies.md` 2.17 |
 | 2022 | Fanatics wins the MLB, NBA and NFL licences and acquires Topps | The licence landscape changes over 2022-2026 as old deals expire |
 | 2022-2023 | New TCGs: One Piece (Bandai, global Dec 2022) and Disney Lorcana (Ravensburger, Aug 2023) | New-game hype cycles. Early sets and top rarities spike, then often correct |
 | 2023-2026 | The market cools then recovers by segment. Pokemon sealed demand drives scalping, bots and sell-outs | In February 2026 the PSA 10 Pikachu Illustrator sold for $16.5M (per Wikipedia) |
@@ -144,10 +144,10 @@ the boom-bust data, the boom-era literature — see `what-research-says.md` §3 
 this act.)
 
 (For the historical test of that cycle — *is it tulip mania?* — see
-`is-this-tulip-mania.md`, chapter 8 in this act: same behavioral kernel,
+`is-this-tulip-mania.md`, chapter 7 in this act: same behavioral kernel,
 different structural machine. For the asset-class test — cards vs the
 mature art market, including the 2021 cross-collectibles displacement — see
-`cards-and-the-art-market.md`, chapter 9 in this act.)
+`cards-and-the-art-market.md`, chapter 8 in this act.)
 
 ## 1.5 Market size (orders of magnitude only)
 

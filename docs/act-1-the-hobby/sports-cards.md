@@ -1,6 +1,6 @@
 # 3. Sports Cards
 
-> **Act I — The hobby · chapter 4 of 17.** The cards you can buy (1 of 3). The vocabulary and value logic of
+> **Act I — The hobby · chapter 3 of 16.** The cards you can buy (1 of 3). The vocabulary and value logic of
 > sports cards; the segment thinking the deep dive re-uses for Pokemon.
 
 ## 3.1 Vocabulary that drives price

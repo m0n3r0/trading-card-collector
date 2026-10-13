@@ -1,6 +1,6 @@
 # 7. Valuation and Selling
 
-> **Act III — The solution · chapter 14 of 17.** The value. The method the deep dive runs on: fair value from *sold*
+> **Act III — The solution · chapter 13 of 16.** The value. The method the deep dive runs on: fair value from *sold*
 > comps, at least one source outside the grader's group, and a walk-away price. A
 > prerequisite to the PSA 10 guide.
 
@@ -39,7 +39,7 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
      PSA APR is run by the grader, and Card Ladder is reported to belong to the
      same group (Collectors). Always include at least one source outside it,
      such as eBay sold, 130point, an auction archive or your tracker log
-     (`../act-1-the-hobby/grading-companies.md` 2.7).
+     (`../act-1-the-hobby/grading-companies.md` 2.17).
    - TCG-specific: TCGplayer market price (US), Cardmarket (EU), Japanese
      shops/marketplaces for Japanese prints
 3. Clean the data: remove best-offer ambiguity (look up accepted offer when

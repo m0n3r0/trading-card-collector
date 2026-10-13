@@ -1,6 +1,6 @@
 # Notes: "The Hidden Monopoly Controlling Card Prices..." (FOLLOWTHEMONEY)
 
-> **Act II — The problem · chapter 11 of 17 (eyewitness evidence 2 of 2).** The PSA/Collectors conflict-of-interest
+> **Act II — The problem · chapter 10 of 16 (eyewitness evidence 2 of 2).** The PSA/Collectors conflict-of-interest
 > case: reholder risk, upcharges, and why your price checks must come from outside the
 > group. Read this before the deep dive — it is *why* several guide rules exist.
 
@@ -121,7 +121,7 @@ grader.
   - section 5 (upcharges)
   - section 8 (independent price data)
   - section 9 (vault platforms)
-- `../act-1-the-hobby/grading-companies.md` section 2.7: who owns which grader
+- `../act-1-the-hobby/grading-companies.md` section 2.17: who owns which grader
 - `../act-1-the-hobby/market-overview.md`:
   - the 2021-2025 row (consolidation)
   - section 1.2 (structure)

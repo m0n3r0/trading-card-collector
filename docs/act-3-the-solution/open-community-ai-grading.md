@@ -1,6 +1,6 @@
 # Open community AI grading — the missing middle between the two bad options
 
-> **Act III — The solution · chapter 17 of 17.** The grading problem has two
+> **Act III — The solution · chapter 16 of 16.** The grading problem has two
 > poles, and both of them fail. At one pole sits the incumbent referee —
 > neutral *in name only*, because it owns the market it certifies (Act II). At
 > the other sits the tempting individual alternative — *grade it yourself* —

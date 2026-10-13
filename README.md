@@ -1,7 +1,7 @@
 # trading-card-collector
 
 
-The whole repo at a glance — three acts, seventeen chapters, one instrument.
+The whole repo at a glance — three acts, sixteen chapters, one instrument.
 
 ```mermaid
 
@@ -20,9 +20,9 @@ classDef endg fill:#e2e8f0,stroke:#475569,stroke-width:2px,color:#1e293b;
   B["**ACT II — THE PROBLEM**<br/>The referee who defines the product<br/>now runs much of the market"]:::act2 --> C
   C["**ACT III — THE SOLUTION**<br/>Four-layer Fair Grading Framework<br/>+ the collector playbook"]:::act3
 
-  A --> A1["Ch 1-9: market, graders, audit, sports,<br/>TCGs, sealed, research, tulips, the art market"]:::act1
-  B --> B1["Ch 10-12: the conflict +<br/>two eyewitness evidence files"]:::act2
-  C --> C1["Ch 13-17: framework, value, fakes,<br/>PSA 10 playbook, community AI grading"]:::act3
+  A --> A1["Ch 1-8: market, graders, sports, TCGs,<br/>sealed, research, tulips, the art market"]:::act1
+  B --> B1["Ch 9-11: the conflict +<br/>two eyewitness evidence files"]:::act2
+  C --> C1["Ch 12-16: framework, value, fakes,<br/>PSA 10 playbook, community AI grading"]:::act3
   C --> T["**tracker/** — independent data,<br/>the practical core of the fix"]:::act3
 ```
 
@@ -73,32 +73,31 @@ structural separation of grading from the market it prices.
 | # | Chapter | What it covers |
 |---|---------|----------------|
 | 1 | [market-overview.md](docs/act-1-the-hobby/market-overview.md) | History from tobacco cards to the 2020s boom, how the industry is structured (IP licence → manufacturer → distributor → retail → secondary market → grader), segments, and how booms and busts work |
-| 2 | [grading-companies.md](docs/act-1-the-hobby/grading-companies.md) | PSA, BGS, SGC, CGC, TAG compared: scales, subgrades, labels, crossovers — and §2.7, who owns which grader (the last section before the story turns) |
-| 3 | [grading-company-audit.md](docs/act-1-the-hobby/grading-company-audit.md) | The deep dive: every company audited from primary sources fetched 2026-10-12 — origins, scale, grading process, what each publishes and what it won't, the Beckett 2026 outage, the dead SGC domain, deep profiles of state-owned CCIC (China) and startup SQC (Thailand), the 20M-cards-per-year global scale, the transparency scorecard, and who owns the price data |
-| 4 | [sports-cards.md](docs/act-1-the-hobby/sports-cards.md) | Rookies, parallels, numbered cards, autos and relics, hobby vs. retail, case breaks, key cards |
-| 5 | [tcg-collecting.md](docs/act-1-the-hobby/tcg-collecting.md) | Pokemon, Magic, Yu-Gi-Oh!, One Piece, Lorcana and friends: rarity systems, reprint risk, language premiums — where Pokemon lives |
-| 6 | [sealed-product.md](docs/act-1-the-hobby/sealed-product.md) | Booster boxes, ETBs, cases: holding sealed, reseal detection, storage |
-| 7 | [what-research-says.md](docs/act-1-the-hobby/what-research-says.md) | The hobby in the academic world: information economics (lemons, signaling — why grading exists), auction theory, behavioral finance (the 2021 frenzy), consumer behaviour (nostalgia), and the AI-grading literature — with a crosswalk to this repo's claims |
-| 8 | [is-this-tulip-mania.md](docs/act-1-the-hobby/is-this-tulip-mania.md) | The 400-year-old question, answered with data: what actually happened in the Netherlands 1634–1639 (the record, not the Mackay fable), the two scholarly readings, the 2020–21 card boom run through the same test bench — shared behavioral kernel vs structural differences (supply, verification, enforcement, aftermath) — and the verdict: same story, different machine |
-| 9 | [cards-and-the-art-market.md](docs/act-1-the-hobby/cards-and-the-art-market.md) | Cards vs the art market — the mature sibling asset class: the shared $84T private-value family, the structural differences (supply singularity vs seriality, the missing art condition standard vs the 1991 grade scale, half-private art prices vs daily public comps, 35% round trips vs few percent), and the core finding — the same referee-and-market conflict, documented in art for 200 years under the name of chandelier bidding |
+| 2 | [grading-companies.md](docs/act-1-the-hobby/grading-companies.md) | The referees, compared and audited in one place: what each grade means, choosing a grader (the EV test), crossovers, pops, cert verification — then the deep audit of all seven companies (PSA, BGS, SGC, CGC, TAG, state-owned CCIC, startup SQC) from sources fetched 2026-10-12, incl. the Beckett 2026 outage, the dead SGC domain, the 20M-cards-per-year global scale and the transparency scorecard — and §2.17, who owns which grader (the last section before the story turns) |
+| 3 | [sports-cards.md](docs/act-1-the-hobby/sports-cards.md) | Rookies, parallels, numbered cards, autos and relics, hobby vs. retail, case breaks, key cards |
+| 4 | [tcg-collecting.md](docs/act-1-the-hobby/tcg-collecting.md) | Pokemon, Magic, Yu-Gi-Oh!, One Piece, Lorcana and friends: rarity systems, reprint risk, language premiums — where Pokemon lives |
+| 5 | [sealed-product.md](docs/act-1-the-hobby/sealed-product.md) | Booster boxes, ETBs, cases: holding sealed, reseal detection, storage |
+| 6 | [what-research-says.md](docs/act-1-the-hobby/what-research-says.md) | The hobby in the academic world: information economics (lemons, signaling — why grading exists), auction theory, behavioral finance (the 2021 frenzy), consumer behaviour (nostalgia), and the AI-grading literature — with a crosswalk to this repo's claims |
+| 7 | [is-this-tulip-mania.md](docs/act-1-the-hobby/is-this-tulip-mania.md) | The 400-year-old question, answered with data: what actually happened in the Netherlands 1634–1639 (the record, not the Mackay fable), the two scholarly readings, the 2020–21 card boom run through the same test bench — shared behavioral kernel vs structural differences (supply, verification, enforcement, aftermath) — and the verdict: same story, different machine |
+| 8 | [cards-and-the-art-market.md](docs/act-1-the-hobby/cards-and-the-art-market.md) | Cards vs the art market — the mature sibling asset class: the shared $84T private-value family, the structural differences (supply singularity vs seriality, the missing art condition standard vs the 1991 grade scale, half-private art prices vs daily public comps, 35% round trips vs few percent), and the core finding — the same referee-and-market conflict, documented in art for 200 years under the name of chandelier bidding |
 
 ### Act II — The problem (`docs/act-2-the-problem/`)
 
 | # | Chapter | What it covers |
 |---|---------|----------------|
-| 10 | [grading-conflict.md](docs/act-2-the-problem/grading-conflict.md) | **The backbone chapter.** The problem in five verified parts (consolidation; the referee as market participant; the subjective grade with a non-subjective price — the $16.5M/$1.4M Pikachu cliff; manufactured, opaque scarcity; the accountability gap), why it is specifically unfair to collectors, sources, and a 26-claim verification log |
-| 11 | [monopoly-video-notes.md](docs/act-2-the-problem/monopoly-video-notes.md) | Eyewitness evidence (1 of 2): the FOLLOWTHEMONEY commentary on PSA/Collectors — reholder risk, upcharges, cert changes. Each claim labelled checked / claim / opinion |
-| 12 | [hobby-documentary-notes.md](docs/act-2-the-problem/hobby-documentary-notes.md) | Eyewitness evidence (2 of 2): "The Hobby" documentary — the boom, grading as the value engine, the one-point swings collectors describe. Speakers' claims, not verified facts |
+| 9 | [grading-conflict.md](docs/act-2-the-problem/grading-conflict.md) | **The backbone chapter.** The problem in five verified parts (consolidation; the referee as market participant; the subjective grade with a non-subjective price — the $16.5M/$1.4M Pikachu cliff; manufactured, opaque scarcity; the accountability gap), why it is specifically unfair to collectors, sources, and a 26-claim verification log |
+| 10 | [monopoly-video-notes.md](docs/act-2-the-problem/monopoly-video-notes.md) | Eyewitness evidence (1 of 2): the FOLLOWTHEMONEY commentary on PSA/Collectors — reholder risk, upcharges, cert changes. Each claim labelled checked / claim / opinion |
+| 11 | [hobby-documentary-notes.md](docs/act-2-the-problem/hobby-documentary-notes.md) | Eyewitness evidence (2 of 2): "The Hobby" documentary — the boom, grading as the value engine, the one-point swings collectors describe. Speakers' claims, not verified facts |
 
 ### Act III — The solution (`docs/act-3-the-solution/`)
 
 | # | Chapter | What it covers |
 |---|---------|----------------|
-| 13 | [fair-grading-framework.md](docs/act-3-the-solution/fair-grading-framework.md) | **The backbone chapter.** The four-layer fix: (1) structural separation — divest/firewall, independent standards body, regulatory trigger; (2) transparency standards — gem rates, subgrades, agreement audits, honest populations, chain of custody, real liability; (3) market mechanisms you can use today — outside-source rule, dual-grade, cert-history discipline, trend pricing; (4) governance — open data, transparency scorecard, independent escrow, keep the records |
-| 14 | [valuation-and-selling.md](docs/act-3-the-solution/valuation-and-selling.md) | The pricing method the framework's Layer 3 runs on: fair value from *sold* comps, at least one source outside the grader's group, walk-away prices; selling channels and fees; taxes and records |
-| 15 | [fakes-and-scams.md](docs/act-3-the-solution/fakes-and-scams.md) | Where the money goes wrong: counterfeit raw cards and slabs, trimming and alterations, marketplace scams, and the minimum defence process |
-| 16 | [psa10-playbook.md](docs/act-3-the-solution/psa10-playbook.md) | The complete PSA 10 Pokemon playbook: what the grade means precisely, population reports, how PSA 10 prices behave, the grade-your-own-card math, buying online and offline, authentication, condition traps, paying/shipping/insurance, storage, selling later, rookie mistakes, and checklists — every framework rule applied, per purchase |
-| 17 | [open-community-ai-grading.md](docs/act-3-the-solution/open-community-ai-grading.md) | The missing middle between the two bad options: why the incumbent referee (staked) and the seller's own claim (zero-cost signal) both fail, and the five requirements a neutral standard must pass — then the design that passes them: a community-owned, open, versioned AI grading pipeline with a tamper-evident public certificate log, the hard problems stated honestly, and what a collector does about it today |
+| 12 | [fair-grading-framework.md](docs/act-3-the-solution/fair-grading-framework.md) | **The backbone chapter.** The four-layer fix: (1) structural separation — divest/firewall, independent standards body, regulatory trigger; (2) transparency standards — gem rates, subgrades, agreement audits, honest populations, chain of custody, real liability; (3) market mechanisms you can use today — outside-source rule, dual-grade, cert-history discipline, trend pricing; (4) governance — open data, transparency scorecard, independent escrow, keep the records |
+| 13 | [valuation-and-selling.md](docs/act-3-the-solution/valuation-and-selling.md) | The pricing method the framework's Layer 3 runs on: fair value from *sold* comps, at least one source outside the grader's group, walk-away prices; selling channels and fees; taxes and records |
+| 14 | [fakes-and-scams.md](docs/act-3-the-solution/fakes-and-scams.md) | Where the money goes wrong: counterfeit raw cards and slabs, trimming and alterations, marketplace scams, and the minimum defence process |
+| 15 | [psa10-playbook.md](docs/act-3-the-solution/psa10-playbook.md) | The complete PSA 10 Pokemon playbook: what the grade means precisely, population reports, how PSA 10 prices behave, the grade-your-own-card math, buying online and offline, authentication, condition traps, paying/shipping/insurance, storage, selling later, rookie mistakes, and checklists — every framework rule applied, per purchase |
+| 16 | [open-community-ai-grading.md](docs/act-3-the-solution/open-community-ai-grading.md) | The missing middle between the two bad options: why the incumbent referee (staked) and the seller's own claim (zero-cost signal) both fail, and the five requirements a neutral standard must pass — then the design that passes them: a community-owned, open, versioned AI grading pipeline with a tamper-evident public certificate log, the hard problems stated honestly, and what a collector does about it today |
 
 ### The instrument
 
