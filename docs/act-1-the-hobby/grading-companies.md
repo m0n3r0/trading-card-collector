@@ -31,7 +31,13 @@ archived about page; and the 2025 cross-national case study of PSA, CCIC
 and SQC (open access, full PDF). What the audit could not do: measure any
 company's gem rate independently, see internal grading procedures, or
 confirm any claim that has a single source. Those are marked *reported* or
-*not verified* in §2.20, the way the repo has always done it.
+*not verified* in §2.20, the way the repo has always done it. A second
+pass on 2026-10-13 fetched each company's own grading pages where
+reachable: PSA's service page and standards page (via reader proxy — the
+site is now login-gated), Beckett's standards page from a pre-outage
+Wayback snapshot, TAG's scale/rubric/DIG pages, SQC's live site, and the
+CCIC group site; CGC's and SGC's own sites are unreachable (the finding
+itself — §2.11, §2.10; A23, A24).
 
 ## 2.2 The companies at a glance
 
@@ -95,6 +101,19 @@ videos remains a **claim** — not verified against a primary source in this
 repo, and contradicted in shape by CGC ranking second [A13] — though the
 2025 case study now corroborates a **75–80%** range from GemRate-era
 trackers (§2.15) [A15].
+
+**Web presence, checked 2026-10-13** — how each referee can be reached,
+and how hard that is:
+
+| Company | Site | Status |
+|---------|------|--------|
+| PSA | psacard.com | Live; grading pages now require an account; footer: © 2026 Collectors Holdings, Inc. [A20] |
+| BGS | beckett.com | Live, but during the 2026 incident the digital platforms are offline; Express via a temporary form [A8][A22] |
+| SGC | sgc.com | Resolves, but Cloudflare-challenged (bot-gated); the old domain is dead [A19][A24] |
+| CGC | cgc.com | **Unresolvable** — no reachable authoritative nameserver; last archived page (2025-05-17) is a parking page [A23] |
+| TAG | taggrading.com | Live, detailed: rubric, 1000-point scale, per-cert DIG reports [A26] |
+| CCIC | ccic.com | Live (Chinese corporate site); the grading business runs per the case study [A15][A27] |
+| SQC | sqccard.com | Live (small Thai site, EN + TH) [A25] |
 
 ## 2.3 What each grade means in practice
 
@@ -228,6 +247,65 @@ shows none) [A5][A13]. No published gem rate. The 9-to-10 cliff — the
 single largest price discontinuity in the hobby — is a property of the
 standard that the owner of the standard does not quantify [A13].
 
+**How the grading actually works** (from PSA's own pages, fetched
+2026-10-13):
+
+The official process is three steps [A20]:
+
+1. **Authentication** — "A series of PSA graders review your cards for
+   authenticity. If genuine, PSA looks for evidence of doctoring, such
+   as re-coloring or trimming."
+2. **Grading** — "PSA grades the condition of each card on a scale of
+   1-10, with 10 being best" (the four condition areas — centering,
+   corners, edges, surface — §2.2, A5).
+3. **Encapsulation** — each card in "its own sonically sealed, tamper-
+   evident case"; grade and cert number on the LightHouse label.
+
+What it refuses, and how it refuses [A21]: nine rejection codes N1–N9
+(evidence of trimming, restoration, recoloration, questionable
+authenticity, altered stock, minimum size, cleaning, miscut, don't
+grade), each with a stated fee consequence (most charged; N6, N8, N9
+not); the MK qualifier for writing and marks; cards bearing "evidence of
+trimming, re-coloring, restoration, or any other forms of tampering, or
+... questionable authenticity" are ungradable; a Minimum Grade option on
+select service levels; hand-cut panel cards (Bazooka, Post Cereal)
+graded only if their original borders are present.
+
+**The subjectivity clause — the audit's single most important document
+[A21].** PSA's standards page carries a section titled "The Importance
+of Eye Appeal and Subjectivity in Grading":
+
+> "While it's true that a large part of grading is objective (locating
+> print defects, staining, surface wrinkles, measuring centering, etc.),
+> the other component of grading is somewhat subjective. The best way to
+> define the subjective element is to do so by posing a question: What
+> will the market accept for this particular issue?"
+
+Graders "reserve the right ... to make a judgment call on the grade of a
+particular card" based on "the strength or weakness of the eye appeal";
+the final call on a borderline card "is made based on experience, eye
+appeal and market acceptability"; and for centering, "at the grader's
+sole discretion, a small variance may be permitted on occasion." The
+largest referee in the world, in its own words: the last point of a
+grade is a judgment call, and the judgment call is calibrated to what
+the *market* will accept. That is the problem chapter's central claim —
+a subjective grade with a non-subjective price — admitted by the referee
+itself. (The price side of the same cliff, $16.5M vs $1.4M five weeks
+apart, is documented in `../act-2-the-problem/grading-conflict.md` §2.3
+(ch. 9).)
+
+**Service structure** (no numbers hard-coded — check day-of-submission)
+[A20]: tiers are keyed to a declared max-insured value from ~$500 (Value
+— currently paused) up to $250,000+ (Premium 10), with estimated
+turnaround spanning roughly five to one hundred business days. Every
+tier includes front/back imaging of the graded card; premium tiers add
+high-resolution imaging and "Grader Notes that detail card defects and
+clarify the outcome" — a per-card explanation of why the grade came out
+as it did, sold as a premium service. The site's Research section (cert
+verification, population report, auction prices, price guide, Card
+Facts, Card Ladder) is where the data layer of §2.16 lives; Vault & Sell
+(vault storage, eBay consignment, Verified Repacks) is the market side.
+
 ## 2.9 BGS / Beckett — the price-guide house, and its 2026 incident
 
 **Origins.** Beckett began in **1984, founded by statistician Dr. James
@@ -280,6 +358,33 @@ ownership transition. For the collector this is not hypothetical: **the
 grader can close your preferred tier unilaterally**, and service
 continuity during consolidation transitions is a live operational risk.
 
+**How the grading works** (from Beckett's own page, Wayback snapshot
+2024-09-03 — the live site has been offline since the 2026 incident, so
+this is the last pre-incident statement) [A22]:
+
+- **Authentication first:** "Beckett thoroughly inspects all aspects of
+  each item to validate its authenticity."
+- **Both sides, always:** "Beckett reviews both the front and back of
+  all cards."
+- **The scale:** a 10-point scale built from four subgrades — centering,
+  corners, edges, surface. "A card with high subgrades in all four
+  categories will receive a high grade."
+- **The labels:** color-coded by grade — BLACK for perfect Pristine 10s
+  (all four subgrades 10 — the "Black Label"), GOLD for 10s and 9.5s,
+  SILVER for everything else; the overall grade plus the four subgrades
+  printed on the front "for full transparency of the graded card."
+- **The slab:** "ultrasonically welded to be tamper-proof and
+  water-resistant," sealed archival inner sleeve, crystal-clear outer
+  shell, stackable design.
+- **The tiers** (structure only; numbers on the day): four levels from
+  ~45+ business days (Base) down to 2-3 (Priority); subgrades from the
+  Base-with-subgrades level up; extras for autographs, oversized cards,
+  relabels and recases; raw-card and graded-card reviews offered at no
+  extra charge at the time.
+- **The standards detail page** (per-flaw criteria) is linked from the
+  grading page but renders client-side — and with the site offline, the
+  full published criteria are currently unavailable [A22].
+
 ## 2.10 SGC — the tuxedo, now inside PSA
 
 **Legal and ownership record.** The company behind the brand is the
@@ -298,6 +403,15 @@ inside PSA's pipeline.
 company's opinion — it is a second run of the same group's process. The
 independent vintage checks are now CGC (and, at much thinner liquidity,
 TAG) [A13].
+
+**Reachability (checked 2026-10-13):** sgc.com resolves but sits behind
+a Cloudflare challenge — direct fetch and reader proxy both get "Just a
+moment...", so SGC's own grading pages cannot be inspected today [A24];
+the old domain (sgcsportscard.com) is dead (NXDOMAIN, A19). Operationally
+SGC runs through PSA after the 2023 integration [A3]: the tuxedo is a
+label on the same process — which is exactly why a crossover to SGC is
+not a second opinion (the finding above), and why the independent
+vintage checks are CGC and TAG.
 
 ## 2.11 CGC — the independent with a published decision rule
 
@@ -327,13 +441,36 @@ as a price mechanic.
 **Records the label has set.** Action Comics #1: CGC 8.0 sold for $1M
 (2010); CGC 8.5 for a then-record $1.5M; CGC 9.0 for $3.2M (2014) [A2].
 
-**Web presence.** cgctcg.com no longer resolves (NXDOMAIN, audit check
-[A14]); the business runs out of comicgrading.com.
 
 *Audit finding:* CGC is what framework Layer 1.2 (an independent standards
 body) looks like when it already exists: an independent owner, a public
 decision rule, a public pop, and a market position (second) large enough
 to be a real second opinion.
+
+**How the grading works** (A2's full article): submission by the owner
+directly (with a discount via partner links) or through authorized
+dealers; three paid membership options; in-person submission at
+conventions. On receipt: **one pre-grader inspects for obvious
+defects** (missing pages, etc.); then **three graders grade in a
+temperature- and humidity-controlled environment**; the grades are
+**not averaged — the Head Grader determines the final grade**, and "if
+two graders rate a book at 7.0, for example, and the Head Grader grades
+it a 7.5, the latter grade prevails." Graders check for damage and
+restoration; scale 0.5-10; color-coded labels; the slab is an inner
+Barex well (a gas-impermeable polymer) sonically sealed in a tamper-
+evident holder; books too damaged to encapsulate are returned
+unslabbed. The **Signature Series** (gold label) is a witnessed-signing
+service with chain of custody from signature to slab — the anti-forgery
+design. Restored items get a purple "Restored" label that "can suffer a
+significant price reduction."
+
+**Domain status (checked 2026-10-13) — a new audit finding [A23]:**
+cgc.com does not resolve — both Google's and Cloudflare's public
+resolvers report "No Reachable Authority at delegation cgc.com"; the
+last archived snapshot (2025-05-17) is a parking page, and cgctcg.com is
+NXDOMAIN. The second-largest card brand's own web presence is currently
+unreachable — the same family of finding as SGC's dead domain, at twice
+the scale.
 
 ## 2.12 TAG — the imaging upstart: the transparency prototype
 
@@ -369,6 +506,28 @@ buildable and that customers will choose it. Its ceiling is the same one
 §2.2 states: thin liquidity. Transparency without a market is a
 prototype — and that is exactly the cold-start problem the community AI
 grading chapter (ch. 16) designs around.
+
+**How the grading works — the full published stack** (taggrading.com,
+fetched 2026-10-13) [A26]:
+
+- **Three outputs per card:** a CONDITION moniker (Poor → Pristine), the
+  industry-standard GRADE (1-10, half points, none between 9 and 10),
+  and the 1000-point TAG SCORE — "the technology driven, precision
+  standard ... how strong of a 10 is this?"
+- **A published rubric at every level:** 19 grade levels, each with
+  written criteria per category (centering, corners, surface, edges) —
+  e.g. a 1/POOR requires corners "misshaped," "parts of the corners
+  fallen off." The criteria are on the site, not in a PDF behind a
+  login.
+- **The DIG report** ("Digital Image & Grading"): "included with every
+  TAG'd card," reached by scanning the QR code on the slab label or the
+  cert number, and shareable by anyone via a public link (tagd.co/CERT#).
+  Components: Card Vision imaging, Core 3 attributes, Dings.
+- **The Transparency Slider:** Card Vision renders surface defects under
+  an adjustable transparency slider — the buyer sees the defects on the
+  image, not just in a description.
+- **Public populations per cert:** pop / rank / chron for any TAG'd
+  card, plus its DIG report (A7).
 
 ## 2.13 CCIC — the state-owned referee
 
@@ -435,6 +594,11 @@ equivalence is a **perception** claim in the case study ("many collectors
 now view" it so) [A15], not a measured equivalence — the gem-rate
 comparison between the two standards does not exist in any fetched source.
 
+**Web presence:** the group's corporate site (ccic.com) is live and
+Chinese-language [A27]; the card-grading business itself runs on the
+closed QR / digital-license-card ecosystem described above (A10/A15) —
+the public web surface is the group site, not the grading service.
+
 ## 2.14 SQC — the jewelry-precision startup
 
 **The company.** **Special Quality Cards (SQC)** is a Thai local startup
@@ -469,9 +633,34 @@ that "has positioned itself as an advanced-technology grader,"
 
 *Audit finding:* SQC and TAG are the same bet on two continents — small,
 community-embedded, imaging-forward graders attacking liquid incumbents on
-transparency — and both hit the same ceiling: liquidity. (The SQC profile
-rests on the case study; the "SQC, n.d." website it cites could not be
-fetched, and the archived sqc.co.th page is empty [A19].)
+transparency — and both hit the same ceiling: liquidity.
+
+**The website, now live (checked 2026-10-13)** [A25]: the case study's
+cited "SQC, n.d." site (sqccard.com) is up — a small Thai/English site
+(built on a Thai web-builder platform) with a Bangkok address in a
+jewelry-wholesale building (CRP, Isaraphap Road, Thonburi — consistent
+with the precision-jewelry background), a toll-free number, and
+per-game galleries (Pokémon, Dragon Ball, One Piece, Yu-Gi-Oh!, MTG,
+sports). What it publishes:
+
+- **A 5-step online submission:** membership (or Facebook/Gmail login) →
+  pick a package by card count → online order with return-shipping
+  choice → a 24-hour payment window (bank transfer + receipt upload) →
+  ship the cards in a toploader/card saver per the published packaging
+  guide.
+- **Custom slabs as a product line:** TEMPLATE LABEL (your image + code
+  on the label) and FULL CUSTOM options — the co-creation described in
+  the case study, turned into a menu item.
+- **A population report, in beta:** "SQC POP [Population Report] BETA
+  VER." — the same public-pops direction as TAG, at an early stage.
+- **Terms and conditions, notable for a startup:** no liability for
+  transit damage if the published packaging steps were not followed; a
+  15-day window after results before unclaimed cards are disposed of;
+  incomplete boxes refused; and — the line worth underlining — "Grading
+  is only an assessment from the company, piece by piece. It cannot be
+  used as a clear indicator or comparable [standard]" (their T&C, as
+  machine-translated on the site). Even the transparency startup
+  disclaims cross-slab comparability in its own terms.
 
 ## 2.15 Global scale — and the "80%" question, re-scored
 
@@ -598,9 +787,10 @@ The framework's Layer 2, applied as a test to all five US companies:
 | Subgrades on the label | No (combined internally) | **Yes — all four** | Optional | Optional | **1000-point score** |
 | Per-slab detail report | Qualifiers only | Subgrades | — | — | **DIG report** |
 | Population report public | Yes | Yes | Yes | Yes | **Yes (+ rank/chron)** |
-| Decision rule public | No | No | No | **Yes (head grader prevails)** | Rubric page public |
+| Decision rule public | No — but a **published subjectivity clause** [A21] | No | No | **Yes (head grader prevails)** | **Full rubric + 1000-pt score** [A26] |
 | Gem rate published | No | Not published (computable) | No | No | Not published (computable) |
 | Cert lookup free | Yes | Yes | Yes | Yes | Yes |
+| Own site reachable (2026-10-13) | Login-gated [A20] | Offline (2026 incident) [A8] | Cloudflare-gated [A24] | **Domain unresolvable** [A23] | **Full, public** [A26] |
 | Market-side assets (vault / sales / price data) | **Vault, eBay consignment; group owns price tools (reported)** | Group (2025); Topps Vault exclusive | Group (integrated into PSA) | None — independent | None — independent |
 
 Reading the table: **the two independents compete on transparency and
@@ -623,8 +813,8 @@ III is for.
    conflict in one paragraph (Act II develops it with the 26-claim log).
 3. **The independents are differentiating exactly where the framework
    points.** CGC: a public decision rule + independence [A2]. TAG: per-slab
-   transparency + imaging [A7]. Both are small; neither has the liquidity
-   moat. The direction is proven; the scale is the problem.
+   transparency + imaging [A7][A26]. Both are small; neither has the
+   liquidity moat. The direction is proven; the scale is the problem.
 4. **The gem rate is the number to watch — and the third-party measurement
    says it is high.** PSA at 85.9% of cards at 9.0+ (2026, Krause) [A12]
    against a 339% PSA-10 premium [A11] and a $16.5M/$1.4M cliff [A13]: the
@@ -647,8 +837,23 @@ III is for.
    are converging across all of them — the framework's Layer 1 firewall
    logic must be tested against every ownership form, and Layer 2 is
    already being demonstrated outside the US (§2.13–2.15).
+8. **The incumbent has published its own subjectivity clause.** PSA's
+   standards page says the subjective element of grading is defined by
+   "What will the market accept for this particular issue?", that graders
+   "reserve the right" to make judgment calls on eye appeal, and that
+   borderline cards are finally decided "based on experience, eye appeal
+   and market acceptability" (§2.8) [A21]. A subjective grade with a
+   non-subjective price — the problem chapter's central claim — admitted
+   in the referee's own words, on the referee's own site.
+9. **Web presence is itself a transparency signal.** Checked
+   2026-10-13: CGC's own domain is unresolvable (parked since at least
+   May 2025), SGC's is bot-gated, PSA's grading pages sit behind a login,
+   Beckett's are offline — while TAG and SQC publish full rubrics,
+   per-cert reports and (in beta) population reports (§2.2, §2.11–2.14)
+   [A23][A24][A20][A8][A26][A25]. The transparency race is being run as
+   much on the website as in the lab.
 
-## 2.20 Sources (located and fetched 2026-10-12)
+## 2.20 Sources (located and fetched 2026-10-12; grading pages 2026-10-13)
 
 | Tag | Source | Status | Used for |
 |-----|--------|--------|----------|
@@ -670,13 +875,25 @@ III is for.
 | A16 | zh.wikipedia, "中国检验认证集团" (China Certification & Inspection Group) — full article | fetched in full | CCIC group background: founded 1980 by the State Council; the only central SOE in inspection/certification; 33 countries; ~20,000 staff, 400+ branches, 500+ labs; 120 partner certification bodies |
 | A17 | Cai (2025), "Youth Consumption of Trading Card Games in China", Advances in Economics Management and Political Sciences (10.54254/2754-1169/2025.cau28474) | located via OpenAlex; abstract fetched | Chinese youth TCG consumption: ¥5–10 packs, 25% willing to pay ¥50, blind-box regulation gaps |
 | A18 | Leow, Chan, Leow & Chong (2026), "Economic Value Creation in the Pokémon Card Market", IMRJR (10.17148/imrjr.2026.030907) | located via OpenAlex; abstract fetched | n=550 Asian-market collectors: scarcity β=0.367 > speculation β=0.303 > trading β=0.289; R²=0.506 |
-| A19 | Wayback Machine checks on sqc.co.th (2019/2022 snapshots) + the "SQC, n.d." site cited in A10 | performed in this audit | Archived pages empty/parked; the SQC profile rests on A10/A15 alone — flagged, not papered over |
+| A19 | Wayback Machine checks on sqc.co.th (2019/2022 snapshots) + the "SQC, n.d." site cited in A10 | performed in this audit | Archived pages empty/parked; reachability finding superseded by A25 (sqccard.com live 2026-10-13) |
+| A20 | PSA official site — psacard.com/services/tradingcardgrading | fetched 2026-10-13 via reader proxy (direct = login wall) | Three-step process (authentication → 1-10 grading → sonically sealed tamper-evident case, LightHouse label); 8 active tiers keyed to max-insured value ~$500 (Value, paused) → $250K+ (Premium 10); turnaround ~5-100 business days; front/back imaging all tiers, grader notes + high-res on premium; Research nav (cert, pop, auction prices, price guide, Card Facts, Card Ladder); Vault & Sell; © 2026 Collectors Holdings, Inc. |
+| A21 | PSA official site — psacard.com/gradingstandards | fetched 2026-10-13 via reader proxy | N1–N9 rejection codes + fee consequences; MK qualifier; ungradable = tampering/questionable authenticity; hand-cut policy; pins/coins no half points; Minimum Grade option; "The Importance of Eye Appeal and Subjectivity in Grading": subjective element = "What will the market accept for this particular issue?"; judgment call "based on experience, eye appeal and market acceptability"; centering variance "at the grader's sole discretion" |
+| A22 | Beckett official site — beckett.com/grading, Wayback snapshot 2024-09-03 | fetched via Wayback (live site offline, 2026 incident) | Pre-incident standards: authenticity inspection "all aspects"; "front and back of all cards"; 4 subgrades on 10-pt scale; BLACK/GOLD/SILVER color-coded labels; slab construction (ultrasonically welded, tamper-proof, water-resistant, archival inner sleeve); 4 tiers (Base 45+ days → Priority 2-3 days); extras (autograph, oversized, relabel, recase; raw/graded review free at the time) |
+| A23 | CGC domain checks (Google DoH, Cloudflare DoH, Wayback CDX) | performed in this audit, 2026-10-13 | cgc.com: SERVFAIL, "No Reachable Authority at delegation"; last archived page 2025-05-17 = parking page; cgctcg.com: NXDOMAIN |
+| A24 | SGC domain + fetch checks (direct, reader proxy) | performed in this audit, 2026-10-13 | sgc.com resolves (AWS) but Cloudflare challenge ("Just a moment...") on both channels; grading pages uninspectable |
+| A25 | SQC official site — sqccard.com | fetched 2026-10-13 (live, EN + TH) | 5-step online submission; bank-transfer payment + receipt upload; toploader/card saver packaging required; T&C (15-day window, no transit liability without packaging, "Grading is only an assessment from the company, piece by piece"); TEMPLATE LABEL + FULL CUSTOM; SQC POP beta; per-game galleries; Bangkok jewelry-building address |
+| A26 | TAG official site — taggrading.com /pages/scale, /pages/rubric, /pages/dig, /grading | fetched 2026-10-13, verbatim | Three outputs: condition moniker + 1-10 grade (no half point 9→10) + 1000-point TAG Score; 19-level per-category rubric public; DIG = "Digital Image & Grading" report included with every slab, QR on label, public share link tagd.co/CERT#; Card Vision + Transparency Slider; Core 3 + Dings |
+| A27 | CCIC group official site — ccic.com | fetched 2026-10-13 via reader proxy (live, Chinese) | Group corporate site with certification (认证) / appraisal (鉴定) business lines; card-grading business per A10/A15 |
 
 **Verification note.** A1–A7, A9, A16 and A10/A15 (full PDF) were fetched
 in full on 2026-10-12 and are stored verbatim in the research working
 files; every tag in this chapter traces to one of them. A11–A12 and A17–A18
-rest on fetched abstracts; A19 is this audit's own check. **Not verified
-here and marked accordingly:** SGC's founding year; Card Ladder's
+rest on fetched abstracts; A19 is this audit's own check; A20–A27 are the
+2026-10-13 second pass (own fetches and domain checks). **Not verified
+here and marked accordingly:** CGC's current site and submission channel
+(A23 — own domain unresolvable); SGC's current grading pages (A24 —
+Cloudflare-gated); Beckett's per-flaw criteria detail (A22 — client-side
+rendered, site offline); SGC's founding year; Card Ladder's
 ownership (reported claim, §2.16, corroborated as an orbit-link only); the
 "80% of grading" figure (now corroborated as a 75–80% secondary range,
 §2.15 — not fetched from GemRate itself); the "CCIC Gold 10 ≈ PSA 10"
